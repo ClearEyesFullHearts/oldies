@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "express": "4.7.2",
-    "morgan": "1.2.2",
+    "morgan": "1.10.0",
     "body-parser": "1.5.2",
     "method-override": "1.0.2",
     "passport": "0.2.0",
