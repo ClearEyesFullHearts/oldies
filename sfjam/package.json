@@ -18,7 +18,7 @@
     "mysql": "2.4.1",
     "nodemailer": "0.7.0",
     "node-cache": "1.0.0",
-    "node-uuid": "1.4.1",
+    "node-uuid": "1.4.8",
     "MD5": "1.2.1",
     "redis": "0.11.0",
 	"compression": "1.1.0",
