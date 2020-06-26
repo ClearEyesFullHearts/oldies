@@ -1,0 +1,136 @@
+
+<div class="row voffset3">
+    <div class="col-md-8 col-md-offset-2">
+        <h1>{{category}}</h1>
+
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-3 "></div>
+    <div class="col-md-8 ">
+        <h3>{{details.articles[0].nom}}</h3>
+        <p>{{details.articles[0].description}}</p>
+        <hr class="divider">
+    </div>
+
+</div>
+
+<!--<div class="row voffset3">
+    <div class="col-md-8 col-md-offset-2">
+        <h2>{{category}}</h2>
+
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-8 col-md-offset-3">
+        <h4>{{details.articles[0].nom}}</h4>
+    </div>
+    <hr class="divider"></hr>
+</div>-->
+<!--CAROUSEL-->
+<div class="container">
+    <div class="row">
+        <div class="detail-item" ng-controller="CtrlCarouselDetails">
+            <div app-carousel-details></div>
+        </div>
+        <div class="col-sm-6 col-md-6 detail-item">
+            <!--
+        <span class="text-center"> <h3>{{details.articles[0].nom}}</h3></span>-->
+            <div id="objectDetail" class="center-block">
+
+                <!--REFERENCE-->
+                <div class="row">
+                    <div class="container">
+                        <h5 class="voffset1">
+                            <small><span id="labelSelectDetail">Reference :</span></small>
+                            <span id="textDetail">{{details.articles[0].ref}}</span>
+                        </h5>
+                    </div>
+                </div>
+                <!--DESCRITPION
+            <div class="row">
+                <div class="container">
+                    <h5 class="voffset1">
+                        <small><span id="labelSelectDetail">description :</span></small>
+                        <span id="descriptionDetail">{{details.articles[0].description}}</span>
+                    </h5>
+                </div>
+            </div>-->
+                <!--COULEURS-->
+                <div class="row">
+                    <div class="container" ng-show="details.articles[0].couleurs.length > 1" ng-hide="details.articles[0].couleurs.length == 1">
+                        <h5 class="voffset1"> <small><span id="labelSelectDetail">Couleurs :</span></small></h5>
+                        <select class="select" id="selectDetail" ng-model="selectColor" ng-options="option for option in details.articles[0].couleurs"></select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="container" ng-hide="details.articles[0].couleurs.length > 1 || details.articles[0].couleurs.length == 0">
+                        <h5 class="voffset1">
+                            <small><span id="labelSelectDetail">Couleurs :</span></small>{{selectColor}}
+                        </h5>
+                    </div>
+                </div>
+                <!--TAILLES-->
+                <div class="row">
+                    <div class="container" ng-show="details.articles[0].tailles.length > 1" ng-hide="details.articles[0].tailles.length == 1">
+                        <h5 class="voffset1"> <small><span id="labelSelectDetail">Taille :</span></small></h5>
+                        <select class="select" id="selectDetail" ng-model="selectSize" ng-options="option for option in details.articles[0].tailles"></select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="container" ng-hide="details.articles[0].tailles.length > 1 || details.articles[0].tailles.length == 0">
+                        <h5 class="voffset1">
+                            <small><span id="labelSelectDetail">Taille :</span></small>{{selectSize}}
+                        </h5>
+                    </div>
+                </div>
+                <!--DISPO-->
+                <div class="row">
+                    <div class="container">
+                        <h5 class="voffset1"> <small><span id="labelSelectDetail">Disponible :</span></small></h5>
+                        <h5> <span id="textDetail">{{selectDispo}}</span></h5>
+                    </div>
+                </div>
+
+                <!-- QUANTITY -->
+                <div class="row">
+                    <div class="container">
+                        <h5 class="voffset1"> <small><span id="labelSelectDetail">Quantite :</span></small></h5>
+                        <input id="steppertDetail" type="number" ng:model="selectQuantity" ng:required class="input-mini" min="1" max="10">
+                    </div>
+                </div>
+
+
+            </div>
+            <!--PRIX
+                <h4 class="voffset1 text-danger">{{selectPrix*selectQuantity}} euros</h4>
+        -->
+            <div class="row">
+                <div class="container" id="buttonDetails">
+                    <h4 class="voffset1 text-danger"> <span id="labelSelectDetail">{{selectPrix*selectQuantity | number}} &euro;<br />(Hors Taxe)</span></h4>
+                    <h4 class="text-danger" ng-show="selectQuantity > 1"> <small><span id="textDetail">prix unitaire : {{selectPrix}} &euro;</span></small></h4>
+                </div>
+            </div>
+            <!-- BUTTON ACHAT -->
+            <div class="row voffset3">
+                <div class="container">
+                    <a class="btn btn-default" href="" role="button" ng-click="addToCaddie(details.articles[0])" role="button" ng-disabled="selectDispo != 'En Stock'">Ajouter au caddie</a>
+                    <a class="btn btn-default" href="" role="button" ng-click="onClickBackButton()" role="button">Retour boutique</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row voffset6">
+
+</div>
+
+
+
+
+
+
+
+
+

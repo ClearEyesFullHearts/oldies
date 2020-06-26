@@ -1,0 +1,221 @@
+﻿<div class="modal-header">
+    <div class="container-fluid">
+        <h4><span class="glyphicon glyphicon-user"></span> Votre compte</h4>
+    </div>
+</div>
+<div class="modal-body">
+
+    <!-- CREATE LOGIN -->
+    <div class="container-fluid" ng-show="model.createCompte && !model.endCreateCompte" >
+        <form method="post" class="form" name="create" id="create" action="php/form_submission.php" novalidate>
+
+            <!--EMAIL-->
+            <div class="form-group" ng-class="{ 'has-error' : create.email.$invalid && !create.email.$pristine }">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <label for="email">Votre email</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Entrez votre email" ng-model="myEmail" required>
+                        <p ng-show="create.email.$invalid && !create.email.$pristine" class="help-block">Email invalide !</p>
+                        <p ng-show="create.email.$submitted && create.email.$error.required" class="help-block">votre Email !</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--PASS-->
+            <div class="form-group" ng-class="{ 'has-error' : create.contact_pass.$invalid && !create.contact_pass.$pristine }">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <label for="contact_pass">Votre mot de passe</label>
+                        <input type="text" class="form-control" id="contact_pass" name="contact_pass" placeholder="Entrez votre mot de passe" required ng-minlength="3" ng-maxlength="8" ng-model="myPass">
+                        <p ng-show="create.contact_pass.$error.minlength" class="help-inline">votre Mot de passe est trop court</p>
+                        <p ng-show="create.contact_pass.$error.maxlength" class="help-inline">votre Mot de passe est trop long</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--PASS 2-->
+            <div class="form-group" ng-class="{ 'has-error' : create.contact_pass2.$invalid && !create.contact_pass2.$pristine }">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <label for="contact_pass2">Repeter votre mot de passe</label>
+                        <input type="text" class="form-control" id="contact_pass2" name="contact_pass2" placeholder="Entrez votre mot de passe" required ng-model="myPass2">
+                        <p ng-show="myPass2 != myPass && !create.contact_pass2.$pristine" class="help-block">votre Mot de passe n'est pas le meme</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group" ng-class="{ 'has-error' : create.contact_nom.$invalid && !create.contact_nom.$pristine }">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <label for="contact_nom">Votre nom</label>
+                        <input type="text" class="form-control" id="contact_nom" name="contact_nom" placeholder="Entrez votre nom" required ng-model="myName">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group" ng-class="{ 'has-error' : create.contact_prenom.$invalid && !create.contact_prenom.$pristine }">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <label for="contact_prenom">Votre prenom</label>
+                        <input type="text" class="form-control" id="contact_prenom" name="contact_prenom" placeholder="Entrez votre prenom" required ng-model="myFirstName">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group" ng-class="{ 'has-error' : create.contact_adress.$invalid && !create.contact_adress.$pristine }">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <label for="contact_adress">Votre adresse</label>
+                        <input type="text" class="form-control" id="contact_adress" name="contact_adress" placeholder="Entrez votre adresse" required ng-model="myAdress">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="row">
+
+                    <div class="col-sm-6" ng-class="{ 'has-error' : create.contact_codePostale.$invalid && !create.contact_codePostale.$pristine }">
+                        <label for="contact_codePostale">Code postale</label>
+                        <input type="text" class="form-control" id="contact_codePostale" name="contact_codePostale" placeholder="Entrez votre code postale" required ng-model="myCode">
+
+                    </div>
+
+                    <div class="col-sm-6" ng-class="{ 'has-error' : create.contact_ville.$invalid && !create.contact_ville.$pristine}">
+                        <label for="contact_ville">Ville</label>
+                        <input type="text" class="form-control" id="contact_ville" name="contact_ville" placeholder="Entrez votre ville" required ng-model="myCity">
+
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-6" ng-class="{ 'has-error' : create.contact_tel.$invalid && !create.contact_tel.$pristine }">
+                        <label for="contact_tel">Telephone</label>
+                        <input type="text" class="form-control" id="contact_tel" name="contact_tel" placeholder="Entrez votre numero de telephone" required ng-model="myPhone">
+                        <p ng-show="create.contact_tel.$error.number" class="help-block">telephone avec des chiffres !!!</p>
+                    </div>
+
+                    <div class="col-sm-6" ng-class="{ 'has-error' : model.myCountry == null && !create.contact_pays.$pristine}">
+                        <label for="contact_pays">Pays</label>
+                        <select class="form-control" ng-model="model.myCountry" name="contact_pays" id="contact_pays" ng-options="item as item.Pays for item in model.countries" placeholder="Choisissez votre pays" required><option value="" selected default style="color:#808080; display:none;">Choisissez votre pays</option></select>
+                        
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- LOGIN -->
+    <div class="container-fluid" ng-hide="model.createCompte || model.passRecover">
+        <div class="row">
+            <div class="col-sm-12">
+                <h5>
+                    Rentrer votre identifiant (adresse e-mail) et votre mot de passe pour avoir acces à votre compte.<br>
+                    Vous devez avoir un compte verifié pour pouvoir commander sur notre site.
+                    Si vous ne possedez pas de compte cliquer sur le boutons "Créer votre compte" ci-dessous.
+                </h5>
+            </div>
+        </div>
+        <form method="post" class="form" name="contact" id="contact_form" action="php/form_submission.php" novalidate>
+            <div class="form-group" ng-class="{ 'has-error' : contact.contact_name.$invalid && !contact.contact_name.$pristine }">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <font color="red">{{errorMsg}}</font><br />
+                        <label for="contact_name">Identifiant (adresse e-mail)</label>
+                        <input type="text" class="form-control" ng-model="username" id="contact_name" name="contact_name" placeholder="Entrez votre identifiant" required>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group" ng-class="{ 'has-error' : contact.contact_pass.$invalid && !contact.contact_pass.$pristine }">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <label for="contact_pass">Votre mot de passe</label>
+                        <input type="password" class="form-control" ng-model="password" id="contact_pass" name="contact_pass" placeholder="Entrez votre mot de passe" required>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="row">
+            <div class="col-sm-12">
+                <h5>
+                    <a href="" ng-click="passRecover()"> Vous avez oublié votre mot de passe ?</a>
+                </h5>
+            </div>
+        </div>
+    </div>
+
+    <!--RECOVER PASS-->
+    <div class="container-fluid" ng-show="model.passRecover">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h5>
+                        Vous avez perdu votre mot de passe.<br>
+                        Remplissez le champs ci-dessous avec votre adresse e-mail et valider.<br>
+                        Vous allez recevoir un mail avec les demarches a suivre. Merci.
+                    </h5>
+                </div>
+            </div>
+        <form method="post" class="form" name="recover" id="recover" action="php/form_submission.php" novalidate>
+            <div class="form-group" ng-class="{ 'has-error' : contact.contact_name.$invalid && !contact.contact_name.$pristine }">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <font color="red">{{errorMsg}}</font><br />
+                        <label for="contact_name">Adresse e-mail</label>
+                        <input type="text" class="form-control" ng-model="usernameRecovered" id="contact_name" name="contact_name" placeholder="Entrez votre identifiant" required>
+                    </div>
+                </div>
+            </div>
+        </form>
+        </div>
+
+
+
+        <!-- END LOGIN -->
+        <div class="container-fluid" ng-show="model.endCreateCompte">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h5><b>Un mail vous a &eacute;t&eacute; adress&eacute; avec vos nouveaux identifiant de connexion &agrave; l'adresse que vous nous avez indiqu&eacute;</b><br />
+                    Vous pouvez utiliser ces identifiants pour vous connecter normalement en cliquant sur retour</h5>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+<!-- FOOTER CREATE ACCOMPTE -->
+<div class="modal-footer" ng-show="model.createCompte  && !model.endCreateCompte">
+    <div class="row col-sm-12">
+        <div class="form-actions">
+            <button class="btn btn-default" ng-click="cancelClick()">Annuler</button>
+            <button class="btn btn-default" ng-click="model.createCompte = !model.createCompte">Retour</button>
+            <button type="submit" class="btn btn-success" ng-click="createAccompteInClick({mail:myEmail, pass:myPass, name:myName, firstname:myFirstName, adress:myAdress, codePostale:myCode, city:myCity, phone:myPhone, country:model.myCountry})" ng-init="create.$invalid=true" ng-disabled="create.$invalid">Creer</button>
+            <!--ng-init="create.$invalid = true" ng-disabled="create.$invalid"-->
+        </div>
+    </div>
+</div>
+
+<!-- FOOTER LOG-->
+<div class="modal-footer" ng-hide="model.createCompte || model.passRecover">
+    <div class="row col-sm-12">
+        <div class="form-actions">
+            <button type="submit" class="btn btn-success" ng-click="logInClick(username, password)" ng-disabled="contact.$invalid">Valider</button>
+            <button class="btn btn-primary" ng-click="model.createCompte = !model.createCompte">Creer un compte</button>
+            <button class="btn btn-default" ng-click="cancelClick()">Annuler</button>
+        </div>
+    </div>
+</div>
+
+<!-- FOOTER LOG-->
+<div class="modal-footer" ng-show="model.passRecover">
+    <div class="row col-sm-12">
+        <div class="form-actions">
+            <button type="submit" class="btn btn-success" ng-click="passRecoverValid(usernameRecovered)">Valider</button>
+            <button class="btn btn-default" ng-click="model.passRecover = !model.passRecover">Retour</button>
+            <button class="btn btn-default" ng-click="cancelClick()">Annuler</button>
+        </div>
+    </div>
+</div>
+<!--ng-disabled="recover.$invalid"-->

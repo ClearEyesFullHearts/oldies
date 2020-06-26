@@ -1,0 +1,43 @@
+﻿<div class="modal-header">
+    <div class="container-fluid">
+        <h4><span class="glyphicon glyphicon-shopping-cart"></span> Votre commande</h4>
+    </div>
+    </div>
+<div class="modal-body">
+
+    <div ng-hide="caddie.length == 0">
+        <div class="table-responsive">
+            <table class="table">
+                <tr>
+
+                    <th>Quantite</th>
+                    <th>Produit</th>
+
+                </tr>
+
+                <tr ng-repeat="obj in caddie">
+                    <!--<td class="vert-align"><input id="steppertDetail" type="number" ng:model="item.item.quantity" ng:required class="input-mini" min="1" max="10" ng-change="inputNumberChange()"></td>-->
+                    <td class="vert-align"><h5> {{obj.item.quantity}}</h5></td>
+                    <td class="vert-align"><h5>{{obj.item.nom}}</h5></td>
+                </tr>
+            </table>
+
+
+
+        </div>
+            <p class="total"><strong>Total TTC avec frais de port :</strong> <span class="amount">{{ totalTTC | number }} €</span></p>
+        </div>
+    <div ng-show="caddie.length == 0">
+        <h5>Votre panier est vide.</h5>
+    </div>
+    <div class="modal-footer pull-center">
+        <div class="form-actions">
+            <input type="hidden" name="save" value="contact">
+            <button class="btn btn-warning" ng-click="cancelClick()">Fermer</button>
+        </div>
+
+    </div>
+</div>
+
+
+<!--<span class="quantity">1 × <span class="amount">{{item.item.articles[0].prix_ht}}</span></span>-->

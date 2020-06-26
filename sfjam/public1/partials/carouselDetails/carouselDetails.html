@@ -1,0 +1,14 @@
+﻿
+
+<div class="col-sm-6 col-md-6">
+
+    <img ng-repeat="item in slidesDetails" class="slide center-block" ng-show="isActive($index)" src="{{item.image}}" />
+
+    <div id="imgCarouselDetailBackground" ng-show="slidesDetails.length > 1">
+        <ul class="list-inline">
+            <li ng-repeat="itemSmall in slidesDetails" id="imgSmallCarouselDetailBackground">
+                <img src="{{itemSmall.thumbnail}}" ng-click="showPhoto($index)" />
+            </li>
+        </ul>
+    </div>
+</div>

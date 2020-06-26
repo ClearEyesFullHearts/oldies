@@ -1,0 +1,258 @@
+﻿<div class="row voffset3" ng-controller="controllerAdresseFacturation">
+    <div class="col-md-9 col-md-offset-3">
+        
+        <!-- ADRESSE -->
+        <div ng-switch on="stepLivraison">
+            <div class="panel panel-default" ng-switch-when="step1">
+                <div class="panel-heading">
+                    <span class="glyphicon glyphicon-road"></span> Votre adresse de livraison
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-xs-6"><h5><small>Prenom :</small> {{user.Prenom2}}</h5></div>
+                        <div class="col-xs-6"><h5><small>Nom :</small> {{user.Nom2}}</h5></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-8"><h5><small>Adresse :</small> {{user.Adresse2}}</h5></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-3"><h5><small>CP :</small> {{user.CP2}}</h5></div>
+                        <div class="col-xs-5"><h5><small>Ville :</small> {{user.Ville2}}</h5></div>
+                        <div class="col-xs-4"><h5><small>Pays :</small> {{user.Pays2}}</h5></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12"><button type="button" class="btn btn-default pull-right" ng-click="goToAdressLivraisonModif()">Modifier</button></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- VALIDATION NEW ADRESSE -->
+            <div class="panel panel-default" ng-switch-when="step3">
+                <div class="panel-heading">
+                    <span class="glyphicon glyphicon-road"></span> Votre nouvelle adresse de livraison à bien été prise en compte.
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-xs-6"><h5><small>Prenom :</small> {{user.Prenom2}}</h5></div>
+                        <div class="col-xs-6"><h5><small>Nom :</small> {{user.Nom2}}</h5></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-8"><h5><small>Adresse :</small> {{user.Adresse2}}</h5></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-3"><h5><small>CP :</small> {{user.CP2}}</h5></div>
+                        <div class="col-xs-5"><h5><small>Ville :</small> {{user.Ville2}}</h5></div>
+                        <div class="col-xs-4"><h5><small>Pays :</small> {{user.Pays2}}</h5></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12"><button type="button" class="btn btn-default pull-right" ng-click="goToAdressLivraisonModif()">Modifier</button></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MODIF ADRESSE -->
+            <div class="panel panel-default" ng-switch-when="step2">
+                <div class="panel-heading">
+                    <span class="glyphicon glyphicon-road"></span> Modifier votre Adresse de livraison
+                </div>
+                <div class="panel-body">
+                    <!-- NOM -->
+                    <div class="form-group" ng-class="{ 'has-error' : create.contact_nom.$invalid && !create.contact_nom.$pristine }">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <label for="contact_nom">Votre nom</label>
+                                <input type="text" class="form-control" id="contact_nom" name="contact_nom" placeholder="Entrez votre nom" required ng-model="myName">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- PRENOM -->
+                    <div class="form-group" ng-class="{ 'has-error' : create.contact_prenom.$invalid && !create.contact_prenom.$pristine }">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <label for="contact_prenom">Votre prenom</label>
+                                <input type="text" class="form-control" id="contact_prenom" name="contact_prenom" placeholder="Entrez votre prenom" required ng-model="myFirstName">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ADRESSE -->
+                    <div class="form-group" ng-class="{ 'has-error' : create.contact_adress.$invalid && !create.contact_adress.$pristine }">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <label for="contact_adress">Votre adresse</label>
+                                <input type="text" class="form-control" id="contact_adress" name="contact_adress" placeholder="Entrez votre adresse" required ng-model="myAdress">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="row">
+                            <!-- CODE POSTALE -->
+                            <div class="col-sm-6" ng-class="{ 'has-error' : create.contact_codePostale.$invalid && !create.contact_codePostale.$pristine }">
+                                <label for="contact_codePostale">Code postale</label>
+                                <input type="text" class="form-control" id="contact_codePostale" name="contact_codePostale" placeholder="Entrez votre code postale" required ng-model="myCode">
+
+                            </div>
+                            <!-- VILLE -->
+                            <div class="col-sm-6" ng-class="{ 'has-error' : create.contact_ville.$invalid && !create.contact_ville.$pristine}">
+                                <label for="contact_ville">Ville</label>
+                                <input type="text" class="form-control" id="contact_ville" name="contact_ville" placeholder="Entrez votre ville" required ng-model="myCity">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <!-- TELEPHONE -->
+                            <div class="col-sm-6" ng-class="{ 'has-error' : create.contact_tel.$invalid && !create.contact_tel.$pristine }">
+                                <label for="contact_tel">Telephone</label>
+                                <input type="text" class="form-control" id="contact_tel" name="contact_tel" placeholder="Entrez votre numero de telephone" required ng-model="myPhone">
+                                <p ng-show="create.contact_tel.$error.number" class="help-block">telephone avec des chiffres !!!</p>
+                            </div>
+                            <!-- PAYS -->
+                            <div class="col-sm-6" ng-class="{ 'has-error' : model.myCountry == null && !create.contact_pays.$pristine}">
+                                <label for="contact_pays">Pays</label>
+                                <select class="form-control" ng-model="model.myCountry" name="contact_pays" id="contact_pays" ng-options="item as item.Pays for item in model.countries" placeholder="Choisissez votre pays" required><option value="" selected default style="color:#808080; display:none;">Choisissez votre pays</option></select>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-actions">
+                            <div class="col-xs-12">
+                                <!-- createAccompteInClick({name:myName, firstname:myFirstName, adress:myAdress, codePostale:myCode, city:myCity, phone:myPhone, country:model.myCountry}) -->
+                                <div class="pull-right">
+                                    <button type="button" class="btn btn-default" ng-click="goToValidAdresseLivraison({nom:myName, prenom:myFirstName, adresse:myAdress, cp:myCode, ville:myCity, tel:myPhone, pays:model.myCountry})">Valider</button>
+                                    <button type="button" class="btn btn-default" ng-click="goToAdresseLivraison()">Retour</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ADRESSE FACTURATION -->
+        <div ng-switch on="stepFacturation">
+            <div class="panel panel-default" ng-switch-when="step1">
+                <div class="panel-heading">
+                    <span class="glyphicon glyphicon-envelope"></span> Votre Adresse de facturation
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-xs-8"><h6> meme adresse que votre adresse de livraison</h6></div>
+                        <div class="col-xs-4"><button type="button" class="btn btn-default pull-right" ng-click="goToAdressFacturationModif()">Modifier</button></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- VALIDATION NEW ADRESSE FACTURATION -->
+            <div class="panel panel-default" ng-switch-when="step3">
+                <div class="panel-heading">
+                    <span class="glyphicon glyphicon-envelope"></span> Votre nouvelle adresse de facturation a bien été prise en compte
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-xs-6"><h5><small>Prenom :</small> {{user.Prenom}}</h5></div>
+                        <div class="col-xs-6"><h5><small>Nom :</small> {{user.Nom}}</h5></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-8"><h5><small>Adresse :</small> {{user.Adresse}}</h5></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-3"><h5><small>CP :</small> {{user.CP}}</h5></div>
+                        <div class="col-xs-5"><h5><small>Ville :</small> {{user.Ville}}</h5></div>
+                        <div class="col-xs-4"><h5><small>Pays :</small> {{user.Pays}}</h5></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12"><button type="button" class="btn btn-default pull-right" ng-click="goToAdressFacturationModif()">Modifier</button></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- MODIF ADRESSE FACTURATION -->
+            <div class="panel panel-default" ng-switch-when="step2">
+                <div class="panel-heading">
+                    <span class="glyphicon glyphicon-envelope"></span> Modifier votre Adresse de facturation
+                </div>
+                <div class="panel-body">
+                    <div class="form-group" ng-class="{ 'has-error' : create.contact_nom.$invalid && !create.contact_nom.$pristine }">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <label for="contact_nom">Votre nom</label>
+                                <input type="text" class="form-control" id="contact_nom" name="contact_nom" placeholder="Entrez votre nom" required ng-model="myName">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group" ng-class="{ 'has-error' : create.contact_prenom.$invalid && !create.contact_prenom.$pristine }">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <label for="contact_prenom">Votre prenom</label>
+                                <input type="text" class="form-control" id="contact_prenom" name="contact_prenom" placeholder="Entrez votre prenom" required ng-model="myFirstName">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group" ng-class="{ 'has-error' : create.contact_adress.$invalid && !create.contact_adress.$pristine }">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <label for="contact_adress">Votre adresse</label>
+                                <input type="text" class="form-control" id="contact_adress" name="contact_adress" placeholder="Entrez votre adresse" required ng-model="myAdress">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="row">
+
+                            <div class="col-sm-6" ng-class="{ 'has-error' : create.contact_codePostale.$invalid && !create.contact_codePostale.$pristine }">
+                                <label for="contact_codePostale">Code postale</label>
+                                <input type="text" class="form-control" id="contact_codePostale" name="contact_codePostale" placeholder="Entrez votre code postale" required ng-model="myCode">
+
+                            </div>
+
+                            <div class="col-sm-6" ng-class="{ 'has-error' : create.contact_ville.$invalid && !create.contact_ville.$pristine}">
+                                <label for="contact_ville">Ville</label>
+                                <input type="text" class="form-control" id="contact_ville" name="contact_ville" placeholder="Entrez votre ville" required ng-model="myCity">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-sm-6" ng-class="{ 'has-error' : create.contact_tel.$invalid && !create.contact_tel.$pristine }">
+                                <label for="contact_tel">Telephone</label>
+                                <input type="text" class="form-control" id="contact_tel" name="contact_tel" placeholder="Entrez votre numero de telephone" required ng-model="myPhone">
+                                <p ng-show="create.contact_tel.$error.number" class="help-block">telephone avec des chiffres !!!</p>
+                            </div>
+
+                            <div class="col-sm-6" ng-class="{ 'has-error' : model.myCountry == null && !create.contact_pays.$pristine}">
+                                <label for="contact_pays">Pays</label>
+                                <select class="form-control" ng-model="model.myCountry" name="contact_pays" id="contact_pays" ng-options="item as item.Pays for item in model.countries" placeholder="Choisissez votre pays" required><option value="" selected default style="color:#808080; display:none;">Choisissez votre pays</option></select>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-actions">
+                            <div class="col-xs-12">
+                                <div class="pull-right">
+                                    <button type="button" class="btn btn-default" ng-click="goToValidAdresseFacturation( {nom:myName, prenom:myFirstName, adresse:myAdress, cp:myCode, ville:myCity, tel:myPhone, pays:model.myCountry} )">Valider</button>
+                                    <button type="button" class="btn btn-default" ng-click="goToAdresseFacturation()">Retour</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Bouton Validation-->
+        <div class="row voffset3 " ng-hide="stepFacturation == 'step2' || stepLivraison == 'step2'">
+            <div class="col-md-9 col-md-offset-3">
+                <a type="button" class="btn btn-success pull-right" ng-click="goToStep2()">Suivant</a>
+            </div>
+        </div>
+        </div>
+</div>

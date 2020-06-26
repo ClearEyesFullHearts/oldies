@@ -1,0 +1,91 @@
+﻿<div ng-switch on="log">
+
+    <!--LOGIN -->
+    <div ng-switch-when="false">
+
+
+
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <h5>
+                    Rentrer votre identifiant et votre mot de passe pour avoir acces à la console d'administration.
+                </h5>
+            </div>
+        </div>
+        <form method="post" class="form" name="contact" id="contact_form" action="php/form_submission.php" novalidate>
+            <div class="form-group" ng-class="{ 'has-error' : contact.contact_name.$invalid && !contact.contact_name.$pristine }">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <font color="red">{{errorMsg}}</font><br />
+                        <label for="contact_name">Votre identifiant</label>
+                        <input type="text" class="form-control" ng-model="username" id="contact_name" name="contact_name" placeholder="Entrez votre identifiant" required>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group" ng-class="{ 'has-error' : contact.contact_pass.$invalid && !contact.contact_pass.$pristine }">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <label for="contact_pass">Votre mot de passe</label>
+                        <input type="password" class="form-control" ng-model="password" id="contact_pass" name="contact_pass" placeholder="Entrez votre mot de passe" required>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="col-md-6 col-md-offset-3">
+            <button type="submit" class="btn btn-success pull-right" ng-click="logInClick(username, password)" ng-disabled="contact.$invalid">Valider</button>
+        </div>
+
+        </div>
+
+
+
+    <!-- CONSOLE -->
+    <div class="row" ng-switch-when="true">
+
+        <h3>Rubriques</h3>
+        <p>Ajouter, consulter et modifier les articles, gerer les clients...</p>
+
+
+        <div class="col-md-4">
+            <div class="panel panel-primary ">
+                <div class="panel-heading">
+                    <span class="glyphicon glyphicon-shopping-cart"></span> Les articles
+                </div>
+                <div class="panel-body">
+
+                    <h6>Cliquez pour consulter la liste de vos articles.</h6>
+                    <a href="#/Articles" class="btn btn-default pull-right">Consulter</a>
+                </div>
+            </div>
+        </div>
+
+        <!--CLIENTS-->
+        <div class="col-md-4">
+            <div class="panel panel-primary ">
+                <div class="panel-heading">
+                    <span class="glyphicon glyphicon-shopping-cart"></span> Les Clients
+                </div>
+                <div class="panel-body">
+
+                    <h6>Cliquez pour consulter la liste de vos clients.</h6>
+                    <a href="#/Clients" class="btn btn-default pull-right">Consulter</a>
+                </div>
+            </div>
+        </div>        
+        <!--COMMANDES-->
+        <div class="col-md-4">
+            <div class="panel panel-primary ">
+                <div class="panel-heading">
+                    <span class="glyphicon glyphicon-shopping-cart"></span> Les Commandes
+                </div>
+                <div class="panel-body">
+
+                    <h6>Cliquez pour consulter la liste des commandes.</h6>
+                    <a href="#/Commandes" class="btn btn-default pull-right">Consulter</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>

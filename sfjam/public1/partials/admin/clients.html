@@ -1,0 +1,91 @@
+﻿
+<div class="row">
+    <div class="col-md-3 "></div>
+    <div class="col-md-8 ">
+        <h3>Clients</h3>
+        <p>Gérer vos clients.</p>
+    </div>
+
+</div>
+<img src="img/loading.gif" height="32" width="32" ng-show="loading" class=" img-responsive center-block">
+<div class="row">
+     <div class="col-md-6 col-md-offset-3">
+         <div class="row">
+             <div class="panel panel-primary ">
+                 <div class="panel-heading">
+                     Filtres
+                 </div>
+                 <div class="panel-body">
+                     <div class="row">
+                         <div class="col-md-12">
+                             Par mot clé : <input type="text" class="form-control" ng-model="ref">
+                         </div>
+                     </div>
+                     <!--  <div class="row">
+                          <div class="col-md-12">
+                              Par categories: <select class="form-control" ng-model="categorie" name="cat" id="cat" ng-options="item as item for item in categories"></select>
+                          </div>
+                      </div>-->
+                 </div>
+             </div>
+
+         </div>
+     </div>
+     
+    <div class="row">
+        <div class="col-md-12">
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <tr>
+
+                    <th>ID</th>
+                    <th>Mail</th>
+                    <!--<th>Tel</th>
+                    <th>Adresse</th>-->
+                    <th>Nom</th>
+                    <th>Prenom</th>
+                    <th>Pays</th>
+                    <!--<th>CP</th>-->
+                    <th>Ville</th>
+                    <!--<th>Nom2</th>
+                    <th>Prenom2</th>
+                    <th>Adresse2</th>
+                    <th>CP2</th>
+                    <th>Ville2</th>
+                    <th>Pays2</th>
+                    <th>Code</th>-->
+                    
+
+
+                    </tr>
+
+                    <tr ng-repeat="obj in users | filter:ref | filter:categorie">
+                        <td class="vert-align"><h5><a class="btn btn-default" href="#/Clients/{{obj.ID}}" role="button">{{obj.ID}}</a></h5></td>
+                        <!--<td class="vert-align"><h5>{{obj.ID}}</h5></td>-->
+                        <td class="vert-align"><h5>{{obj.Mail}}</h5></td>
+                        <!--<td class="vert-align"><h5>{{obj.Tel}}</h5></td>
+                        <td class="vert-align"><h5>{{obj.Adresse}}</h5></td>-->
+                        <td class="vert-align"><h5>{{obj.Nom}}</h5></td>
+                        <td class="vert-align"><h5>{{obj.Prenom}}</h5></td>
+                        <td class="vert-align"><h5>{{obj.Pays}}</h5></td>
+                        <!--<td class="vert-align"><h5>{{obj.CP}}</h5></td>-->
+                        <td class="vert-align"><h5>{{obj.Ville}}</h5></td>
+                        <!--<td class="vert-align"><h5>{{obj.Nom2}}</h5></td>
+                        <td class="vert-align"><h5>{{obj.Prenom2}}</h5></td>
+                        <td class="vert-align"><h5>{{obj.Adresse2}}</h5></td>
+                        <td class="vert-align"><h5>{{obj.CP2}}</h5></td>
+                        <td class="vert-align"><h5>{{obj.Ville2}}</h5></td>
+                        <td class="vert-align"><h5>{{obj.Pays2}}</h5></td>-->
+
+                    </tr>
+                </table>
+
+            </div>
+
+
+            <!--<div data-pagination="" data-num-pages="numPages()"
+                 data-current-page="currentPage" data-max-size="maxSize"
+                 data-boundary-links="true"></div>-->
+        </div>
+    </div>
+</div>

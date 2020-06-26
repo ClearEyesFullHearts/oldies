@@ -1,0 +1,116 @@
+{
+  "articles": [
+    {
+      "ref": "Te_320350",
+      "nom": "SWEAT NORIS",
+      "description": "SWEAT GRIS 100%coton",
+      "type": "SWEAT",
+      "images": [
+        "320350.jpg"
+      ],
+      "tailles": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "couleurs": [
+        "GRIS"
+      ],
+      "disponibilites": [
+        {
+          "ID": 42,
+          "disponibilite": "En Stock",
+          "taille": "S",
+          "couleur": "GRIS",
+          "prix_ht": 25,
+          "poid": "0.300",
+          "transport": 4
+        },
+        {
+          "ID": 41,
+          "disponibilite": "En Stock",
+          "taille": "M",
+          "couleur": "GRIS",
+          "prix_ht": 25,
+          "poid": "0.300",
+          "transport": 4
+        },
+        {
+          "ID": 40,
+          "disponibilite": "En Stock",
+          "taille": "L",
+          "couleur": "GRIS",
+          "prix_ht": 25,
+          "poid": "0.350",
+          "transport": 4
+        },
+        {
+          "ID": 39,
+          "disponibilite": "En Stock",
+          "taille": "XL",
+          "couleur": "GRIS",
+          "prix_ht": 25,
+          "poid": "0.400",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "Te_320351",
+      "nom": "SWEAT NORIS",
+      "description": "SWEAT GRIS \"FAMOUS\" mouvt judo",
+      "type": "SWEAT",
+      "images": [
+        "320351.jpg"
+      ],
+      "tailles": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "couleurs": [
+        "GRIS"
+      ],
+      "disponibilites": [
+        {
+          "ID": 45,
+          "disponibilite": "En Stock",
+          "taille": "S",
+          "couleur": "GRIS",
+          "prix_ht": 25,
+          "poid": "0.300",
+          "transport": 4
+        },
+        {
+          "ID": 44,
+          "disponibilite": "En Stock",
+          "taille": "M",
+          "couleur": "GRIS",
+          "prix_ht": 25,
+          "poid": "0.300",
+          "transport": 4
+        },
+        {
+          "ID": 46,
+          "disponibilite": "En Stock",
+          "taille": "L",
+          "couleur": "GRIS",
+          "prix_ht": 25,
+          "poid": "0.350",
+          "transport": 4
+        },
+        {
+          "ID": 43,
+          "disponibilite": "En Stock",
+          "taille": "XL",
+          "couleur": "GRIS",
+          "prix_ht": 25,
+          "poid": "0.350",
+          "transport": 4
+        }
+      ]
+    }
+  ]
+}

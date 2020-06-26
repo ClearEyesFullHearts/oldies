@@ -1,0 +1,308 @@
+{
+  "articles": [
+    {
+      "ref": "AR_420031",
+      "nom": "SHINAI JAPON T39",
+      "description": "SHINAI BAMBOU TRADITIONNEL ADULTE T 39 AVEC TSUBA PROVENANCE JAPON",
+      "type": "SHINAI JAPON",
+      "images": [
+        "420031.jpg"
+      ],
+      "tailles": [
+        "120cm"
+      ],
+      "couleurs": [
+        "BAMBOU"
+      ],
+      "disponibilites": [
+        {
+          "ID": 9,
+          "disponibilite": "En Stock",
+          "taille": "120cm",
+          "couleur": "BAMBOU",
+          "prix_ht": 56.66,
+          "poid": "0.600",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "DI_125275",
+      "nom": "FIGURINE KENDO",
+      "description": "FIGURINE KENDO ",
+      "type": "FIGURINE KENDO",
+      "images": [
+        "125275"
+      ],
+      "tailles": [
+        "19CM"
+      ],
+      "couleurs": [
+        "BLEU"
+      ],
+      "disponibilites": [
+        {
+          "ID": 49,
+          "disponibilite": "En Stock",
+          "taille": "19CM",
+          "couleur": "BLEU",
+          "prix_ht": 29.16,
+          "poid": "0.600",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "AR_420038",
+      "nom": "ARMURE DE KENDO TAIWAN",
+      "description": "ARMURE COMPLETE  KENDO-GU",
+      "type": "ARMURES",
+      "images": [
+        "420038.jpg"
+      ],
+      "tailles": [
+        "SMALL",
+        "MOYEN",
+        "LARGE",
+        "XL"
+      ],
+      "couleurs": [
+        "NOIRE"
+      ],
+      "disponibilites": [
+        {
+          "ID": 22,
+          "disponibilite": "En Stock",
+          "taille": "SMALL",
+          "couleur": "NOIRE",
+          "prix_ht": 400,
+          "poid": "2.500",
+          "transport": 9
+        },
+        {
+          "ID": 23,
+          "disponibilite": "En Stock",
+          "taille": "MOYEN",
+          "couleur": "NOIRE",
+          "prix_ht": 441.66,
+          "poid": "2.500",
+          "transport": 9
+        },
+        {
+          "ID": 24,
+          "disponibilite": "En Stock",
+          "taille": "LARGE",
+          "couleur": "NOIRE",
+          "prix_ht": 441.66,
+          "poid": "2.500",
+          "transport": 9
+        },
+        {
+          "ID": 25,
+          "disponibilite": "En Stock",
+          "taille": "XL",
+          "couleur": "NOIRE",
+          "prix_ht": 441.66,
+          "poid": "2.500",
+          "transport": 9
+        }
+      ]
+    },
+    {
+      "ref": "DI_420035",
+      "nom": "ETUI DOUBLE",
+      "description": "ETUI JYO DOUBLE COTON",
+      "type": "ETUI",
+      "images": [
+        "420128.jpg"
+      ],
+      "tailles": [
+        "1.40M"
+      ],
+      "couleurs": [
+        "NOIR"
+      ],
+      "disponibilites": [
+        {
+          "ID": 47,
+          "disponibilite": "En Stock",
+          "taille": "1.40M",
+          "couleur": "NOIR",
+          "prix_ht": 13.33,
+          "poid": "0.200",
+          "transport": 3
+        }
+      ]
+    },
+    {
+      "ref": "AR_420051",
+      "nom": "SHINAI ENFANT T.36",
+      "description": "SHINAI BAMBOU TRADITIONNEL ENFANT T 36 AVEC TSUBA PROVENANCE TAIWAN",
+      "type": "SHINAI ",
+      "images": [
+        "420051.jpg"
+      ],
+      "tailles": [
+        "110cm"
+      ],
+      "couleurs": [
+        "BAMBOU"
+      ],
+      "disponibilites": [
+        {
+          "ID": 10,
+          "disponibilite": "En Stock",
+          "taille": "110cm",
+          "couleur": "BAMBOU",
+          "prix_ht": 26.66,
+          "poid": "0.500",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "AD_420055",
+      "nom": "VESTE DE KENDO COREE",
+      "description": "KENDOGI WHITE TIGER VESTE GRAIN DE RIZ BLEU MARINE 100% COTON",
+      "type": "KENDOGI",
+      "images": [
+        "420055.jpg"
+      ],
+      "tailles": [
+        "160",
+        "170",
+        "180",
+        "190",
+        "200"
+      ],
+      "couleurs": [
+        "BLEU"
+      ],
+      "disponibilites": [
+        {
+          "ID": 40,
+          "disponibilite": "En Stock",
+          "taille": "160",
+          "couleur": "BLEU",
+          "prix_ht": 37.5,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 41,
+          "disponibilite": "En Stock",
+          "taille": "170",
+          "couleur": "BLEU",
+          "prix_ht": 37.5,
+          "poid": "0.550",
+          "transport": 5
+        },
+        {
+          "ID": 42,
+          "disponibilite": "En Stock",
+          "taille": "180",
+          "couleur": "BLEU",
+          "prix_ht": 37.5,
+          "poid": "0.600",
+          "transport": 5
+        },
+        {
+          "ID": 43,
+          "disponibilite": "En Stock",
+          "taille": "190",
+          "couleur": "BLEU",
+          "prix_ht": 37.5,
+          "poid": "0.650",
+          "transport": 5
+        },
+        {
+          "ID": 44,
+          "disponibilite": "En Stock",
+          "taille": "200",
+          "couleur": "BLEU",
+          "prix_ht": 37.5,
+          "poid": "0.700",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "AR_420052B",
+      "nom": "SHINAI ADULTE TAIWAN T39",
+      "description": "SHINAI BAMBOU TRADITIONNEL ADULTE T 39 AVEC TSUBA(taiwan)",
+      "type": "SHINAI ",
+      "images": [
+        "420052.jpg"
+      ],
+      "tailles": [
+        "120cm"
+      ],
+      "couleurs": [
+        "BAMBOU"
+      ],
+      "disponibilites": [
+        {
+          "ID": 11,
+          "disponibilite": "En Stock",
+          "taille": "120cm",
+          "couleur": "BAMBOU",
+          "prix_ht": 29.16,
+          "poid": "0.550",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "AR_420030",
+      "nom": "SHINAI JAPON T38",
+      "description": "SHINAI BAMBOU TRADITIONNEL ADULTE T 38 AVEC TSUBA PROVENANCE JAPON",
+      "type": "SHINAI JAPON",
+      "images": [
+        "420030.jpg"
+      ],
+      "tailles": [
+        "118cm"
+      ],
+      "couleurs": [
+        "BAMBOU"
+      ],
+      "disponibilites": [
+        {
+          "ID": 8,
+          "disponibilite": "En Stock",
+          "taille": "118cm",
+          "couleur": "BAMBOU",
+          "prix_ht": 53.33,
+          "poid": "0.550",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "AR_420133",
+      "nom": "NAGINATA CHENE",
+      "description": "NAGINATA EN CHENE TRADITIONNEL 650 gr provenance JAPON",
+      "type": "NAGINATA ",
+      "images": [
+        "420133.jpg"
+      ],
+      "tailles": [
+        "210cm"
+      ],
+      "couleurs": [
+        "CHENE"
+      ],
+      "disponibilites": [
+        {
+          "ID": 7,
+          "disponibilite": "En Stock",
+          "taille": "210cm",
+          "couleur": "CHENE",
+          "prix_ht": 112.5,
+          "poid": "0.650",
+          "transport": 5
+        }
+      ]
+    }
+  ]
+}

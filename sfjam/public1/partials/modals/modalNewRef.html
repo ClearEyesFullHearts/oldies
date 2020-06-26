@@ -1,0 +1,62 @@
+﻿<div class="modal-header">
+    <div class="container-fluid">
+        <h4><span class="glyphicon glyphicon-envelope"></span> Ajoutez une référence dans le catalogue</h4>
+    </div>
+</div>
+<div class="modal-body">
+    <!-- Contacts -->
+    <form method="post" name="contact" id="contact_form">
+        <div class="control-group">
+            <label for="ref">Catégorie</label>
+            <select class="form-control" ng-model="cat_name" name="category" id="category" ng-options="item as item.nom for item in categories" required><option value="" selected default style="color:#808080; display:none;">Choisissez une catégorie</option></select>
+        </div>
+        <div class="control-group">
+            <label for="ref">Reference</label>
+            <input type="text" class="form-control" id="ref" name="ref" placeholder="Entrez une reference" ng-model="ref" required>
+        </div>
+        <div class="control-group">
+            <label for="nom">Nom</label>
+            <input type="text" class="form-control" id="nom" name="nom" placeholder="Entrez un nom" ng-model="nom" required>
+        </div>
+        <div class="control-group">
+            <label for="description">Description</label>
+            <input type="text" class="form-control" id="description" name="description" placeholder="Entrez une description" ng-model="description">
+        </div>
+        <div class="control-group">
+            <label for="type">Type</label>
+            <input type="text" class="form-control" id="type" name="type" placeholder="Entrez un type" required ng-model="type">
+        </div>
+        <hr />
+        <div class="control-group">
+            <label for="taille">Taille</label>
+            <input type="text" class="form-control" id="taille" name="taille" placeholder="Entrez une taille" required ng-model="taille">
+        </div>
+        <div class="control-group">
+            <label for="couleur">Couleur</label>
+            <input type="text" class="form-control" id="couleur" name="couleur" placeholder="Entrez une couleur" required ng-model="couleur">
+        </div>
+        <div class="control-group">
+            <label for="images">Image</label>
+            <input type="text" class="form-control" id="images" name="images" placeholder="Entrez une image" required ng-model="images">
+        </div>
+        <div class="control-group">
+            <label for="poid">Poid</label>
+            <input type="text" class="form-control" id="poid" name="poid" placeholder="Entrez un poid" required ng-model="poid">
+        </div>
+        <div class="control-group">
+            <label for="prix_ht">Prix HT</label>
+            <input type="text" class="form-control" id="prix_ht" name="prix_ht" placeholder="Entrez un prix" required ng-model="prix_ht">
+        </div>
+        <div class="control-group">
+            <label for="transport">Transport</label>
+            <input type="text" class="form-control" id="transport" name="transport" placeholder="Entrez un transport" required ng-model="transport">
+        </div>
+    </form>
+    <div class="modal-footer pull-center">
+        <div class="form-actions">
+            <input type="hidden" name="save" value="size">
+            <button type="submit" class="btn btn-success" ng-click="addRef(cat_name, ref, nom, description, taille, couleur, images, prix_ht, transport, type, poid)">Ajouter</button>
+            <button class="btn btn-warning" ng-click="cancelClick()">Annuler</button>
+        </div>
+    </div>
+</div>

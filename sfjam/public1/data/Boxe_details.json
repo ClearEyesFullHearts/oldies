@@ -1,0 +1,970 @@
+{
+  "articles": [
+    {
+      "ref": "AC_P002",
+      "nom": "PAO THAI PRO ",
+      "description": "NOUVEAU PAO THAI PRO NORIS WBE RENFORCE (vendu à l'unité)",
+      "type": "PAOS",
+      "images": [
+        "PA002.jpg"
+      ],
+      "tailles": [
+        "38x20x9"
+      ],
+      "couleurs": [
+        "ROUGE-NOIR"
+      ],
+      "disponibilites": [
+        {
+          "ID": 66,
+          "disponibilite": "En Stock",
+          "taille": "38x20x9",
+          "couleur": "ROUGE-NOIR",
+          "prix_ht": 23.33,
+          "poid": "0.800",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "PR_330015",
+      "nom": "CASQUE ",
+      "description": "CASQUE INTEGRAL COMBAT",
+      "type": "PROTECTION",
+      "images": [
+        "330015.jpg",
+        "330015b.jpg"
+      ],
+      "tailles": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "couleurs": [
+        "NOIR",
+        "BLANC"
+      ],
+      "disponibilites": [
+        {
+          "ID": 27,
+          "disponibilite": "En Stock",
+          "taille": "S",
+          "couleur": "NOIR",
+          "prix_ht": 49.16,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 28,
+          "disponibilite": "En Stock",
+          "taille": "M",
+          "couleur": "NOIR",
+          "prix_ht": 49.16,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 29,
+          "disponibilite": "En Stock",
+          "taille": "L",
+          "couleur": "NOIR",
+          "prix_ht": 49.16,
+          "poid": "0.600",
+          "transport": 5
+        },
+        {
+          "ID": 30,
+          "disponibilite": "En Stock",
+          "taille": "XL",
+          "couleur": "NOIR",
+          "prix_ht": 49.16,
+          "poid": "0.600",
+          "transport": 5
+        },
+        {
+          "ID": 31,
+          "disponibilite": "En Stock",
+          "taille": "S",
+          "couleur": "BLANC",
+          "prix_ht": 49.16,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 32,
+          "disponibilite": "En Stock",
+          "taille": "M",
+          "couleur": "BLANC",
+          "prix_ht": 49.16,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 33,
+          "disponibilite": "En Stock",
+          "taille": "L",
+          "couleur": "BLANC",
+          "prix_ht": 49.16,
+          "poid": "0.600",
+          "transport": 5
+        },
+        {
+          "ID": 34,
+          "disponibilite": "En Stock",
+          "taille": "XL",
+          "couleur": "BLANC",
+          "prix_ht": 49.16,
+          "poid": "0.600",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "AC_320376",
+      "nom": "SAC FRAPPE NYLON PLEIN 1.00 M",
+      "description": "NOUVEAU SAC DE FRAPPE WBE NORIS DIAMETRE 30cm ",
+      "type": "100",
+      "images": [
+        "320376.jpg"
+      ],
+      "tailles": [
+        "1.00M"
+      ],
+      "couleurs": [
+        "NOIR"
+      ],
+      "disponibilites": [
+        {
+          "ID": 72,
+          "disponibilite": "En Stock",
+          "taille": "1.00M",
+          "couleur": "NOIR",
+          "prix_ht": 58.33,
+          "poid": "30",
+          "transport": 26
+        }
+      ]
+    },
+    {
+      "ref": "GA_320405",
+      "nom": "GANTS BOXE SKINTEX",
+      "description": "GANTS ENTRAINEMENT PVC MOUSSE PREFORME pouce attaché",
+      "type": "BOXE",
+      "images": [
+        "320405.jpg"
+      ],
+      "tailles": [
+        "10 OZ",
+        "12 OZ",
+        "14 OZ"
+      ],
+      "couleurs": [
+        "NOIR/ROUGE"
+      ],
+      "disponibilites": [
+        {
+          "ID": 6,
+          "disponibilite": "En Stock",
+          "taille": "10 OZ",
+          "couleur": "NOIR/ROUGE",
+          "prix_ht": 27.5,
+          "poid": "0.450",
+          "transport": 5
+        },
+        {
+          "ID": 9,
+          "disponibilite": "En Stock",
+          "taille": "12 OZ",
+          "couleur": "NOIR/ROUGE",
+          "prix_ht": 27.5,
+          "poid": "0.600",
+          "transport": 5
+        },
+        {
+          "ID": 11,
+          "disponibilite": "En Stock",
+          "taille": "14 OZ",
+          "couleur": "NOIR/ROUGE",
+          "prix_ht": 27.5,
+          "poid": "0.700",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "AC_P005",
+      "nom": "PATTE D'OURS",
+      "description": "PATTE D'OURS INCURVEE EN PVC",
+      "type": "PATTE D'OURS",
+      "images": [
+        "P005.jpg"
+      ],
+      "tailles": [
+        "31cmx 19"
+      ],
+      "couleurs": [
+        "ROUGE/NOIR"
+      ],
+      "disponibilites": [
+        {
+          "ID": 129,
+          "disponibilite": "En Stock",
+          "taille": "31cmx 19",
+          "couleur": "ROUGE/NOIR",
+          "prix_ht": 37.5,
+          "poid": "0.700",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "AC_320377",
+      "nom": "SAC FRAPPE NYLON PLEIN 1.20 M",
+      "description": "NOUVEAU SAC DE FRAPPE WBE NORIS DIAMETRE 30cm ",
+      "type": "120",
+      "images": [
+        "320377.jpg"
+      ],
+      "tailles": [
+        "1.20M"
+      ],
+      "couleurs": [
+        "NOIR"
+      ],
+      "disponibilites": [
+        {
+          "ID": 73,
+          "disponibilite": "En Stock",
+          "taille": "1.20M",
+          "couleur": "NOIR",
+          "prix_ht": 75,
+          "poid": "35",
+          "transport": 28
+        }
+      ]
+    },
+    {
+      "ref": "GA_320405J",
+      "nom": "GANTS WBE NORIS",
+      "description": "GANTS ENTRAINEMENT ET COMPETITION MOUSSE PREFORMEE, PVC AVEC POUCE ATTACHE ",
+      "type": "BOXE",
+      "images": [
+        "320405j.jpg"
+      ],
+      "tailles": [
+        "14OZ",
+        "10OZ",
+        "12OZ"
+      ],
+      "couleurs": [
+        "NOIR/JAUNE"
+      ],
+      "disponibilites": [
+        {
+          "ID": 136,
+          "disponibilite": "EN STOCK",
+          "taille": "14OZ",
+          "couleur": "NOIR/JAUNE",
+          "prix_ht": 27.5,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 134,
+          "disponibilite": "EN STOCK",
+          "taille": "10OZ",
+          "couleur": "NOIR/JAUNE",
+          "prix_ht": 27.5,
+          "poid": "0.400",
+          "transport": 5
+        },
+        {
+          "ID": 135,
+          "disponibilite": "EN STOCK",
+          "taille": "12OZ",
+          "couleur": "NOIR/JAUNE",
+          "prix_ht": 27.5,
+          "poid": "0.450",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "AC_320322",
+      "nom": "POTENCE ",
+      "description": "SUPPORT METAL SAC DE FRAPPE (fixation au mur)",
+      "type": "SUPPORT",
+      "images": [
+        "320322.jpg"
+      ],
+      "tailles": [
+        "80x80cm"
+      ],
+      "couleurs": [
+        "NOIR"
+      ],
+      "disponibilites": [
+        {
+          "ID": 76,
+          "disponibilite": "En Stock",
+          "taille": "80x80cm",
+          "couleur": "NOIR",
+          "prix_ht": 57.5,
+          "poid": "10",
+          "transport": 12
+        }
+      ]
+    },
+    {
+      "ref": "AC_PA001",
+      "nom": "PAO THAI PRO",
+      "description": "NOUVEAU PAO THAI PRO NORIS WBE RENFORCE (vendu à l'unité)",
+      "type": "PAOS",
+      "images": [
+        "PA01.jpg"
+      ],
+      "tailles": [
+        "40x22x12"
+      ],
+      "couleurs": [
+        "ROUGE-NOIR"
+      ],
+      "disponibilites": [
+        {
+          "ID": 65,
+          "disponibilite": "En Stock",
+          "taille": "40x22x12",
+          "couleur": "ROUGE-NOIR",
+          "prix_ht": 29.16,
+          "poid": "0.900",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "AC_320378",
+      "nom": "SAC FRAPPE NYLON PLEIN 1.50 M",
+      "description": "SAC DE FRAPPE WBE NORIS DIAMETRE 30cm ",
+      "type": "150",
+      "images": [
+        "320378.jpg"
+      ],
+      "tailles": [
+        "1.50M"
+      ],
+      "couleurs": [
+        "NOIR"
+      ],
+      "disponibilites": [
+        {
+          "ID": 74,
+          "disponibilite": "En Stock",
+          "taille": "1.50M",
+          "couleur": "NOIR",
+          "prix_ht": 91.66,
+          "poid": "45",
+          "transport": 30
+        }
+      ]
+    },
+    {
+      "ref": "GA_MTA",
+      "nom": "GANTS FREE FIGHT ",
+      "description": "GANTS FREE FIGHT HELL FIRE MONTANA",
+      "type": "MMA",
+      "images": [
+        "GA-MTA.jpg",
+        "420112.jpg"
+      ],
+      "tailles": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "couleurs": [
+        "GRIS/NOIR"
+      ],
+      "disponibilites": [
+        {
+          "ID": 131,
+          "disponibilite": "En Stock",
+          "taille": "M",
+          "couleur": "GRIS/NOIR",
+          "prix_ht": 32.5,
+          "poid": "0.350",
+          "transport": 4
+        },
+        {
+          "ID": 132,
+          "disponibilite": "En Stock",
+          "taille": "L",
+          "couleur": "GRIS/NOIR",
+          "prix_ht": 32.5,
+          "poid": "0.350",
+          "transport": 4
+        },
+        {
+          "ID": 130,
+          "disponibilite": "En Stock",
+          "taille": "XL",
+          "couleur": "GRIS/NOIR",
+          "prix_ht": 32.5,
+          "poid": "0.350",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "AC_320338g",
+      "nom": "BOUICLIER DE FRAPPE ",
+      "description": "BOUCLIER DE FRAPPE GRAND MODELE PVC (intérieur mousse)",
+      "type": "BOUCLIER",
+      "images": [
+        "320338g.jpg"
+      ],
+      "tailles": [
+        "h86cmx41c"
+      ],
+      "couleurs": [
+        "ROUGE/NOIR"
+      ],
+      "disponibilites": [
+        {
+          "ID": 127,
+          "disponibilite": "En Stock",
+          "taille": "h86cmx41c",
+          "couleur": "ROUGE/NOIR",
+          "prix_ht": 62.5,
+          "poid": "0.900",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "GA_141001",
+      "nom": "SHORT THAI",
+      "description": "SHORT BOXE THAI NYLON NOUVEAU MODELE",
+      "type": "BOXE THAI",
+      "images": [
+        "141001.jpg",
+        "141001r.jpg",
+        "141001n.jpg"
+      ],
+      "tailles": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "couleurs": [
+        "BLEU",
+        "ROUGE",
+        "NOIR"
+      ],
+      "disponibilites": [
+        {
+          "ID": 57,
+          "disponibilite": "En Stock",
+          "taille": "S",
+          "couleur": "BLEU",
+          "prix_ht": 20.83,
+          "poid": "0.300",
+          "transport": 4
+        },
+        {
+          "ID": 58,
+          "disponibilite": "En Stock",
+          "taille": "M",
+          "couleur": "BLEU",
+          "prix_ht": 20.83,
+          "poid": "0.300",
+          "transport": 4
+        },
+        {
+          "ID": 59,
+          "disponibilite": "En Stock",
+          "taille": "L",
+          "couleur": "BLEU",
+          "prix_ht": 20.83,
+          "poid": "0.350",
+          "transport": 4
+        },
+        {
+          "ID": 60,
+          "disponibilite": "En Stock",
+          "taille": "XL",
+          "couleur": "BLEU",
+          "prix_ht": 20.83,
+          "poid": "0.350",
+          "transport": 4
+        },
+        {
+          "ID": 89,
+          "disponibilite": "En Stock",
+          "taille": "S",
+          "couleur": "ROUGE",
+          "prix_ht": 20.83,
+          "poid": "0.300",
+          "transport": 4
+        },
+        {
+          "ID": 90,
+          "disponibilite": "En Stock",
+          "taille": "M",
+          "couleur": "ROUGE",
+          "prix_ht": 20.83,
+          "poid": "0.300",
+          "transport": 4
+        },
+        {
+          "ID": 91,
+          "disponibilite": "En Stock",
+          "taille": "L",
+          "couleur": "ROUGE",
+          "prix_ht": 20.83,
+          "poid": "0.350",
+          "transport": 4
+        },
+        {
+          "ID": 92,
+          "disponibilite": "En Stock",
+          "taille": "XL",
+          "couleur": "ROUGE",
+          "prix_ht": 20.83,
+          "poid": "0.350",
+          "transport": 4
+        },
+        {
+          "ID": 93,
+          "disponibilite": "RUPTURE DE STOCK",
+          "taille": "S",
+          "couleur": "NOIR",
+          "prix_ht": 20.83,
+          "poid": "0.300",
+          "transport": 4
+        },
+        {
+          "ID": 94,
+          "disponibilite": "RUPTURE DE STOCK",
+          "taille": "M",
+          "couleur": "NOIR",
+          "prix_ht": 20.83,
+          "poid": "0.300",
+          "transport": 4
+        },
+        {
+          "ID": 95,
+          "disponibilite": "RUPTURE DE STOCK",
+          "taille": "L",
+          "couleur": "NOIR",
+          "prix_ht": 20.83,
+          "poid": "0.350",
+          "transport": 4
+        },
+        {
+          "ID": 97,
+          "disponibilite": "En Stock",
+          "taille": "XL",
+          "couleur": "NOIR",
+          "prix_ht": 20.83,
+          "poid": "0.350",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "AC_320385",
+      "nom": "CIBLE DE FRAPPE PRO ",
+      "description": "NOUVELLE CIBLE FRAPPE PRO diametre cible 40cm AVEC BASE séparée(140kg pleine)",
+      "type": "PRIX SPECIAL",
+      "images": [
+        "320382.jpg"
+      ],
+      "tailles": [
+        "190CM"
+      ],
+      "couleurs": [
+        "NOIRE/ROUGE"
+      ],
+      "disponibilites": [
+        {
+          "ID": 70,
+          "disponibilite": "En Stock",
+          "taille": "190CM",
+          "couleur": "NOIRE/ROUGE",
+          "prix_ht": 332.5,
+          "poid": "30",
+          "transport": 20
+        }
+      ]
+    },
+    {
+      "ref": "PA_135100",
+      "nom": "PANTALON FULL ",
+      "description": "PANTALON NYLON FULL CONTACT",
+      "type": "BF/WBE",
+      "images": [
+        "135100n.jpg",
+        "135100.jpg",
+        "135100r.jpg"
+      ],
+      "tailles": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "couleurs": [
+        "NOIR",
+        "NOIR/ROUGE",
+        "ROUGE/NOIR"
+      ],
+      "disponibilites": [
+        {
+          "ID": 53,
+          "disponibilite": "RUPTURE DE STOCK",
+          "taille": "S",
+          "couleur": "NOIR",
+          "prix_ht": 25,
+          "poid": "0.400",
+          "transport": 4
+        },
+        {
+          "ID": 54,
+          "disponibilite": "RUPTURE DE STOCK",
+          "taille": "M",
+          "couleur": "NOIR",
+          "prix_ht": 25,
+          "poid": "0.400",
+          "transport": 4
+        },
+        {
+          "ID": 55,
+          "disponibilite": "En Stock",
+          "taille": "L",
+          "couleur": "NOIR",
+          "prix_ht": 25,
+          "poid": "0.450",
+          "transport": 4
+        },
+        {
+          "ID": 56,
+          "disponibilite": "En Stock",
+          "taille": "XL",
+          "couleur": "NOIR",
+          "prix_ht": 25,
+          "poid": "0.450",
+          "transport": 4
+        },
+        {
+          "ID": 77,
+          "disponibilite": "RUPTURE DE STOCK",
+          "taille": "S",
+          "couleur": "NOIR/ROUGE",
+          "prix_ht": 25,
+          "poid": "0.400",
+          "transport": 4
+        },
+        {
+          "ID": 78,
+          "disponibilite": "RUPTURE DE STOCK",
+          "taille": "M",
+          "couleur": "NOIR/ROUGE",
+          "prix_ht": 25,
+          "poid": "0.400",
+          "transport": 4
+        },
+        {
+          "ID": 79,
+          "disponibilite": "En Stock",
+          "taille": "L",
+          "couleur": "NOIR/ROUGE",
+          "prix_ht": 25,
+          "poid": "0.450",
+          "transport": 4
+        },
+        {
+          "ID": 80,
+          "disponibilite": "En Stock",
+          "taille": "XL",
+          "couleur": "NOIR/ROUGE",
+          "prix_ht": 25,
+          "poid": "0.450",
+          "transport": 5
+        },
+        {
+          "ID": 88,
+          "disponibilite": "RUPTURE DE STOCK",
+          "taille": "S",
+          "couleur": "ROUGE/NOIR",
+          "prix_ht": 25,
+          "poid": "0.400",
+          "transport": 4
+        },
+        {
+          "ID": 87,
+          "disponibilite": "RUPTURE DE STOCK",
+          "taille": "M",
+          "couleur": "ROUGE/NOIR",
+          "prix_ht": 25,
+          "poid": "0.400",
+          "transport": 4
+        },
+        {
+          "ID": 86,
+          "disponibilite": "En Stock",
+          "taille": "L",
+          "couleur": "ROUGE/NOIR",
+          "prix_ht": 25,
+          "poid": "0.450",
+          "transport": 4
+        },
+        {
+          "ID": 85,
+          "disponibilite": "En Stock",
+          "taille": "XL",
+          "couleur": "ROUGE/NOIR",
+          "prix_ht": 25,
+          "poid": "0.450",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "AC_320338m",
+      "nom": "BOUCLIER DE FRAPPE",
+      "description": "BOUCLIER DE FRAPPE MOYEN MODELE PVC (intérieur mousse)",
+      "type": "BOUCLIER",
+      "images": [
+        "320338m.jpg"
+      ],
+      "tailles": [
+        "h60cmxh30c"
+      ],
+      "couleurs": [
+        "ROUGE/NOIR"
+      ],
+      "disponibilites": [
+        {
+          "ID": 128,
+          "disponibilite": "En Stock",
+          "taille": "h60cmxh30c",
+          "couleur": "ROUGE/NOIR",
+          "prix_ht": 45.83,
+          "poid": "0.650",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "GA_320335",
+      "nom": "GANTS COBRA JU-JITSU",
+      "description": "GANTS PVC ROUGE DOIGTS SEPARES",
+      "type": "COBRA",
+      "images": [
+        "320335.jpg"
+      ],
+      "tailles": [
+        "S",
+        "M",
+        "L"
+      ],
+      "couleurs": [
+        "ROUGE"
+      ],
+      "disponibilites": [
+        {
+          "ID": 100,
+          "disponibilite": "En Stock",
+          "taille": "S",
+          "couleur": "ROUGE",
+          "prix_ht": 22.5,
+          "poid": "0.400",
+          "transport": 4
+        },
+        {
+          "ID": 99,
+          "disponibilite": "En Stock",
+          "taille": "M",
+          "couleur": "ROUGE",
+          "prix_ht": 22.5,
+          "poid": "0.450",
+          "transport": 4
+        },
+        {
+          "ID": 98,
+          "disponibilite": "En Stock",
+          "taille": "L",
+          "couleur": "ROUGE",
+          "prix_ht": 22.5,
+          "poid": "0.450",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "AC_P001",
+      "nom": "PATTES D'OURS",
+      "description": "PATTES D'OURS PVC GRAND MODELE",
+      "type": "PATTES D'OURS",
+      "images": [
+        "ACP002.jpg"
+      ],
+      "tailles": [
+        "29x22cm"
+      ],
+      "couleurs": [
+        "NOIR-ROUGE"
+      ],
+      "disponibilites": [
+        {
+          "ID": 67,
+          "disponibilite": "En Stock",
+          "taille": "29x22cm",
+          "couleur": "NOIR-ROUGE",
+          "prix_ht": 29.16,
+          "poid": "0.700",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "PR_320210",
+      "nom": "GANTS JU JITSU",
+      "description": "NOUVEAU GANTS JU JITSU",
+      "type": "JU JITSU",
+      "images": [
+        "320210R.jpg",
+        "320210.jpg"
+      ],
+      "tailles": [
+        "S",
+        "M",
+        "L"
+      ],
+      "couleurs": [
+        "ROUGE",
+        "BLEU"
+      ],
+      "disponibilites": [
+        {
+          "ID": 122,
+          "disponibilite": "En Stock",
+          "taille": "S",
+          "couleur": "ROUGE",
+          "prix_ht": 13.33,
+          "poid": "0.250",
+          "transport": 4
+        },
+        {
+          "ID": 123,
+          "disponibilite": "RUPTURE DE STOCK",
+          "taille": "M",
+          "couleur": "ROUGE",
+          "prix_ht": 13.33,
+          "poid": "0.250",
+          "transport": 4
+        },
+        {
+          "ID": 121,
+          "disponibilite": "En Stock",
+          "taille": "L",
+          "couleur": "ROUGE",
+          "prix_ht": 13.33,
+          "poid": "0.300",
+          "transport": 4
+        },
+        {
+          "ID": 119,
+          "disponibilite": "En Stock",
+          "taille": "S",
+          "couleur": "BLEU",
+          "prix_ht": 13.33,
+          "poid": "0.250",
+          "transport": 4
+        },
+        {
+          "ID": 118,
+          "disponibilite": "En Stock",
+          "taille": "M",
+          "couleur": "BLEU",
+          "prix_ht": 13.33,
+          "poid": "0.250",
+          "transport": 4
+        },
+        {
+          "ID": 120,
+          "disponibilite": "En Stock",
+          "taille": "L",
+          "couleur": "BLEU",
+          "prix_ht": 13.33,
+          "poid": "0.300",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "AC_320338p",
+      "nom": "BOUCLIER DE FRAPPE",
+      "description": "BOUCLIER DE FRAPPE PETIT MODELE PVC (intérieur mousse)",
+      "type": "BOUCLIER",
+      "images": [
+        "320338p.jpg"
+      ],
+      "tailles": [
+        "h45cmxl21"
+      ],
+      "couleurs": [
+        "ROUGE-NOIR"
+      ],
+      "disponibilites": [
+        {
+          "ID": 126,
+          "disponibilite": "En Stock",
+          "taille": "h45cmxl21",
+          "couleur": "ROUGE-NOIR",
+          "prix_ht": 29.16,
+          "poid": "0.400",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "GA_320400",
+      "nom": "GANTS WBE",
+      "description": "GANTS ENTRAINEMENT/COMBAT PVC ",
+      "type": "BOXE",
+      "images": [
+        "320400r.jpg"
+      ],
+      "tailles": [
+        "10 OZ",
+        "12 OZ"
+      ],
+      "couleurs": [
+        "ROUGE"
+      ],
+      "disponibilites": [
+        {
+          "ID": 2,
+          "disponibilite": "En Stock",
+          "taille": "10 OZ",
+          "couleur": "ROUGE",
+          "prix_ht": 20.83,
+          "poid": "0.600",
+          "transport": 5
+        },
+        {
+          "ID": 3,
+          "disponibilite": "En Stock",
+          "taille": "12 OZ",
+          "couleur": "ROUGE",
+          "prix_ht": 20.83,
+          "poid": "0.650",
+          "transport": 5
+        }
+      ]
+    }
+  ]
+}

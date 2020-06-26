@@ -1,0 +1,150 @@
+﻿<!doctype html>
+
+ <html lang="en" ng-app="myApp" class="no-js">
+<head>
+
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="g6-E_o0p7byH3GEUGFSrCMNsAlqNA8fBcNlwC0TI3T0" />
+    <meta name="DC.Title" content="Kimonos, Tatamis, Mat&eacute;riel de Judo, karaté, Kung fu, Aikido, Yoseikan, Boxe, TaeKwondo, Kendo, textiles">
+    <meta name="description" content="NORIS-SFJAM, Boutique en Ligne, Premier Fabriquant Francais de Tatamis, vente de Mat&eacute;riel de judo, karaté, Kung fu, Aikido, Yoseikan, Boxe, TaeKwondo, Kendo">
+    <meta name="keywords" content="Mat&eacute;riel de judo, tatamis, kimono, kimonos, kimono de judo, kimono enfant, tatami, tatamis, tatami de judo, tatami emboitable, tatami puzzle, tatami agr&eacute;&eacute; location tatami, ceinture de judo, Tatamis, Kimono de judo, Tatami de judo, Mat&eacute;riel de judo, karaté, Kung fu, Aikido, Yoseikan, Boxe, TaeKwondo, Kendo, textiles">
+
+
+    <title> SFJAM - NORIS / Bienvenue sur notre site.</title>
+    
+    <link rel="stylesheet" href="css/54a3863f.noris.min.css"/>
+
+    <script src="js/a8351e27.noris.min.js"></script>
+
+</head>
+<!-- <body>-->
+<body ng-controller="mainController" ng-init="loading=false">
+
+    
+                                <!--LOADER -->
+                                <div class="container marginTop250" ng-show="!loading">
+                                    <img src="img/loadingDrageon.gif" class="center-block" id="loadingElement" />
+                                </div>
+
+
+
+                                <!--VALIDITY -->
+                                <div class="validityBlock" ng-show="!validity">
+                                    <div class="jumbotron voffset5">
+                                        <h1><span class="glyphicon glyphicon-warning-sign"></span> SFJAM - Noris</h1>
+                                        <p class="lead">Attention ! </br>Votre navigateur n'est pas acces recent pour afficher correctement notre site.</br>Merci de faire une mise a jour.</p>
+                                    </div>
+
+                                    <p class="text-center voffset3">
+                                        © SFJAM - NORIS 2014
+                                    </p>
+                                </div>
+
+
+                                <!--HEADER -->
+                                <header class="masthead visible-lg" ng-model="loading">
+                                    <div class="container" id="imgFresqueTop">
+
+                                        <!--CAROUSEL-->
+
+                                        <div ng-controller="CtrlCarousel">
+                                            <div class="row element-show-hide" id="containerImageFullScreen" ng-cloak ng-show="loading">
+                                                <!---->
+                                                <div class="container" id="containerMainCarousel">
+                                                    <div app-carousel></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <!-- </div> -->
+                                </header>
+
+
+
+
+                                <!--NAV BAR-->
+
+                                <div class="nav-wrapper">
+                                    <div id="nav" class="nav navbar navbar-inverse navbar-static shadowNavBar element-show-hide" ng-cloak ng-show="loading" data-spy="affix" data-offset-top="380">
+
+                                        <div class=" container">
+                                            <div class="navbar-header">
+
+                                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                                    <span class="sr-only">Toggle navigation</span>
+                                                    <span class="icon-bar"></span>
+                                                    <span class="icon-bar"></span>
+                                                    <span class="icon-bar"></span>
+                                                </button>
+
+                                                <!--Caddie Notification-->
+                                                <div ng-controller="CtrlCaddieNotification">
+                                                    <div app-caddie-notification></div>
+                                                </div>
+
+
+                                                <!-- Brand-->
+                                                <a class="brand" href="#" class="small-logo"><img src="img/logoNoris.png" /></a>
+
+                                            </div>
+
+
+
+
+                                            <!--NAV BAR-->
+                                            <div ng-controller="DirectiveController">
+                                                <div app-navbar></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--NG VIEW-->
+                                <div class="container element-show-hide" ng-cloak ng-show="loading">
+                                    <div ng-view=""></div>
+
+                                </div>
+
+
+
+                                <!-- FOOTER -->
+
+                                <div id="footer" class="footer element-show-hide" ng-cloak ng-show="loading">
+                                    <div class="container ">
+                                        <div class="row voffset3">
+                                            <div class="col-md-4">
+                                                <p id="copyright">© SFJAM - NORIS 2014</p>
+                                            </div>
+                                            <div class="col-md-4 hidden-xs hidden-sm">
+                                                <div class="row">
+                                                    <h2><span class="glyphicon glyphicon-envelope pull-right"></span></h2>
+                                                </div>
+                                                <div class="row marginTop25">
+                                                    <h2><span class="glyphicon glyphicon-eye-open pull-right"></span></h2>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 hidden-xs hidden-sm">
+                                                <h5>SFJAM NORIS FRANCE - Magasin - siège social</h5>
+                                                <h6>
+                                                    11, rue de la pompe BP8249 Cergy Saint Christophe<br>
+                                                    95801 CERGY PONTOISE CEDEX
+                                                </h6>
+                                                <hr class="divider" style="border-top: 1px solid #333333; " />
+                                                <h6>
+                                                    <a href="conditionsVente.html" target="_blank"  style="color: #333333;">Conditions de ventes</a>
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                                <!-- MODAL -->
+                                <script type="text/ng-template" id="modalContainer">
+                                </script>
+</body>
+</html>

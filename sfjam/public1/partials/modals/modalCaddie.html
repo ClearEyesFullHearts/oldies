@@ -1,0 +1,63 @@
+﻿<div class="modal-header">
+    <div class="container-fluid">
+        <h4><span class="glyphicon glyphicon-shopping-cart"></span> Votre caddie</h4>
+    </div>
+    </div>
+<div class="modal-body">
+
+    <div ng-hide="caddie.length == 0">
+        <!--<ol>
+            <li ng-repeat="item in caddie">
+                <h4>{{item.item.item.nom}}</h4>
+                <h5>{{item.item.color}}</h5>
+                <h5>{{item.item.price}}</h5>
+            </li>
+
+        </ol>-->
+        <div class="table-responsive">
+            <table class="table">
+                <tr>
+
+                    <th>Quantite</th>
+                    <th>Produit</th>
+                    <th>Prix unitaire HT</th>
+                    <th></th>
+                    <th>Total</th>
+
+                </tr>
+
+                <tr ng-repeat="obj in caddie">
+                    <!--<td class="vert-align"><input id="steppertDetail" type="number" ng:model="item.item.quantity" ng:required class="input-mini" min="1" max="10" ng-change="inputNumberChange()"></td>-->
+                    <td class="vert-align"><input type="number" ng:model="obj.item.quantity" ng:required class="input-mini" min="1" max="10" ng-change="inputNumberChange()"></td>
+                    <td class="vert-align"><h5>{{obj.item.nom}}<br />Couleur : {{obj.item.couleur}}<br />Taille : {{obj.item.taille}}</h5></td>
+                    <td class="vert-align"><h5>{{obj.item.prix_ht}}</h5></td>
+                    <td class="vert-align">
+                        <button id="buttonCaddie" type="button" class="btn btn-default btn-xs" ng-click="removeItem($index)">
+                            <span class="glyphicon glyphicon-remove"></span>
+                        </button>
+                    </td>
+                    <td class="vert-align">{{obj.item.prix_ht * obj.item.quantity | number}}</td>
+                </tr>
+            </table>
+
+
+
+        </div>
+            <p class="total"><strong>Total Hors Taxe : </strong> <span class="amount">{{ caddieValue | number }} &euro;</span></p>
+            <p class="total"><strong>Total TTC : </strong> <span class="amount">{{ caddieTTC | number }} &euro;</span></p>
+        </div>
+    <div ng-show="caddie.length == 0">
+        <h5>Votre panier est vide.</h5>
+    </div>
+    <div class="modal-footer pull-center">
+        <div class="form-actions">
+            <input type="hidden" name="save" value="contact">
+            <a type="button" class="btn btn-success" ng-click="onValideCaddie()">valider</a>
+            <button class="btn btn-warning" ng-click="cancelClick()">Annuler</button>
+        </div>
+
+    </div>
+</div>
+
+
+<!--<span class="quantity">1 × <span class="amount">{{item.item.articles[0].prix_ht}}</span></span>-->

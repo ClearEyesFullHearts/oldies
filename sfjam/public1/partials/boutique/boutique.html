@@ -1,0 +1,42 @@
+<div class="row voffset3">
+    <div class="col-md-8 col-md-offset-2">
+        <h1>{{category.nom}}</h1>
+        
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-3 "></div>
+    <div class="col-md-8 ">
+        <h3>{{category.soustitre}}</h3>
+        <p>{{category.content}}</p>
+        <p>Tous nos prix sont indiqu&eacute;s hors taxe.</p>
+        <hr class="divider">
+    </div>
+    
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="visible-lg visible-md" ng-controller="CtrlCaddie">
+            <div app-caddie></div>
+        </div>
+
+        <div class="col-md-9">
+            <div ng-repeat="data in products">
+                <div class="col-sm-4 col-lg-4 col-md-4 thumbnailObject">
+                    <div class="thumbnail">
+                        <img class="mt5" src="{{data.images}}" height="320" width="150">
+                        <div class="caption">
+                            <h5 class="titleThumbnail">{{data.nom}}</h5>
+                            <h4>{{data.prix_ht}} &euro; HT</h4>
+                            <a class="btn btn-default" href="#/Boutique/{{category.nom}}/{{data.ref}}" role="button">Details</a>
+                        </div>
+                    </div>
+                </div><!-- /.col-lg-4 -->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

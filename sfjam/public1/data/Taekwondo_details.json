@@ -1,0 +1,797 @@
+{
+  "articles": [
+    {
+      "ref": "CH_325001",
+      "nom": "CHAUSSURES TAEKWENDO",
+      "description": "CHAUSSURES TAEKWENDO AYABUZA COREE",
+      "type": "CHAUSSURES",
+      "images": [
+        "325001.jpg"
+      ],
+      "tailles": [
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46"
+      ],
+      "couleurs": [
+        "BLANC/NOIR ",
+        "BLANC/NOIR  "
+      ],
+      "disponibilites": [
+        {
+          "ID": 90,
+          "disponibilite": "En Stock",
+          "taille": "36",
+          "couleur": "BLANC/NOIR ",
+          "prix_ht": 40.83,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 91,
+          "disponibilite": "En Stock",
+          "taille": "37",
+          "couleur": "BLANC/NOIR  ",
+          "prix_ht": 40.83,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 92,
+          "disponibilite": "En Stock",
+          "taille": "38",
+          "couleur": "BLANC/NOIR  ",
+          "prix_ht": 40.83,
+          "poid": "0.550",
+          "transport": 5
+        },
+        {
+          "ID": 93,
+          "disponibilite": "En Stock",
+          "taille": "39",
+          "couleur": "BLANC/NOIR  ",
+          "prix_ht": 40.83,
+          "poid": "0.550",
+          "transport": 5
+        },
+        {
+          "ID": 94,
+          "disponibilite": "En Stock",
+          "taille": "40",
+          "couleur": "BLANC/NOIR  ",
+          "prix_ht": 40.83,
+          "poid": "0.550",
+          "transport": 5
+        },
+        {
+          "ID": 95,
+          "disponibilite": "En Stock",
+          "taille": "41",
+          "couleur": "BLANC/NOIR  ",
+          "prix_ht": 40.83,
+          "poid": "0.550",
+          "transport": 5
+        },
+        {
+          "ID": 96,
+          "disponibilite": "En Stock",
+          "taille": "42",
+          "couleur": "BLANC/NOIR  ",
+          "prix_ht": 40.83,
+          "poid": "0.550",
+          "transport": 5
+        },
+        {
+          "ID": 97,
+          "disponibilite": "En Stock",
+          "taille": "43",
+          "couleur": "BLANC/NOIR ",
+          "prix_ht": 40.83,
+          "poid": "0.600",
+          "transport": 5
+        },
+        {
+          "ID": 98,
+          "disponibilite": "En Stock",
+          "taille": "44",
+          "couleur": "BLANC/NOIR  ",
+          "prix_ht": 40.83,
+          "poid": "0.600",
+          "transport": 5
+        },
+        {
+          "ID": 99,
+          "disponibilite": "RUPTURE DE STOCK",
+          "taille": "45",
+          "couleur": "BLANC/NOIR  ",
+          "prix_ht": 40.83,
+          "poid": "0.600",
+          "transport": 5
+        },
+        {
+          "ID": 100,
+          "disponibilite": "RUPTURE DE STOCK",
+          "taille": "46",
+          "couleur": "BLANC/NOIR  ",
+          "prix_ht": 40.83,
+          "poid": "0.600",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "PR_325001",
+      "nom": "RAQUETTE DOUBLE ",
+      "description": "RAQUETTE CIBLE DOUBLE AYABUZA  ",
+      "type": "RAQUETTE",
+      "images": [
+        "325001C.jpg"
+      ],
+      "tailles": [
+        "40CM"
+      ],
+      "couleurs": [
+        "NOIRE"
+      ],
+      "disponibilites": [
+        {
+          "ID": 142,
+          "disponibilite": "En Stock",
+          "taille": "40CM",
+          "couleur": "NOIRE",
+          "prix_ht": 27.5,
+          "poid": "0.400",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "KT_125050",
+      "nom": "DO BOK ENTRAINEMENT",
+      "description": "VESTE COTON TYPE CHASUBLE FERMEE ET PANTALON 100% COTON EXTRA BLANC",
+      "type": "DO BOK NORIS",
+      "images": [
+        "125050.jpg"
+      ],
+      "tailles": [
+        "110",
+        "120",
+        "130",
+        "140",
+        "150",
+        "160",
+        "170",
+        "180",
+        "190",
+        "200"
+      ],
+      "couleurs": [
+        "BLANC"
+      ],
+      "disponibilites": [
+        {
+          "ID": 77,
+          "disponibilite": "En Stock",
+          "taille": "110",
+          "couleur": "BLANC",
+          "prix_ht": 11.66,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 78,
+          "disponibilite": "En Stock",
+          "taille": "120",
+          "couleur": "BLANC",
+          "prix_ht": 13.33,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 79,
+          "disponibilite": "En Stock",
+          "taille": "130",
+          "couleur": "BLANC",
+          "prix_ht": 15,
+          "poid": "0.600",
+          "transport": 5
+        },
+        {
+          "ID": 80,
+          "disponibilite": "En Stock",
+          "taille": "140",
+          "couleur": "BLANC",
+          "prix_ht": 16.66,
+          "poid": "0.650",
+          "transport": 5
+        },
+        {
+          "ID": 81,
+          "disponibilite": "En Stock",
+          "taille": "150",
+          "couleur": "BLANC",
+          "prix_ht": 17.5,
+          "poid": "0.700",
+          "transport": 5
+        },
+        {
+          "ID": 82,
+          "disponibilite": "En Stock",
+          "taille": "160",
+          "couleur": "BLANC",
+          "prix_ht": 20,
+          "poid": "0.750",
+          "transport": 5
+        },
+        {
+          "ID": 83,
+          "disponibilite": "En Stock",
+          "taille": "170",
+          "couleur": "BLANC",
+          "prix_ht": 21.66,
+          "poid": "0.800",
+          "transport": 5
+        },
+        {
+          "ID": 84,
+          "disponibilite": "En Stock",
+          "taille": "180",
+          "couleur": "BLANC",
+          "prix_ht": 23.33,
+          "poid": "0.850",
+          "transport": 5
+        },
+        {
+          "ID": 85,
+          "disponibilite": "En Stock",
+          "taille": "190",
+          "couleur": "BLANC",
+          "prix_ht": 25,
+          "poid": "0.900",
+          "transport": 5
+        },
+        {
+          "ID": 86,
+          "disponibilite": "En Stock",
+          "taille": "200",
+          "couleur": "BLANC",
+          "prix_ht": 26.66,
+          "poid": "1.000",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "PR_325003",
+      "nom": "RAQUETTE SIMPLE",
+      "description": "RAQUETTE CIBLE SIMPLE AYABUZA",
+      "type": "RAQUETTE",
+      "images": [
+        "325003C.jpg"
+      ],
+      "tailles": [
+        "40CM"
+      ],
+      "couleurs": [
+        "ROUGE"
+      ],
+      "disponibilites": [
+        {
+          "ID": 141,
+          "disponibilite": "En Stock",
+          "taille": "40CM",
+          "couleur": "ROUGE",
+          "prix_ht": 20.83,
+          "poid": "0.350",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "KT_125050",
+      "nom": "DO BOK ENTRAINEMENT",
+      "description": "VESTE COTON TYPE CHASUBLE FERMEE ET PANTALON 100% COTON EXTRA BLANC",
+      "type": "DO BOK NORIS",
+      "images": [
+        "125050.jpg"
+      ],
+      "tailles": [
+        "110",
+        "120",
+        "130",
+        "140",
+        "150",
+        "160",
+        "170",
+        "180",
+        "190",
+        "200"
+      ],
+      "couleurs": [
+        "BLANC"
+      ],
+      "disponibilites": [
+        {
+          "ID": 77,
+          "disponibilite": "En Stock",
+          "taille": "110",
+          "couleur": "BLANC",
+          "prix_ht": 11.66,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 78,
+          "disponibilite": "En Stock",
+          "taille": "120",
+          "couleur": "BLANC",
+          "prix_ht": 13.33,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 79,
+          "disponibilite": "En Stock",
+          "taille": "130",
+          "couleur": "BLANC",
+          "prix_ht": 15,
+          "poid": "0.600",
+          "transport": 5
+        },
+        {
+          "ID": 80,
+          "disponibilite": "En Stock",
+          "taille": "140",
+          "couleur": "BLANC",
+          "prix_ht": 16.66,
+          "poid": "0.650",
+          "transport": 5
+        },
+        {
+          "ID": 81,
+          "disponibilite": "En Stock",
+          "taille": "150",
+          "couleur": "BLANC",
+          "prix_ht": 17.5,
+          "poid": "0.700",
+          "transport": 5
+        },
+        {
+          "ID": 82,
+          "disponibilite": "En Stock",
+          "taille": "160",
+          "couleur": "BLANC",
+          "prix_ht": 20,
+          "poid": "0.750",
+          "transport": 5
+        },
+        {
+          "ID": 83,
+          "disponibilite": "En Stock",
+          "taille": "170",
+          "couleur": "BLANC",
+          "prix_ht": 21.66,
+          "poid": "0.800",
+          "transport": 5
+        },
+        {
+          "ID": 84,
+          "disponibilite": "En Stock",
+          "taille": "180",
+          "couleur": "BLANC",
+          "prix_ht": 23.33,
+          "poid": "0.850",
+          "transport": 5
+        },
+        {
+          "ID": 85,
+          "disponibilite": "En Stock",
+          "taille": "190",
+          "couleur": "BLANC",
+          "prix_ht": 25,
+          "poid": "0.900",
+          "transport": 5
+        },
+        {
+          "ID": 86,
+          "disponibilite": "En Stock",
+          "taille": "200",
+          "couleur": "BLANC",
+          "prix_ht": 26.66,
+          "poid": "1.000",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "KT_125300",
+      "nom": "DO BOK MASTER AYABUZA",
+      "description": "DO BOK MASTER COL NOIR AVEC PANTALON 100%COTON BRODERIES MANCHES ET DOS",
+      "type": "AYABUZA",
+      "images": [
+        "125300.jpg"
+      ],
+      "tailles": [
+        "160",
+        "170",
+        "180",
+        "190"
+      ],
+      "couleurs": [
+        "BLANC/NOIR"
+      ],
+      "disponibilites": [
+        {
+          "ID": 139,
+          "disponibilite": "En Stock",
+          "taille": "160",
+          "couleur": "BLANC/NOIR",
+          "prix_ht": 38.33,
+          "poid": "0.900",
+          "transport": 5
+        },
+        {
+          "ID": 140,
+          "disponibilite": "En Stock",
+          "taille": "170",
+          "couleur": "BLANC/NOIR",
+          "prix_ht": 40,
+          "poid": "1.000",
+          "transport": 5
+        },
+        {
+          "ID": 138,
+          "disponibilite": "En Stock",
+          "taille": "180",
+          "couleur": "BLANC/NOIR",
+          "prix_ht": 43.33,
+          "poid": "1.100",
+          "transport": 6
+        },
+        {
+          "ID": 137,
+          "disponibilite": "RUPTURE DE STOCK",
+          "taille": "190",
+          "couleur": "BLANC/NOIR",
+          "prix_ht": 43.33,
+          "poid": "1.200",
+          "transport": 6
+        }
+      ]
+    },
+    {
+      "ref": "PR_325004",
+      "nom": "RAQUETTE SIMPLE",
+      "description": "RAQUETTE SIMPLE AYABUZA",
+      "type": "RAQUETTE ",
+      "images": [
+        "325004.jpg"
+      ],
+      "tailles": [
+        "40cm"
+      ],
+      "couleurs": [
+        "BLANC-NOIR"
+      ],
+      "disponibilites": [
+        {
+          "ID": 143,
+          "disponibilite": "En Stock",
+          "taille": "40cm",
+          "couleur": "BLANC-NOIR",
+          "prix_ht": 20.83,
+          "poid": "0.300",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "PR_320217",
+      "nom": "PROTEGE TIBIA FFKARATE ",
+      "description": "PROTEGE TIBIA BLANC P.U ",
+      "type": "PROTECTIONS",
+      "images": [
+        "320217.jpg"
+      ],
+      "tailles": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "couleurs": [
+        "BLANC"
+      ],
+      "disponibilites": [
+        {
+          "ID": 49,
+          "disponibilite": "En Stock",
+          "taille": "XS",
+          "couleur": "BLANC",
+          "prix_ht": 11.66,
+          "poid": "0.400",
+          "transport": 4
+        },
+        {
+          "ID": 50,
+          "disponibilite": "En Stock",
+          "taille": "S",
+          "couleur": "BLANC",
+          "prix_ht": 11.66,
+          "poid": "0.400",
+          "transport": 4
+        },
+        {
+          "ID": 51,
+          "disponibilite": "En Stock",
+          "taille": "M",
+          "couleur": "BLANC",
+          "prix_ht": 15,
+          "poid": "0.450",
+          "transport": 4
+        },
+        {
+          "ID": 52,
+          "disponibilite": "En Stock",
+          "taille": "L",
+          "couleur": "BLANC",
+          "prix_ht": 15,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 53,
+          "disponibilite": "En Stock",
+          "taille": "XL",
+          "couleur": "BLANC",
+          "prix_ht": 15,
+          "poid": "0.500",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "PR_325010",
+      "nom": "PLASTRON ",
+      "description": "PLASTRON TAEKWENDO AYABUZA REVERSIBLE  ",
+      "type": "PLASTRONS",
+      "images": [
+        "325010r.jpg"
+      ],
+      "tailles": [
+        "1(s)",
+        "2(m)",
+        "3(l)",
+        "4(xl)",
+        "5(xxl)"
+      ],
+      "couleurs": [
+        "ROUGE/BLEU"
+      ],
+      "disponibilites": [
+        {
+          "ID": 101,
+          "disponibilite": "En Stock",
+          "taille": "1(s)",
+          "couleur": "ROUGE/BLEU",
+          "prix_ht": 35.83,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 102,
+          "disponibilite": "En Stock",
+          "taille": "2(m)",
+          "couleur": "ROUGE/BLEU",
+          "prix_ht": 35.83,
+          "poid": "0.550",
+          "transport": 5
+        },
+        {
+          "ID": 103,
+          "disponibilite": "En Stock",
+          "taille": "3(l)",
+          "couleur": "ROUGE/BLEU",
+          "prix_ht": 35.83,
+          "poid": "0.550",
+          "transport": 5
+        },
+        {
+          "ID": 104,
+          "disponibilite": "En Stock",
+          "taille": "4(xl)",
+          "couleur": "ROUGE/BLEU",
+          "prix_ht": 35.83,
+          "poid": "0.600",
+          "transport": 5
+        },
+        {
+          "ID": 105,
+          "disponibilite": "En Stock",
+          "taille": "5(xxl)",
+          "couleur": "ROUGE/BLEU",
+          "prix_ht": 35.83,
+          "poid": "0.650",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "PR_325000",
+      "nom": "COQUILLE SLIP ",
+      "description": "COQUILLE SLIP TAEKWENDO",
+      "type": "PROTECTIONS",
+      "images": [
+        "325000.jpg"
+      ],
+      "tailles": [
+        "JUNIORS",
+        "SENIORS"
+      ],
+      "couleurs": [
+        "BLANC"
+      ],
+      "disponibilites": [
+        {
+          "ID": 26,
+          "disponibilite": "En Stock",
+          "taille": "JUNIORS",
+          "couleur": "BLANC",
+          "prix_ht": 17.5,
+          "poid": "0.300",
+          "transport": 4
+        },
+        {
+          "ID": 27,
+          "disponibilite": "En Stock",
+          "taille": "SENIORS",
+          "couleur": "BLANC",
+          "prix_ht": 17.5,
+          "poid": "0.300",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "PR_325020",
+      "nom": "CASQUE",
+      "description": "CASQUE COMBAT AVEC ATTACHE VELCRO",
+      "type": "PROTECTIONS",
+      "images": [
+        "325020b.jpg",
+        "325020.jpg",
+        "325020r.jpg"
+      ],
+      "tailles": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "couleurs": [
+        "BLANC",
+        "BLEU",
+        "ROUGE"
+      ],
+      "disponibilites": [
+        {
+          "ID": 111,
+          "disponibilite": "En Stock",
+          "taille": "S",
+          "couleur": "BLANC",
+          "prix_ht": 33.33,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 112,
+          "disponibilite": "En Stock",
+          "taille": "M",
+          "couleur": "BLANC",
+          "prix_ht": 33.33,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 113,
+          "disponibilite": "En Stock",
+          "taille": "L",
+          "couleur": "BLANC",
+          "prix_ht": 33.33,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 114,
+          "disponibilite": "En Stock",
+          "taille": "XL",
+          "couleur": "BLANC",
+          "prix_ht": 33.33,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 115,
+          "disponibilite": "En Stock",
+          "taille": "S",
+          "couleur": "BLEU",
+          "prix_ht": 33.33,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 116,
+          "disponibilite": "En Stock",
+          "taille": "M",
+          "couleur": "BLEU",
+          "prix_ht": 33.33,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 117,
+          "disponibilite": "En Stock",
+          "taille": "L",
+          "couleur": "BLEU",
+          "prix_ht": 33.33,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 118,
+          "disponibilite": "En Stock",
+          "taille": "XL",
+          "couleur": "BLEU",
+          "prix_ht": 33.33,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 119,
+          "disponibilite": "En Stock",
+          "taille": "S",
+          "couleur": "ROUGE",
+          "prix_ht": 33.33,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 120,
+          "disponibilite": "En Stock",
+          "taille": "M",
+          "couleur": "ROUGE",
+          "prix_ht": 33.33,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 121,
+          "disponibilite": "En Stock",
+          "taille": "L",
+          "couleur": "ROUGE",
+          "prix_ht": 33.33,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 122,
+          "disponibilite": "En Stock",
+          "taille": "XL",
+          "couleur": "ROUGE",
+          "prix_ht": 33.33,
+          "poid": "0.500",
+          "transport": 5
+        }
+      ]
+    }
+  ]
+}

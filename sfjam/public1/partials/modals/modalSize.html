@@ -1,0 +1,35 @@
+﻿
+<div class="modal-header">
+    <div class="container-fluid">
+        <h4><span class="glyphicon glyphicon-envelope"></span> Ajoutez une taille à {{ref}}</h4>
+    </div>
+</div>
+<div class="modal-body">
+    <!-- Contacts -->
+    <form method="post" name="contact" id="contact_form">
+        <div class="control-group">
+            <label for="mod_taille">Taille</label>
+            <input type="text" class="form-control" id="mod_taille" name="mod_taille" ng-model="taille" placeholder="Entrez une taille">
+        </div>
+        <div class="control-group">
+            <label for="mod_prix_ht">Prix HT</label>
+            <input type="text" class="form-control" id="mod_prix_ht" name="mod_prix_ht" ng-model="prix_ht" placeholder="Entrez un prix hors taxe">
+        </div>
+        <div class="control-group">
+            <label for="mod_poid">Poid</label>
+            <input type="text" class="form-control" id="mod_poid" name="mod_poid" ng-model="poid" placeholder="Entrez un poid">
+        </div>
+        <div class="control-group">
+            <label for="mod_transport">Transport</label>
+            <input type="text" class="form-control" id="mod_transport" name="mod_transport" ng-model="transport" placeholder="Entrez le transport">
+        </div>
+
+    </form>
+    <div class="modal-footer pull-center">
+        <div class="form-actions">
+            <input type="hidden" name="save" value="size">
+            <button type="submit" class="btn btn-success" ng-click="addSize(taille, prix_ht, poid, transport)">Ajouter</button>
+            <button class="btn btn-warning" ng-click="cancelClick()">Annuler</button>
+        </div>
+    </div>
+</div>

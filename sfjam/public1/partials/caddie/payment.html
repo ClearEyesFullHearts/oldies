@@ -1,0 +1,103 @@
+﻿<div ng-switch on="step">
+    <div class="row voffset3">
+        <div class="col-md-8 col-md-offset-2">
+            <h2>Votre Commande</h2>
+            <hr class="divider"></hr>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9 col-md-offset-3">
+                <div class="btn-group btn-group-lg">
+                    <button type="button" class="btn btn-default" ng-disabled="step1" id="bt_step1" ng-click="goToStep1()">Votre Adresse</button>
+                    <button type="button" class="btn btn-default" ng-disabled="step2" id="bt_step2" ng-click="goToStep2()">Votre Commande</button>
+                    <button type="button" class="btn btn-default" ng-disabled="step3" id="bt_step3" ng-click="goToStep3()">Payement</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- STEP 1 - ADRESSE DE LIVRAISON /  ADRESSE DE FACTURATION-->
+    <div class="container" >
+
+        <div  ng-switch-when="step1">
+            <div verification-adresses></div>
+        </div>
+    </div>
+
+
+    <!--STEP 2 - RECAP PAYEMENT, FRAIS DE PORT-->
+    <div class="container" ng-switch-when="step2">
+
+        
+        <div class="row voffset3">
+            <div class="col-md-9 col-md-offset-3">
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <tr>
+
+                            <th>Quantite</th>
+                            <th>Produit</th>
+                            <th>Prix Unitaire Hors Taxe</th>
+                            <th></th>
+                            <th>Total</th>
+
+                        </tr>
+
+                        <tr ng-repeat="obj in caddie">
+                            <td class="vert-align"><input type="number" ng:model="obj.item.quantity" ng:required class="input-mini" min="1" max="10" ng-change="inputNumberChange()"></td>
+                            <!-- <td class="vert-align"><input type="number" ng:model="obj.item.quantity" ng:required class="input-mini" min="1" max="10" ng-change="inputNumberChange()"></td>-->
+                            <td class="vert-align"><h5>{{obj.item.nom}}<br />Couleur : {{obj.item.couleur}}<br />Taille : {{obj.item.taille}}</h5></td>
+                            <td class="vert-align"><h5>{{obj.item.prix_ht}} € HT</h5></td>
+                            <td class="vert-align">
+                                <button id="buttonCaddie" type="button" class="btn btn-default btn-xs" ng-click="removeItem($index)">
+                                    <span class="glyphicon glyphicon-remove"></span>
+                                </button>
+                            </td>
+                            <td class="vert-align">{{obj.item.prix_ht * obj.item.quantity | number}} €</td>
+                        </tr>
+                    </table>
+
+
+
+                </div>
+                <div class="col-md-4 col-md-offset-8 panel panel-default">
+                    <!--<div class="">-->
+                        <div class="panel-body">
+                            <p class="total"><strong>Prix HT :</strong> <span class="amount pull-right">{{ caddieValue | number }} €</span></p>
+                            <p class="total"><strong>Prix TTC :</strong> <span class="amount pull-right">{{ prixTTC | number }} €</span></p>
+                            <p class="total"><strong>Frais de port :</strong> <span class="amount pull-right">{{ prixCaddiePoids | number }} €</span></p>
+                            <hr class="divider"></hr>
+                            <h4 class="total"><strong>TOTAL :</strong> <span class="amount pull-right">{{ prixTotal | number }} €</span></h4>
+                        </div>
+
+                    <!--</div>-->
+                </div>
+                </div>
+        </div>
+
+
+        <!--VALIDATION-->
+        <div class="row voffset3">
+            <div class="col-md-9 col-md-offset-3">
+                <a type="button" class="btn btn-success pull-right" ng-click="goToStep3()" ng-disabled="prixTotal == 0">Suivant</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--STEP 3 - PAYEMENT -->
+    <div class="container" ng-switch-when="step3">
+        <div class="col-md-8 col-md-offset-2 voffset3 panel panel-default">
+            <div class="panel-body">
+                <p>Munisez vous de votre carte bancaire. Vous allez être redirigé vers notre service de payements securisés. Merci.</p>
+                <div class="voffset2" ng-bind-html="retourMercanet"></div>
+            </div>
+        </div>
+        
+
+
+    </div>
+    </div>

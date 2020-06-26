@@ -1,0 +1,1051 @@
+{
+  "articles": [
+    {
+      "ref": "AR_420125",
+      "nom": "BOKUDO BOKKEN",
+      "description": "BOKUTO CHENE BLANC JAPON (600gr)",
+      "type": "BOKKEN",
+      "images": [
+        "420125.jpg"
+      ],
+      "tailles": [
+        "102CM"
+      ],
+      "couleurs": [
+        "BOIS BLANC"
+      ],
+      "disponibilites": [
+        {
+          "ID": 74,
+          "disponibilite": "En Stock",
+          "taille": "102CM",
+          "couleur": "BOIS BLANC",
+          "prix_ht": 44.16,
+          "poid": "0.700",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "A_126100",
+      "nom": "HAKAMA",
+      "description": "Importation Taiwan 65% polyester 35% rayonne",
+      "type": "HAKAMAS",
+      "images": [
+        "126100.jpg"
+      ],
+      "tailles": [
+        "20(150)",
+        "21(155)",
+        "22(160)",
+        "23(165)",
+        "23(165",
+        "24(170)",
+        "25(175)",
+        "26(180)",
+        "27(185)",
+        "28(190)",
+        "29(195)",
+        "30(200)"
+      ],
+      "couleurs": [
+        "NOIR",
+        "BLEU ",
+        "BLEU"
+      ],
+      "disponibilites": [
+        {
+          "ID": 1,
+          "disponibilite": "RUPTURE DE STOCK",
+          "taille": "20(150)",
+          "couleur": "NOIR",
+          "prix_ht": 42.5,
+          "poid": "0.450",
+          "transport": 4
+        },
+        {
+          "ID": 2,
+          "disponibilite": "En Stock",
+          "taille": "20(150)",
+          "couleur": "BLEU ",
+          "prix_ht": 42.5,
+          "poid": "0.450",
+          "transport": 4
+        },
+        {
+          "ID": 3,
+          "disponibilite": "En Stock",
+          "taille": "21(155)",
+          "couleur": "NOIR",
+          "prix_ht": 42.5,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 4,
+          "disponibilite": "En Stock",
+          "taille": "21(155)",
+          "couleur": "BLEU ",
+          "prix_ht": 42.5,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 5,
+          "disponibilite": "En Stock",
+          "taille": "22(160)",
+          "couleur": "NOIR",
+          "prix_ht": 42.5,
+          "poid": "0.550",
+          "transport": 5
+        },
+        {
+          "ID": 6,
+          "disponibilite": "En Stock",
+          "taille": "22(160)",
+          "couleur": "BLEU ",
+          "prix_ht": 42.5,
+          "poid": "0.550",
+          "transport": 5
+        },
+        {
+          "ID": 7,
+          "disponibilite": "En Stock",
+          "taille": "23(165)",
+          "couleur": "NOIR",
+          "prix_ht": 42.5,
+          "poid": "0.600",
+          "transport": 5
+        },
+        {
+          "ID": 8,
+          "disponibilite": "En Stock",
+          "taille": "23(165",
+          "couleur": "BLEU",
+          "prix_ht": 42.5,
+          "poid": "0.600",
+          "transport": 5
+        },
+        {
+          "ID": 9,
+          "disponibilite": "En Stock",
+          "taille": "24(170)",
+          "couleur": "NOIR",
+          "prix_ht": 42.5,
+          "poid": "0.650",
+          "transport": 5
+        },
+        {
+          "ID": 10,
+          "disponibilite": "En Stock",
+          "taille": "24(170)",
+          "couleur": "BLEU",
+          "prix_ht": 42.5,
+          "poid": "0.650",
+          "transport": 5
+        },
+        {
+          "ID": 11,
+          "disponibilite": "En Stock",
+          "taille": "25(175)",
+          "couleur": "NOIR",
+          "prix_ht": 48.33,
+          "poid": "0.700",
+          "transport": 5
+        },
+        {
+          "ID": 12,
+          "disponibilite": "En Stock",
+          "taille": "25(175)",
+          "couleur": "BLEU ",
+          "prix_ht": 48.33,
+          "poid": "0.700",
+          "transport": 5
+        },
+        {
+          "ID": 13,
+          "disponibilite": "En Stock",
+          "taille": "26(180)",
+          "couleur": "NOIR",
+          "prix_ht": 48.33,
+          "poid": "0.750",
+          "transport": 5
+        },
+        {
+          "ID": 14,
+          "disponibilite": "En Stock",
+          "taille": "26(180)",
+          "couleur": "BLEU ",
+          "prix_ht": 48.33,
+          "poid": "0.750",
+          "transport": 5
+        },
+        {
+          "ID": 15,
+          "disponibilite": "En Stock",
+          "taille": "27(185)",
+          "couleur": "NOIR",
+          "prix_ht": 48.33,
+          "poid": "0.800",
+          "transport": 5
+        },
+        {
+          "ID": 16,
+          "disponibilite": "En Stock",
+          "taille": "27(185)",
+          "couleur": "BLEU ",
+          "prix_ht": 48.33,
+          "poid": "0.800",
+          "transport": 5
+        },
+        {
+          "ID": 17,
+          "disponibilite": "En Stock",
+          "taille": "28(190)",
+          "couleur": "NOIR",
+          "prix_ht": 48.33,
+          "poid": "0.850",
+          "transport": 5
+        },
+        {
+          "ID": 18,
+          "disponibilite": "En Stock",
+          "taille": "28(190)",
+          "couleur": "BLEU ",
+          "prix_ht": 48.33,
+          "poid": "0.850",
+          "transport": 5
+        },
+        {
+          "ID": 19,
+          "disponibilite": "En Stock",
+          "taille": "29(195)",
+          "couleur": "NOIR",
+          "prix_ht": 48.33,
+          "poid": "0.900",
+          "transport": 5
+        },
+        {
+          "ID": 20,
+          "disponibilite": "En Stock",
+          "taille": "29(195)",
+          "couleur": "BLEU ",
+          "prix_ht": 48.33,
+          "poid": "0.900",
+          "transport": 5
+        },
+        {
+          "ID": 21,
+          "disponibilite": "En Stock",
+          "taille": "30(200)",
+          "couleur": "NOIR",
+          "prix_ht": 48.33,
+          "poid": "0.950",
+          "transport": 5
+        },
+        {
+          "ID": 22,
+          "disponibilite": "En Stock",
+          "taille": "30(200)",
+          "couleur": "BLEU ",
+          "prix_ht": 48.33,
+          "poid": "0.950",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "TA_420112",
+      "nom": "TANTO CAOUTCHOUC",
+      "description": "TANTO CAOUTCHOUC TYPE POIGNARD CHASSE",
+      "type": "SELF",
+      "images": [
+        "420112.jpg"
+      ],
+      "tailles": [
+        "22cm"
+      ],
+      "couleurs": [
+        "gris"
+      ],
+      "disponibilites": [
+        {
+          "ID": 83,
+          "disponibilite": "En Stock",
+          "taille": "22cm",
+          "couleur": "gris",
+          "prix_ht": 4.16,
+          "poid": "0.450",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "AR_420147",
+      "nom": "BO ",
+      "description": "BO CONIQUE BOIS ROUGE TAIWAN (1000gr)",
+      "type": "BATONS LONG",
+      "images": [
+        "420147.jpg"
+      ],
+      "tailles": [
+        "1.80M"
+      ],
+      "couleurs": [
+        "BOIS ROUGE"
+      ],
+      "disponibilites": [
+        {
+          "ID": 68,
+          "disponibilite": "En Stock",
+          "taille": "1.80M",
+          "couleur": "BOIS ROUGE",
+          "prix_ht": 18.33,
+          "poid": "1.100",
+          "transport": 12
+        }
+      ]
+    },
+    {
+      "ref": "AR_420130",
+      "nom": "JYO",
+      "description": "JYO BOIS DUR CHENE ROUGE 600gr TAIWAN",
+      "type": "JYO",
+      "images": [
+        "420130.jpg"
+      ],
+      "tailles": [
+        "1.28M"
+      ],
+      "couleurs": [
+        "BOIS ROUGE"
+      ],
+      "disponibilites": [
+        {
+          "ID": 72,
+          "disponibilite": "En Stock",
+          "taille": "1.28M",
+          "couleur": "BOIS ROUGE",
+          "prix_ht": 13.33,
+          "poid": "0.750",
+          "transport": 10
+        }
+      ]
+    },
+    {
+      "ref": "A_126800",
+      "nom": "HAKAMA AIKIKAI",
+      "description": "ORIGINE JAPON  65% POLYESTER 35% RAYONNE",
+      "type": "HAKAMAS",
+      "images": [
+        "126800.jpg",
+        "126800b.jpg"
+      ],
+      "tailles": [
+        "20(150)",
+        "21(155)",
+        "22(160)",
+        "23(165)",
+        "24(170)",
+        "24(170",
+        "25(175)",
+        "26(180",
+        "27(185)",
+        "28(190)",
+        "29(195)",
+        "30(200)"
+      ],
+      "couleurs": [
+        "NOIR ",
+        "BLEU NUIT"
+      ],
+      "disponibilites": [
+        {
+          "ID": 23,
+          "disponibilite": "En Stock",
+          "taille": "20(150)",
+          "couleur": "NOIR ",
+          "prix_ht": 125,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 24,
+          "disponibilite": "En Stock",
+          "taille": "20(150)",
+          "couleur": "BLEU NUIT",
+          "prix_ht": 125,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 25,
+          "disponibilite": "En Stock",
+          "taille": "21(155)",
+          "couleur": "NOIR ",
+          "prix_ht": 125,
+          "poid": "0.550",
+          "transport": 5
+        },
+        {
+          "ID": 26,
+          "disponibilite": "En Stock",
+          "taille": "21(155)",
+          "couleur": "BLEU NUIT",
+          "prix_ht": 125,
+          "poid": "0.550",
+          "transport": 5
+        },
+        {
+          "ID": 27,
+          "disponibilite": "En Stock",
+          "taille": "22(160)",
+          "couleur": "NOIR ",
+          "prix_ht": 125,
+          "poid": "0.600",
+          "transport": 5
+        },
+        {
+          "ID": 28,
+          "disponibilite": "En Stock",
+          "taille": "22(160)",
+          "couleur": "BLEU NUIT",
+          "prix_ht": 125,
+          "poid": "0.600",
+          "transport": 5
+        },
+        {
+          "ID": 29,
+          "disponibilite": "En Stock",
+          "taille": "23(165)",
+          "couleur": "NOIR ",
+          "prix_ht": 125,
+          "poid": "0.650",
+          "transport": 5
+        },
+        {
+          "ID": 30,
+          "disponibilite": "En Stock",
+          "taille": "23(165)",
+          "couleur": "BLEU NUIT",
+          "prix_ht": 125,
+          "poid": "0.650",
+          "transport": 5
+        },
+        {
+          "ID": 31,
+          "disponibilite": "En Stock",
+          "taille": "24(170)",
+          "couleur": "NOIR ",
+          "prix_ht": 125,
+          "poid": "0.700",
+          "transport": 5
+        },
+        {
+          "ID": 32,
+          "disponibilite": "En Stock",
+          "taille": "24(170",
+          "couleur": "BLEU NUIT",
+          "prix_ht": 125,
+          "poid": "0.700",
+          "transport": 5
+        },
+        {
+          "ID": 33,
+          "disponibilite": "En Stock",
+          "taille": "25(175)",
+          "couleur": "NOIR ",
+          "prix_ht": 125,
+          "poid": "0.750",
+          "transport": 5
+        },
+        {
+          "ID": 34,
+          "disponibilite": "En Stock",
+          "taille": "25(175)",
+          "couleur": "BLEU NUIT",
+          "prix_ht": 125,
+          "poid": "0.750",
+          "transport": 5
+        },
+        {
+          "ID": 35,
+          "disponibilite": "En Stock",
+          "taille": "26(180",
+          "couleur": "NOIR ",
+          "prix_ht": 133.33,
+          "poid": "0.800",
+          "transport": 5
+        },
+        {
+          "ID": 36,
+          "disponibilite": "En Stock",
+          "taille": "26(180",
+          "couleur": "BLEU NUIT",
+          "prix_ht": 133.33,
+          "poid": "0.800",
+          "transport": 5
+        },
+        {
+          "ID": 37,
+          "disponibilite": "En Stock",
+          "taille": "27(185)",
+          "couleur": "NOIR ",
+          "prix_ht": 133.33,
+          "poid": "0.850",
+          "transport": 5
+        },
+        {
+          "ID": 38,
+          "disponibilite": "En Stock",
+          "taille": "27(185)",
+          "couleur": "BLEU NUIT",
+          "prix_ht": 133.33,
+          "poid": "0.850",
+          "transport": 5
+        },
+        {
+          "ID": 39,
+          "disponibilite": "En Stock",
+          "taille": "28(190)",
+          "couleur": "NOIR ",
+          "prix_ht": 133.33,
+          "poid": "0.900",
+          "transport": 5
+        },
+        {
+          "ID": 40,
+          "disponibilite": "En Stock",
+          "taille": "28(190)",
+          "couleur": "BLEU NUIT",
+          "prix_ht": 133.33,
+          "poid": "0.900",
+          "transport": 5
+        },
+        {
+          "ID": 41,
+          "disponibilite": "En Stock",
+          "taille": "29(195)",
+          "couleur": "NOIR ",
+          "prix_ht": 133.33,
+          "poid": "0.950",
+          "transport": 5
+        },
+        {
+          "ID": 42,
+          "disponibilite": "En Stock",
+          "taille": "29(195)",
+          "couleur": "BLEU NUIT",
+          "prix_ht": 133.33,
+          "poid": "0.950",
+          "transport": 5
+        },
+        {
+          "ID": 43,
+          "disponibilite": "En Stock",
+          "taille": "30(200)",
+          "couleur": "NOIR ",
+          "prix_ht": 133.33,
+          "poid": "1.000",
+          "transport": 6
+        },
+        {
+          "ID": 44,
+          "disponibilite": "En Stock",
+          "taille": "30(200)",
+          "couleur": "BLEU NUIT",
+          "prix_ht": 133.33,
+          "poid": "1.000",
+          "transport": 6
+        }
+      ]
+    },
+    {
+      "ref": "AR_420148",
+      "nom": "JYO",
+      "description": "JYO BOIS DUR CHENE ROUGE 650gr TAIWAN",
+      "type": "JYO",
+      "images": [
+        "420148.jpg"
+      ],
+      "tailles": [
+        "1.40M"
+      ],
+      "couleurs": [
+        "BOIS ROUGE"
+      ],
+      "disponibilites": [
+        {
+          "ID": 73,
+          "disponibilite": "En Stock",
+          "taille": "1.40M",
+          "couleur": "BOIS ROUGE",
+          "prix_ht": 15,
+          "poid": "0.750",
+          "transport": 10
+        }
+      ]
+    },
+    {
+      "ref": "AR_420135",
+      "nom": "JYO",
+      "description": "JYO BOIS DUR CHENE BLANC JAPON (600gr)",
+      "type": "JYO",
+      "images": [
+        "420135.jpg"
+      ],
+      "tailles": [
+        "1.28M"
+      ],
+      "couleurs": [
+        "BOIS BLANC"
+      ],
+      "disponibilites": [
+        {
+          "ID": 71,
+          "disponibilite": "En Stock",
+          "taille": "1.28M",
+          "couleur": "BOIS BLANC",
+          "prix_ht": 44.16,
+          "poid": "0.700",
+          "transport": 10
+        }
+      ]
+    },
+    {
+      "ref": "AA_126500",
+      "nom": "HAKAMA IWATA",
+      "description": "ORIGINE JAPON ( REFERENCE MONDIALE) 70% POLYESTER 30% RAYONNE",
+      "type": "HAKAMAS",
+      "images": [
+        "126500.jpg",
+        "126500b.jpg"
+      ],
+      "tailles": [
+        "20(150)",
+        "21(155)",
+        "22(160)",
+        "23(165)",
+        "24(170)",
+        "25(175)",
+        "26(180)",
+        "27(185)",
+        "28(190)",
+        "29(195)",
+        "30(200)"
+      ],
+      "couleurs": [
+        "NOIR",
+        "BLEU NUIT"
+      ],
+      "disponibilites": [
+        {
+          "ID": 45,
+          "disponibilite": "En Stock",
+          "taille": "20(150)",
+          "couleur": "NOIR",
+          "prix_ht": 183.33,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 46,
+          "disponibilite": "En Stock",
+          "taille": "20(150)",
+          "couleur": "BLEU NUIT",
+          "prix_ht": 183.33,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 47,
+          "disponibilite": "En Stock",
+          "taille": "21(155)",
+          "couleur": "NOIR",
+          "prix_ht": 183.33,
+          "poid": "0.550",
+          "transport": 5
+        },
+        {
+          "ID": 48,
+          "disponibilite": "En Stock",
+          "taille": "21(155)",
+          "couleur": "BLEU NUIT",
+          "prix_ht": 183.33,
+          "poid": "0.550",
+          "transport": 5
+        },
+        {
+          "ID": 49,
+          "disponibilite": "En Stock",
+          "taille": "22(160)",
+          "couleur": "NOIR",
+          "prix_ht": 183.33,
+          "poid": "0.600",
+          "transport": 5
+        },
+        {
+          "ID": 50,
+          "disponibilite": "En Stock",
+          "taille": "22(160)",
+          "couleur": "BLEU NUIT",
+          "prix_ht": 183.33,
+          "poid": "0.600",
+          "transport": 5
+        },
+        {
+          "ID": 51,
+          "disponibilite": "En Stock",
+          "taille": "23(165)",
+          "couleur": "NOIR",
+          "prix_ht": 183.33,
+          "poid": "0.700",
+          "transport": 5
+        },
+        {
+          "ID": 52,
+          "disponibilite": "En Stock",
+          "taille": "23(165)",
+          "couleur": "BLEU NUIT",
+          "prix_ht": 183.33,
+          "poid": "0.700",
+          "transport": 5
+        },
+        {
+          "ID": 53,
+          "disponibilite": "En Stock",
+          "taille": "24(170)",
+          "couleur": "NOIR",
+          "prix_ht": 183.33,
+          "poid": "0.750",
+          "transport": 5
+        },
+        {
+          "ID": 54,
+          "disponibilite": "En Stock",
+          "taille": "24(170)",
+          "couleur": "BLEU NUIT",
+          "prix_ht": 183.33,
+          "poid": "0.750",
+          "transport": 5
+        },
+        {
+          "ID": 55,
+          "disponibilite": "En Stock",
+          "taille": "25(175)",
+          "couleur": "NOIR",
+          "prix_ht": 183.33,
+          "poid": "0.800",
+          "transport": 5
+        },
+        {
+          "ID": 56,
+          "disponibilite": "En Stock",
+          "taille": "25(175)",
+          "couleur": "BLEU NUIT",
+          "prix_ht": 183.33,
+          "poid": "0.800",
+          "transport": 5
+        },
+        {
+          "ID": 57,
+          "disponibilite": "En Stock",
+          "taille": "26(180)",
+          "couleur": "NOIR",
+          "prix_ht": 200,
+          "poid": "0.850",
+          "transport": 5
+        },
+        {
+          "ID": 58,
+          "disponibilite": "En Stock",
+          "taille": "26(180)",
+          "couleur": "BLEU NUIT",
+          "prix_ht": 200,
+          "poid": "0.850",
+          "transport": 5
+        },
+        {
+          "ID": 59,
+          "disponibilite": "En Stock",
+          "taille": "27(185)",
+          "couleur": "NOIR",
+          "prix_ht": 200,
+          "poid": "0.900",
+          "transport": 5
+        },
+        {
+          "ID": 60,
+          "disponibilite": "En Stock",
+          "taille": "27(185)",
+          "couleur": "BLEU NUIT",
+          "prix_ht": 200,
+          "poid": "0.900",
+          "transport": 5
+        },
+        {
+          "ID": 61,
+          "disponibilite": "En Stock",
+          "taille": "28(190)",
+          "couleur": "NOIR",
+          "prix_ht": 200,
+          "poid": "0.950",
+          "transport": 5
+        },
+        {
+          "ID": 62,
+          "disponibilite": "En Stock",
+          "taille": "28(190)",
+          "couleur": "BLEU NUIT",
+          "prix_ht": 200,
+          "poid": "0.950",
+          "transport": 5
+        },
+        {
+          "ID": 63,
+          "disponibilite": "En Stock",
+          "taille": "29(195)",
+          "couleur": "NOIR",
+          "prix_ht": 200,
+          "poid": "1",
+          "transport": 6
+        },
+        {
+          "ID": 64,
+          "disponibilite": "En Stock",
+          "taille": "29(195)",
+          "couleur": "BLEU NUIT",
+          "prix_ht": 200,
+          "poid": "1.050",
+          "transport": 6
+        },
+        {
+          "ID": 65,
+          "disponibilite": "En Stock",
+          "taille": "30(200)",
+          "couleur": "NOIR",
+          "prix_ht": 200,
+          "poid": "1.100",
+          "transport": 6
+        },
+        {
+          "ID": 66,
+          "disponibilite": "En Stock",
+          "taille": "30(200)",
+          "couleur": "BLEU NUIT",
+          "prix_ht": 200,
+          "poid": "1.100",
+          "transport": 6
+        }
+      ]
+    },
+    {
+      "ref": "R_420128",
+      "nom": "ETUI",
+      "description": "ETUI DOUBLE COTON NOIR",
+      "type": "ETUIS",
+      "images": [
+        "420128.jpg"
+      ],
+      "tailles": [
+        "1.50M"
+      ],
+      "couleurs": [
+        "NOIR"
+      ],
+      "disponibilites": [
+        {
+          "ID": 78,
+          "disponibilite": "En Stock",
+          "taille": "1.50M",
+          "couleur": "NOIR",
+          "prix_ht": 13.33,
+          "poid": "0.200",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "AR_420136",
+      "nom": "JYO",
+      "description": "JYO BATON EN BOIS DUR CHENE BLANC JAPON (600gr)",
+      "type": "JYO",
+      "images": [
+        "420136.jpg"
+      ],
+      "tailles": [
+        "1.40M"
+      ],
+      "couleurs": [
+        "BOIS BLANC"
+      ],
+      "disponibilites": [
+        {
+          "ID": 70,
+          "disponibilite": "En Stock",
+          "taille": "1.40M",
+          "couleur": "BOIS BLANC",
+          "prix_ht": 49.16,
+          "poid": "0.700",
+          "transport": 10
+        }
+      ]
+    },
+    {
+      "ref": "AR_420114",
+      "nom": "BOKKEN",
+      "description": "BOKKEN ADULTE BOIS ROUGE TAIWAN(650gr)",
+      "type": "BOKKEN",
+      "images": [
+        "420114.jpg"
+      ],
+      "tailles": [
+        "102CM"
+      ],
+      "couleurs": [
+        "BOIS ROUGE"
+      ],
+      "disponibilites": [
+        {
+          "ID": 80,
+          "disponibilite": "En Stock",
+          "taille": "102CM",
+          "couleur": "BOIS ROUGE",
+          "prix_ht": 10,
+          "poid": "0.600",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "TA_420108",
+      "nom": "TANTO",
+      "description": "TANTO BOIS ROUGE SELF DEFENSE",
+      "type": "TANTO",
+      "images": [
+        "420108.jpg"
+      ],
+      "tailles": [
+        "20CM"
+      ],
+      "couleurs": [
+        "BOIS ROUGE"
+      ],
+      "disponibilites": [
+        {
+          "ID": 76,
+          "disponibilite": "En Stock",
+          "taille": "20CM",
+          "couleur": "BOIS ROUGE",
+          "prix_ht": 5,
+          "poid": "0.300",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "AR_420145",
+      "nom": "BO ",
+      "description": "BO BOIS BLANC JAPON (900gr)",
+      "type": "BATONS LONG",
+      "images": [
+        "420113.jpg"
+      ],
+      "tailles": [
+        "1.80M"
+      ],
+      "couleurs": [
+        "BOIS BLANC"
+      ],
+      "disponibilites": [
+        {
+          "ID": 67,
+          "disponibilite": "En Stock",
+          "taille": "1.80M",
+          "couleur": "BOIS BLANC",
+          "prix_ht": 81.66,
+          "poid": "1.500",
+          "transport": 12
+        }
+      ]
+    },
+    {
+      "ref": "AR_420115",
+      "nom": "BOKKEN ENFANT",
+      "description": "BOKKEN ENFANT BOIS ROUGE TAIWAN(500gr)",
+      "type": "BOKKEN ENFANT",
+      "images": [
+        "420115.jpg"
+      ],
+      "tailles": [
+        "90CM"
+      ],
+      "couleurs": [
+        "BOIS ROUGE"
+      ],
+      "disponibilites": [
+        {
+          "ID": 82,
+          "disponibilite": "En Stock",
+          "taille": "90CM",
+          "couleur": "BOIS ROUGE",
+          "prix_ht": 9.16,
+          "poid": "0.500",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "TA_420111",
+      "nom": "TANTO",
+      "description": "TANTO CAOUTCHOUC SELF DEFENSE",
+      "type": "TANTO",
+      "images": [
+        "420111.jpg"
+      ],
+      "tailles": [
+        "20CM"
+      ],
+      "couleurs": [
+        "NOIR/GRIS"
+      ],
+      "disponibilites": [
+        {
+          "ID": 77,
+          "disponibilite": "En Stock",
+          "taille": "20CM",
+          "couleur": "NOIR/GRIS",
+          "prix_ht": 4.16,
+          "poid": "0.300",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "AR_420146",
+      "nom": "BO",
+      "description": "BO BOIS ROUGE TAIWAN (900gr)",
+      "type": "BATONS LONG",
+      "images": [
+        "420146.jpg"
+      ],
+      "tailles": [
+        "1.80M"
+      ],
+      "couleurs": [
+        "BOIS ROUGE"
+      ],
+      "disponibilites": [
+        {
+          "ID": 69,
+          "disponibilite": "En Stock",
+          "taille": "1.80M",
+          "couleur": "BOIS ROUGE",
+          "prix_ht": 19.23,
+          "poid": "1",
+          "transport": 12
+        }
+      ]
+    }
+  ]
+}

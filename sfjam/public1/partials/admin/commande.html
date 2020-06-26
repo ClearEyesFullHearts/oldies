@@ -1,0 +1,105 @@
+﻿<h3>Numéro de commande : {{order_num}}</h3>
+<div class="container-fluid">
+    <form>
+
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm-12">
+                    <label>Etat de la commande</label>&nbsp;&nbsp;
+                    <input type="radio" ng-model="state_value" ng-change="changeState(state_value)" value="1">  En Préparation
+                    <input type="radio" ng-model="state_value" ng-change="changeState(state_value)" value="2">  En Livraison
+                    <input type="radio" ng-model="state_value" ng-change="changeState(state_value)" value="3">  Fermée
+                    <input type="radio" ng-model="state_value" ng-change="changeState(state_value)" value="4">  Annulée
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm-12">
+                    <label>Date de la commande</label>&nbsp;&nbsp;{{order_date}}
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Client</div>
+                        <div class="panel-body panelBodyHeightAdmin">
+                            <div class="col-md-12">
+                                <h5 ng-bind-html="trustHTML(identity)"></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Adresse de livraison</div>
+                        <div class="panel-body panelBodyHeightAdmin">
+                            <div class="col-md-12">
+                                <h5 ng-bind-html="trustHTML(adress)"></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm-12">
+                    <label>Détail des articles commandés : </label>
+                    <table class="table">
+                        <tr>
+                            <th>Catégorie</th>
+                            <th>Quantité</th>
+                            <th>Référence</th>
+                            <th>Taille</th>
+                            <th>Couleur</th>
+                            <th>Nom</th>
+                            <th>Prix Unitaire</th>
+                            <th>Prix HT</th>
+                        </tr>
+                        <tr ng-repeat="obj in caddie">
+                            <td class="vert-align"><h5>{{obj.item.category}}</h5></td>
+                            <td class="vert-align"><h5>{{obj.item.quantity}}</h5></td>
+                            <td class="vert-align"><h5>{{obj.item.ref}}</h5></td>
+                            <td class="vert-align"><h5>{{obj.item.taille}}</h5></td>
+                            <td class="vert-align"><h5>{{obj.item.couleur}}</h5></td>
+                            <td class="vert-align"><h5>{{obj.item.nom}}</h5></td>
+                            <td class="vert-align"><h5>{{obj.item.prix_ht}}</h5></td>
+                            <td class="vert-align"><h5>{{obj.item.prix_ht * obj.item.quantity}}</h5></td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm-12">
+                    <table class="table">
+                        <tr>
+                            <td>Total HT</td>
+                            <td align="right">{{amount - (tax + weight_add)}}</td>
+                        </tr>
+                        <tr>
+                            <td>TVA (20%)</td>
+                            <td align="right">{{tax}}</td>
+                        </tr>
+                        <tr>
+                            <td>Frais de port</td>
+                            <td align="right">{{weight_add}}</td>
+                        </tr>
+                        <tr>
+                            <td>Facturation</td>
+                            <td align="right">{{amount}}</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </form>
+</div>

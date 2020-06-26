@@ -1,0 +1,58 @@
+﻿<div class="collapse navbar-collapse" role="navigation">
+    <ul class="nav navbar-nav">
+
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" role="button" data-toggle="dropdown">Accueil<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li ng-repeat="data1 in presentationData">
+                    <a href="#/{{data1.name}}" ng-click="onClickPresentation(data1.name)">{{data1.name}}</a>
+                </li>
+
+            </ul>
+        </li>
+
+        <!---->
+        <li class="dropdown">
+            <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Boutique<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li ng-repeat="data2 in boutiqueData">
+                    <a href="#/Boutique/{{data2.name}}" ng-click="onClickBoutique(data2.name)">{{data2.name}}</a>
+                </li>
+
+            </ul>
+        </li>
+
+        <li class="dropdown">
+            <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Magasins<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li ng-repeat="data3 in magasinsData">
+                    <a href="#/{{data3.name}}" ng-click="onClickMagasins(data3.name)">{{data3.name}}</a>
+                </li>
+
+            </ul>
+        </li>
+
+
+    </ul>
+    <!--<ul class="nav navbar-nav navbar-right">
+        <li><a href="" id="caddieNotificationBarNav" role="button" ng-click="open('partials/modals/modalCaddie.html', 'modalFromCaddie')" ng-show="caddieNbrItemNavBar > 0" popover-trigger="show" popover-placement="bottom" popover="un objet à été ajouté a votre panier"><span class="glyphicon glyphicon-shopping-cart"><span class="badge">{{caddieNbrItemNavBar}}</span></span></a> </li>
+        <li><a href="" role="button" ng-click="open('partials/modals/modalContact.html', 'modalFromContactCtrl')">Contact</a> </li>
+        <li><a href="" role="button" ng-click="open('partials/modals/modalCompte.html', 'modalFromCompte')">Mon compte</a> </li>
+    </ul>-->
+
+    <ul class="nav navbar-nav navbar-right">
+        <!--<li><a href="" role="button" ng-click="open('partials/modals/modalCaddie.html', 'modalFromCaddie')" class="visible-lg visible-md"><span class="glyphicon glyphicon-shopping-cart"><span class="badge pull-right">{{caddieNbrItemNavBar}}</span></span></a> </li>-->
+
+        <li popover-trigger="show" popover-placement="bottom" popover="un objet à été ajouté a votre panier"><a href="" id="caddieNotificationBarNav" role="button" ng-click="open('partials/modals/modalCaddie.html', 'modalFromCaddie')" ng-show="caddieNbrItemNavBar > 0"><span class="glyphicon glyphicon-shopping-cart"><span class="badge">{{caddieNbrItemNavBar}}</span></span></a> </li>
+        <li><a href="" role="button" ng-click="open('partials/modals/modalContact.html', 'modalFromContactCtrl')">Contact</a> </li>
+        <li><a href="" role="button" ng-click="open('partials/modals/modalCompte.html', 'modalFromCompte')" ng-show="!isUserConnected">Mon compte</a> </li>
+        <li class="dropdown">
+            <a href="" role="button" class="dropdown-toggle" data-toggle="dropdown" ng-show="isUserConnected"><span class="glyphicon glyphicon-user"></span> Bienvenue {{user.Prenom2}}<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li><a href="#/Profil">Profil</a></li>
+                <li><a href="#/Deconnexion" ng-click="onLogOut()">Deconnexion</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+

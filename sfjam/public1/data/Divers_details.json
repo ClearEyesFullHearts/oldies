@@ -1,0 +1,342 @@
+{
+  "articles": [
+    {
+      "ref": "AD_310260R",
+      "nom": "SAC DE SPORT ",
+      "description": "NOUVEAU SAC DE SPORT GRAND MODEL RENFORCE PVC (option sac à dos)",
+      "type": "SACS",
+      "images": [
+        "310260.jpg"
+      ],
+      "tailles": [
+        "75x35x35cm"
+      ],
+      "couleurs": [
+        "NOIR"
+      ],
+      "disponibilites": [
+        {
+          "ID": 41,
+          "disponibilite": "En Stock",
+          "taille": "75x35x35cm",
+          "couleur": "NOIR",
+          "prix_ht": 45.83,
+          "poid": "0.700",
+          "transport": 6
+        }
+      ]
+    },
+    {
+      "ref": "DI_125271",
+      "nom": "STATUETTE KARATE",
+      "description": "STATUETTE TERRE CUITE (x 6)",
+      "type": "KARATE",
+      "images": [
+        "125270.jpg"
+      ],
+      "tailles": [
+        "hx5cm"
+      ],
+      "couleurs": [
+        ""
+      ],
+      "disponibilites": [
+        {
+          "ID": 28,
+          "disponibilite": "En Stock",
+          "taille": "hx5cm",
+          "couleur": "",
+          "prix_ht": 16.66,
+          "poid": "0.300",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "AD_310550",
+      "nom": "SAC A DOS JUDO",
+      "description": "SAC A DOS GRAIN DE RIZ COTON LOGO JUDO",
+      "type": "SACS",
+      "images": [
+        "310550.jpg"
+      ],
+      "tailles": [
+        "H38cmxL26"
+      ],
+      "couleurs": [
+        "ECRU"
+      ],
+      "disponibilites": [
+        {
+          "ID": 7,
+          "disponibilite": "En Stock",
+          "taille": "H38cmxL26",
+          "couleur": "ECRU",
+          "prix_ht": 10.83,
+          "poid": "0.200",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "DI_125285",
+      "nom": "STATUETTE DE KENDO",
+      "description": "STATUETTE TERRE CUITE",
+      "type": "KENDO",
+      "images": [
+        "125285.jpg"
+      ],
+      "tailles": [
+        "Hx15cm"
+      ],
+      "couleurs": [
+        "BLANC/BLEU/NOIR"
+      ],
+      "disponibilites": [
+        {
+          "ID": 26,
+          "disponibilite": "En Stock",
+          "taille": "Hx15cm",
+          "couleur": "BLANC/BLEU/NOIR",
+          "prix_ht": 10.83,
+          "poid": "0.300",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "AC_310986",
+      "nom": "ASSOUPLISSEUR MECANIQUE",
+      "description": "ASSOUPLISSEUR DE JAMBES MECANIQUE A VOLANT(charge maxi 100kg)",
+      "type": "ASSOUPLISSEUR",
+      "images": [
+        "310986.jpg"
+      ],
+      "tailles": [
+        "1M50(plié"
+      ],
+      "couleurs": [
+        "NOIR"
+      ],
+      "disponibilites": [
+        {
+          "ID": 2,
+          "disponibilite": "En Stock",
+          "taille": "1M50(plié",
+          "couleur": "NOIR",
+          "prix_ht": 165.83,
+          "poid": "25",
+          "transport": 20
+        }
+      ]
+    },
+    {
+      "ref": "AM_510820",
+      "nom": "GONG DECORATION",
+      "description": "GONG EN CUIVRE DIAMETRE 18CM",
+      "type": "GONGS",
+      "images": [
+        "510820.jpg"
+      ],
+      "tailles": [
+        "18cm"
+      ],
+      "couleurs": [
+        "CUIVRE"
+      ],
+      "disponibilites": [
+        {
+          "ID": 17,
+          "disponibilite": "En Stock",
+          "taille": "18cm",
+          "couleur": "CUIVRE",
+          "prix_ht": 37.5,
+          "poid": "0.800",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "LI_510602",
+      "nom": "POSTER JIGORO KANO",
+      "description": "POSTER JIGORO KANO ",
+      "type": "POSTER",
+      "images": [
+        "510602.jpg"
+      ],
+      "tailles": [
+        "65cm x 45c"
+      ],
+      "couleurs": [
+        "NOIR-BLANC"
+      ],
+      "disponibilites": [
+        {
+          "ID": 43,
+          "disponibilite": "En Stock",
+          "taille": "65cm x 45c",
+          "couleur": "NOIR-BLANC",
+          "prix_ht": 6.66,
+          "poid": "0.150",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "AC_310987",
+      "nom": "ASSOUPLISSEUR METAL",
+      "description": "ASSOUPLISSEUR DE JAMBES MANUEL EN METAL",
+      "type": "ASSOUPLISSEUR",
+      "images": [
+        "310987.jpg"
+      ],
+      "tailles": [
+        "1m(plié)"
+      ],
+      "couleurs": [
+        "BLEU METAL"
+      ],
+      "disponibilites": [
+        {
+          "ID": 3,
+          "disponibilite": "En Stock",
+          "taille": "1m(plié)",
+          "couleur": "BLEU METAL",
+          "prix_ht": 26.66,
+          "poid": "1.500",
+          "transport": 8
+        }
+      ]
+    },
+    {
+      "ref": "AM_510821",
+      "nom": "GONG DECORATION ",
+      "description": "GONG EN CUIVRE DIAMETRE 22CM",
+      "type": "GONGS",
+      "images": [
+        "510821.jpg"
+      ],
+      "tailles": [
+        "22cm "
+      ],
+      "couleurs": [
+        "CUIVRE"
+      ],
+      "disponibilites": [
+        {
+          "ID": 18,
+          "disponibilite": "En Stock",
+          "taille": "22cm ",
+          "couleur": "CUIVRE",
+          "prix_ht": 45.83,
+          "poid": "1.000",
+          "transport": 6
+        }
+      ]
+    },
+    {
+      "ref": "LI_510603",
+      "nom": "POSTER JIGORO KANO COULEUR",
+      "description": "POSTER COULEUR JIGORO KANO",
+      "type": "JIGORO KANO",
+      "images": [
+        "510603.jpg"
+      ],
+      "tailles": [
+        "65cmx45cm"
+      ],
+      "couleurs": [
+        ""
+      ],
+      "disponibilites": [
+        {
+          "ID": 33,
+          "disponibilite": "En Stock",
+          "taille": "65cmx45cm",
+          "couleur": "",
+          "prix_ht": 8.33,
+          "poid": "0.100",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "AD_310250",
+      "nom": "SAC JUDO",
+      "description": "SAC GRAIN DE RIZ COTON MOYEN MODELE (lg54cm x hauteur30cm)",
+      "type": "SACS",
+      "images": [
+        "310250.jpg"
+      ],
+      "tailles": [
+        "L50x28x28c"
+      ],
+      "couleurs": [
+        "NOIR-BLANC"
+      ],
+      "disponibilites": [
+        {
+          "ID": 34,
+          "disponibilite": "En Stock",
+          "taille": "L50x28x28c",
+          "couleur": "NOIR-BLANC",
+          "prix_ht": 16.66,
+          "poid": "0.400",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "DI_125270",
+      "nom": "STATUETTE KARATE",
+      "description": "STATUETTE TERRE CUITE (x 6)",
+      "type": "KARATE",
+      "images": [
+        "125270v.jpg"
+      ],
+      "tailles": [
+        "hx5cm"
+      ],
+      "couleurs": [
+        ""
+      ],
+      "disponibilites": [
+        {
+          "ID": 38,
+          "disponibilite": "En Stock",
+          "taille": "hx5cm",
+          "couleur": "",
+          "prix_ht": 16.66,
+          "poid": "0.300",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "AD_310260",
+      "nom": "SAC DE SPORT",
+      "description": "SAC DE SPORT MOYEN MODEL RENFORCE PVC(option sac à dos)",
+      "type": "SACS",
+      "images": [
+        "310455.jpg"
+      ],
+      "tailles": [
+        "60X30X28cm"
+      ],
+      "couleurs": [
+        "NOIR"
+      ],
+      "disponibilites": [
+        {
+          "ID": 44,
+          "disponibilite": "En Stock",
+          "taille": "60X30X28cm",
+          "couleur": "NOIR",
+          "prix_ht": 37.5,
+          "poid": "0.550",
+          "transport": 6
+        }
+      ]
+    }
+  ]
+}

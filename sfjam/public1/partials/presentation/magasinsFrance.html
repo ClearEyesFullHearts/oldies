@@ -1,0 +1,49 @@
+﻿<div class="row voffset3">
+    <div class="col-md-8 col-md-offset-2">
+        <h2>La SFJAM en France</h2>
+        <hr class="divider"></hr>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <!--<div class="col-md-3 "></div>-->
+        <div class="col-md-8 col-md-offset-3">
+            <div class="well">
+                <h3>SFJAM NORIS FRANCE - Magasin - siège social</h3>
+                <address>
+                    11, rue de la pompe<br>
+                    95801 CERGY PONTOISE CEDEX<br>
+                    <span class="glyphicon glyphicon-earphone"></span> 01 30 30 17 22<br>
+                    <span class="glyphicon glyphicon-print"></span> 01 30 30 23 27<br>
+                    <span class="glyphicon glyphicon-envelope"></span> infos@noris-sfjam.com
+                </address>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 col-md-offset-3">
+            <div class="voffset2" ng-repeat="data in stores">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <span class="glyphicon glyphicon-star"></span> {{data.region}} <span class="pull-right">{{data.departement}}</span>
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-xs-12"><h5>{{data.nom}}</h5></div>
+                            <div class="col-xs-12"><h6><span class="glyphicon glyphicon-home"></span> {{data.adresse}}</h6></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6"><h6><span class="glyphicon glyphicon-envelope"></span> {{data.email}}</h6></div>
+                            <div class="col-xs-6"><h6><span class="glyphicon glyphicon-eye-open"></span> {{data.site}}</h6></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6"><h6><span class="glyphicon glyphicon-earphone"></span> {{data.telephone}}</h6></div>
+                            <div class="col-xs-6"><h6><span class="glyphicon glyphicon-print"></span> {{data.fax}}</h6></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,124 @@
+﻿<label for="contact_nom">Catégorie : {{category}}</label>
+<h3>Détails de la référence : {{ref}} </h3>
+<div class="container-fluid">
+    <form>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm-12">
+                    <button type="submit" class="btn btn-danger" ng-click="removeReference(ref)" ng-confirm-click="Voulez vous vraiment détruire cette référence définitivement?">Enlever la référence</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm-12">
+                    <label for="email">Nom</label>
+                    <input type="text" class="form-control" id="nom" name="nom" placeholder="Entrez un nom" ng-model="nom" required>
+                </div>
+            </div>
+        </div>
+
+        <!--PASS-->
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm-12">
+                    <label for="contact_pass">Description</label>
+                    <input type="text" class="form-control" id="description" name="description" placeholder="Entrez une description" ng-model="description">
+                </div>
+
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm-12">
+                    <label for="contact_pass2">Type</label>
+                    <input type="text" class="form-control" id="type" name="type" placeholder="Entrez un type" required ng-model="type">
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-success" ng-click="updateReference(ref, nom, description, type)">Enregistrer les modifications</button>
+            
+        </div>
+        <hr>
+
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Tailles disponibles</div>
+                        <div class="panel-body panelBodyHeightAdmin">
+                            <div class="col-md-12">
+                                <label for="tailles"><button type="submit" class="btn btn-success" ng-click="onAddSize()">Ajouter une taille</button></label>
+                                <table class="table">
+                                    <tr>
+                                        <th>Taille</th>
+                                        <th>Prix</th>
+                                        <th>Poid</th>
+                                        <th>Transport</th>
+                                        <th>Enlever</th>
+                                    </tr>
+                                    <tr ng-repeat="obj in sizes">
+                                        <td class="vert-align"><h5>{{obj.taille}}</h5></td>
+                                        <td class="vert-align"><h5>{{obj.prix_ht}}</h5></td>
+                                        <td class="vert-align"><h5>{{obj.poid}}</h5></td>
+                                        <td class="vert-align"><h5>{{obj.transport}}</h5></td>
+                                        <td class="vert-align"><button type="submit" class="btn btn-danger" ng-click="removeSize(obj)" ng-confirm-click="Voulez vous vraiment détruire cette taille définitivement?">X</button></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Couleurs disponibles</div>
+                        <div class="panel-body panelBodyHeightAdmin">
+                            <div class="col-md-12">
+                                <label for="couleurs"><button type="submit" class="btn btn-success" ng-click="onAddColor()">Ajouter une couleur</button></label>
+                                <table class="table">
+                                    <tr>
+                                        <th>Couleur</th>
+                                        <th>Image</th>
+                                        <th>Enlever</th>
+                                    </tr>
+                                    <tr ng-repeat="obj in colors">
+                                        <td class="vert-align"><h5>{{obj.couleur}}</h5></td>
+                                        <td class="vert-align"><h5>{{obj.image}}</h5></td>
+                                        <td class="vert-align"><button type="submit" class="btn btn-danger" ng-click="removeCouleur(obj)" ng-confirm-click="Voulez vous vraiment détruire cette couleur définitivement?">X</button></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm-12">
+                    <label for="couleurs">Stock : </label>
+                    <table class="table">
+                        <tr>
+                            <th><a href="" ng-click="sorting = 'taille'; reverse=!reverse">Taille</a></th>
+                            <th><a href="" ng-click="sorting = 'couleur'; reverse=!reverse">Couleur</a></th>
+                            <th><a href="" ng-click="sorting = 'disponibilite'; reverse=!reverse">Est en stock</a></th>
+                        </tr>
+                        <tr ng-repeat="obj in disponibilites | orderBy:sorting:reverse">
+                            <td class="vert-align"><h5>{{obj.taille}}</h5></td>
+                            <td class="vert-align"><h5>{{obj.couleur}}</h5></td>
+                            <td class="vert-align">
+                                <input type="radio" ng-model="obj.disponibilite" ng-change="changeStock(obj)" value="En Stock">  OUI&nbsp;&nbsp;
+                                <input type="radio" ng-model="obj.disponibilite" ng-change="changeStock(obj)" value="RUPTURE DE STOCK">  NON
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+
+</form>
+</div>

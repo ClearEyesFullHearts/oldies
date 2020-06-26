@@ -1,0 +1,102 @@
+﻿<h3>Fiche Client : {{user.Nom2}} {{user.Prenom2}}</h3>
+
+<div class="container-fluid">
+
+    <div class="row">
+        <!--GENERAL INFO-->
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">Informations generales</div>
+                <div class="panel-body">
+                    <div class="col-md-12">
+                        <address>
+                            <strong>{{user.Nom2}} {{user.Prenom2}}</strong><br>
+                            id : {{user.ID}}<br>
+                            email : {{user.Mail}}<br>
+                            tel : {{user.Tel}}<br>
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <h5>Effacer le client !</h5>
+            <button type="submit" class="btn btn-danger" ng-click="removeUser(user.ID)" ng-confirm-click="Voulez vous vraiment détruire ce client ?">Effacer</button>
+        </div>
+    </div>
+
+    
+    <div class="row">
+        <!--LIVRAISON-->
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">Adresse livraison</div>
+                <div class="panel-body">
+                    <div class="col-md-12">
+                        <address>
+                            <strong>{{user.Nom2}} {{user.Prenom2}}</strong><br>
+                            {{user.Adresse2}}<br>
+                            {{user.CP2}}, {{user.Ville2}}<br>
+                            {{user.Pays2}}<br>
+                        </address>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!--FACTURATION-->
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">Adresse facturation</div>
+                <div class="panel-body">
+                    <div class="col-md-12">
+                        <address>
+                            <strong>{{user.Nom}} {{user.Prenom}}</strong><br>
+                            {{user.Adresse}}<br>
+                            {{user.CP}}, {{user.Ville}}<br>
+                            {{user.Pays}}<br>
+                        </address>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default ">
+                <div class="panel-heading">Commandes en cours</div>
+                <div class="panel-body">
+                    <div ng-show="!isUserHasCommands">
+                        <h5>Pas de commande en cours</h5>
+                    </div>
+
+                    <div ng-show="isUserHasCommands">
+                        <h6>Cliquez sur les elements ci-dessous pour voir les details de votre commande.</h6>
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <tr>
+
+                                    <th>Date</th>
+                                    <th>Etat</th>
+
+                                </tr>
+
+                                <tr ng-repeat="obj in commands | filter:myFilter" ng-click="onTableClick(obj)">
+                                    <td class="vert-align"><h5></h5>{{formatDateForBilling(obj.order_date)}}</td>
+                                    <td class="vert-align"><h5>{{translateState(obj)}}</h5></td>
+
+                                </tr>
+                            </table>
+                        </div>
+                        <!--</div>-->
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

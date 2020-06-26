@@ -1,0 +1,13 @@
+﻿
+<!---->
+<div carousel interval="-1">
+    <div slide ng-repeat="slide in slides" active="slide.active" >
+        <!--<img ng-src="{{slide.image}}" style="margin: auto;">-->
+        <img ng-src="{{slide.image}}" class="item">
+        <div class="carousel-caption">
+            <h4>Slide {{$index}}</h4>
+            <p>{{slide.text}}</p>
+        </div>
+    </div>
+</div>
+

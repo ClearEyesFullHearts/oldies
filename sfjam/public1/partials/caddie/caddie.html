@@ -1,0 +1,29 @@
+﻿<div class="col-md-3" id="caddie">
+    <!--  data-spy="affix" data-offset-top="670" -->
+    <h4><span class="glyphicon glyphicon-shopping-cart"></span> Votre panier</h4>
+    <hr class="divider"></hr>
+    <div ng-hide="caddie.length == 0">
+
+        <table class="table">
+            <tr ng-repeat="obj in caddie">
+                <td class="vert-align"><h5>{{obj.item.quantity}}</h5></td>
+                <td class="vert-align"><h5>{{obj.item.nom}}</h5></td>
+                <td class="vert-align"><h5>{{obj.item.quantity * obj.item.prix_ht | number}}</h5></td>
+                <td class="vert-align">
+                    <button id="buttonCaddie" type="button" class="btn btn-default btn-xs" ng-click="removeItem($index)">
+                        <span class="glyphicon glyphicon-remove"></span>
+                    </button>
+                </td>
+            </tr>
+        </table>
+
+        <p class="total"><strong>Total HT:</strong> <span class="amount">{{ caddieValue  | number }} &euro;</span></p>
+        <p class="total"><strong>Total TTC:</strong> <span class="amount">{{ caddieTTC  | number }} &euro;</span></p>
+    </div>
+    <div ng-show="caddie.length == 0">
+        <h5>Votre panier est vide.</h5>
+    </div>
+    <p class="buttons">
+        <button type="submit" class="btn btn-success" ng-click="open('partials/modals/modalCaddie.html', 'modalFromCaddie')">Ouvrir</button>
+    </p>
+</div>

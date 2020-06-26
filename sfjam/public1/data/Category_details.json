@@ -1,0 +1,15 @@
+﻿{
+	"categories": [
+        { "id":1, "nom":"Aikido", "value":"cat_aikido", "soustitre":"Nos Articles Aikido", "content":"Importation japon et taiwan." },
+        { "id":2, "nom":"Boxe", "value":"cat_boxe", "soustitre":"Nos Articles toutes boxes", "content":"Nouvelle gamme WBE et équipements toutes boxes." },
+        { "id":3, "nom":"Divers", "value":"cat_divers", "soustitre":"Nos Equipements divers", "content":"Produits diverses liéés aux différents arts martiaux selon les besoins." },
+        { "id":4, "nom":"Judo", "value":"cat_judo", "soustitre":"Incoutournable Judo", "content":"La marque White Tiger Noris élaborée depuis plus de 30 ans à été concue spécialement pour le judo en vue de correspondre à tous les pratiquants." },
+        { "id":5, "nom":"Karate", "value":"cat_karate", "soustitre":"Karaté, tous nos articles", "content":"Noris FFKAMA partenaire et fournisseur officiel de la Fédération Francaise de Karaté vous proposent ces kimonos et protections, ainsi que KAITEN, marque reconnu mondialement pour sa qualité et son tres large choix de karaté gi." },
+        { "id":6, "nom":"Kendo", "value":"cat_kendo", "soustitre":"Découvrez nos articles pour le Kendo", "content":"Armes et équipements." },
+        { "id":7, "nom":"Kung-Fu", "value":"cat_kungfu", "soustitre":"Notre gamme Kung Fu", "content":"Gamme White Tiger Noris armes et protections." },
+        { "id":8, "nom":"Sabre", "value":"cat_sabre", "soustitre":"", "content":"" },
+        { "id":9, "nom":"Taekwondo", "value":"cat_taekwondo", "soustitre":"Notre gamme Taekwondo", "content":"Gamme Coréene AYABUZA spécialement concue pour le Taekwendo." },
+        { "id":10, "nom":"Textiles", "value":"cat_textiles", "soustitre":"Tous nos textiles, sport et active wear", "content":"Nouvelle gamme de vetements SFJAM NORIS et Canterburry." },
+        { "id":11, "nom":"Yoseikan", "value":"cat_yoseikan", "soustitre":"Notre gamme Yoseikan", "content":"Matériel homologué par la Fédération Mondiale de Yoseikan Budo (Yoseikan World Federation) crée par le Maitre Hiroo Mochizuki." }
+    ]
+}

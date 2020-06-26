@@ -1,0 +1,1678 @@
+{
+  "articles": [
+    {
+      "ref": "AJ_330015",
+      "nom": "CASQUE COMBAT INTEGRAL ",
+      "description": "CASQUE A BULLE AVEC MASQUE DE PROTECTION  ENTRAINEMENT ET COMPETITION",
+      "type": "PROTECTIONS",
+      "images": [
+        "330015b.jpg",
+        "330015.jpg"
+      ],
+      "tailles": [
+        "SMALL",
+        "MOYEN",
+        "LARGE"
+      ],
+      "couleurs": [
+        "BLANC",
+        "NOIR"
+      ],
+      "disponibilites": [
+        {
+          "ID": 75,
+          "disponibilite": "En Stock",
+          "taille": "SMALL",
+          "couleur": "BLANC",
+          "prix_ht": 49.16,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 76,
+          "disponibilite": "En Stock",
+          "taille": "MOYEN",
+          "couleur": "BLANC",
+          "prix_ht": 49.16,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 77,
+          "disponibilite": "En Stock",
+          "taille": "LARGE",
+          "couleur": "BLANC",
+          "prix_ht": 49.16,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 175,
+          "disponibilite": "En Stock",
+          "taille": "SMALL",
+          "couleur": "NOIR",
+          "prix_ht": 49.16,
+          "poid": "0.400",
+          "transport": 4
+        },
+        {
+          "ID": 176,
+          "disponibilite": "En Stock",
+          "taille": "MOYEN",
+          "couleur": "NOIR",
+          "prix_ht": 49.16,
+          "poid": "0.400",
+          "transport": 4
+        },
+        {
+          "ID": 177,
+          "disponibilite": "En Stock",
+          "taille": "LARGE",
+          "couleur": "NOIR",
+          "prix_ht": 49.16,
+          "poid": "0.400",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "NU_420152",
+      "nom": "NUNCHAKU BOIS ",
+      "description": "NUNCHAKU BOIS GRIS AVEC LOGO DRAGON",
+      "type": "NUNCHAKUS",
+      "images": [
+        "420152.jpg"
+      ],
+      "tailles": [
+        "32CM"
+      ],
+      "couleurs": [
+        "GRIS"
+      ],
+      "disponibilites": [
+        {
+          "ID": 218,
+          "disponibilite": "En Stock",
+          "taille": "32CM",
+          "couleur": "GRIS",
+          "prix_ht": 10,
+          "poid": "0.450",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "AF_128100",
+      "nom": "KIMONO KUNG-FU PAREMENT BLANC",
+      "description": "TENUE TRADITIONNELLE NOIRE PAREMENT BLANC FERMETURE PAR BRANDEBOURGS ET PANTALON 100%COTON ",
+      "type": "WHITE TIGER",
+      "images": [
+        "128100.jpg"
+      ],
+      "tailles": [
+        "120",
+        "130",
+        "140",
+        "150",
+        "160",
+        "170",
+        "180",
+        "190",
+        "200"
+      ],
+      "couleurs": [
+        "NOIR",
+        "NOIR "
+      ],
+      "disponibilites": [
+        {
+          "ID": 156,
+          "disponibilite": "En Stock",
+          "taille": "120",
+          "couleur": "NOIR",
+          "prix_ht": 19.16,
+          "poid": "0.600",
+          "transport": 5
+        },
+        {
+          "ID": 157,
+          "disponibilite": "En Stock",
+          "taille": "130",
+          "couleur": "NOIR",
+          "prix_ht": 20,
+          "poid": "0.700",
+          "transport": 5
+        },
+        {
+          "ID": 158,
+          "disponibilite": "En Stock",
+          "taille": "140",
+          "couleur": "NOIR",
+          "prix_ht": 20.83,
+          "poid": "0.800",
+          "transport": 5
+        },
+        {
+          "ID": 159,
+          "disponibilite": "En Stock",
+          "taille": "150",
+          "couleur": "NOIR",
+          "prix_ht": 22.5,
+          "poid": "0.900",
+          "transport": 5
+        },
+        {
+          "ID": 160,
+          "disponibilite": "En Stock",
+          "taille": "160",
+          "couleur": "NOIR",
+          "prix_ht": 23.33,
+          "poid": "1.000",
+          "transport": 6
+        },
+        {
+          "ID": 161,
+          "disponibilite": "En Stock",
+          "taille": "170",
+          "couleur": "NOIR",
+          "prix_ht": 25,
+          "poid": "1.100",
+          "transport": 6
+        },
+        {
+          "ID": 162,
+          "disponibilite": "En Stock",
+          "taille": "180",
+          "couleur": "NOIR",
+          "prix_ht": 26.66,
+          "poid": "1.200",
+          "transport": 6
+        },
+        {
+          "ID": 163,
+          "disponibilite": "En Stock",
+          "taille": "190",
+          "couleur": "NOIR",
+          "prix_ht": 27.5,
+          "poid": "1.300",
+          "transport": 6
+        },
+        {
+          "ID": 164,
+          "disponibilite": "En Stock",
+          "taille": "200",
+          "couleur": "NOIR ",
+          "prix_ht": 29.16,
+          "poid": "1.400",
+          "transport": 6
+        }
+      ]
+    },
+    {
+      "ref": "AR_420144",
+      "nom": "SABRE KUNG-FU ALLUMINIUM",
+      "description": "SABRE KUNG FU CHINOIS TRADITIONNEL ",
+      "type": "ARMES",
+      "images": [
+        "420144.jpg"
+      ],
+      "tailles": [
+        "90CM"
+      ],
+      "couleurs": [
+        "ALU"
+      ],
+      "disponibilites": [
+        {
+          "ID": 63,
+          "disponibilite": "En Stock",
+          "taille": "90CM",
+          "couleur": "ALU",
+          "prix_ht": 54.16,
+          "poid": "1.000",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "NU_420206",
+      "nom": "NUNCHAKU BOIS ",
+      "description": "NUNCHAKU BOIS AVEC LOGO DRAGON",
+      "type": "NUNCHAKUS",
+      "images": [
+        "420206.jpg"
+      ],
+      "tailles": [
+        "32CM"
+      ],
+      "couleurs": [
+        "BOIS/VERT"
+      ],
+      "disponibilites": [
+        {
+          "ID": 219,
+          "disponibilite": "En Stock",
+          "taille": "32CM",
+          "couleur": "BOIS/VERT",
+          "prix_ht": 10,
+          "poid": "0.450",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "AR_420120",
+      "nom": "TANTO CAOUTCHOUC",
+      "description": "TANTO CAOUTCHOUC TYPE POIGNARD CHASSE",
+      "type": "SELF",
+      "images": [
+        "420100.jpg"
+      ],
+      "tailles": [
+        "22cm"
+      ],
+      "couleurs": [
+        "GRIS"
+      ],
+      "disponibilites": [
+        {
+          "ID": 224,
+          "disponibilite": "En Stock",
+          "taille": "22cm",
+          "couleur": "GRIS",
+          "prix_ht": 4.16,
+          "poid": "0.450",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "AK_P002",
+      "nom": "PAO THAI",
+      "description": "NOUVEAU PAO THAI PRO NORIS WBE RENFORCE (vendu l'unité)MOYEN MODELE",
+      "type": "PAOS",
+      "images": [
+        "PA002.jpg"
+      ],
+      "tailles": [
+        "38x20x9cm"
+      ],
+      "couleurs": [
+        "ROUGE/NOIR"
+      ],
+      "disponibilites": [
+        {
+          "ID": 212,
+          "disponibilite": "En Stock",
+          "taille": "38x20x9cm",
+          "couleur": "ROUGE/NOIR",
+          "prix_ht": 23.33,
+          "poid": "0.800",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "NU_420153",
+      "nom": "NUNCKAKU BOIS",
+      "description": "NUNCHAKU BOIS ROUGE LOGO DRAGON",
+      "type": "NUNCHAKUS",
+      "images": [
+        "420153.jpg"
+      ],
+      "tailles": [
+        "32CM"
+      ],
+      "couleurs": [
+        "BOIS"
+      ],
+      "disponibilites": [
+        {
+          "ID": 217,
+          "disponibilite": "En Stock",
+          "taille": "32CM",
+          "couleur": "BOIS",
+          "prix_ht": 10,
+          "poid": "0.450",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "AF_128100",
+      "nom": "KIMONO KUNG-FU PAREMENT BLANC",
+      "description": "TENUE TRADITIONNELLE NOIRE PAREMENT BLANC FERMETURE PAR BRANDEBOURGS ET PANTALON 100%COTON ",
+      "type": "WHITE TIGER",
+      "images": [
+        "128100.jpg"
+      ],
+      "tailles": [
+        "120",
+        "130",
+        "140",
+        "150",
+        "160",
+        "170",
+        "180",
+        "190",
+        "200"
+      ],
+      "couleurs": [
+        "NOIR",
+        "NOIR "
+      ],
+      "disponibilites": [
+        {
+          "ID": 156,
+          "disponibilite": "En Stock",
+          "taille": "120",
+          "couleur": "NOIR",
+          "prix_ht": 19.16,
+          "poid": "0.600",
+          "transport": 5
+        },
+        {
+          "ID": 157,
+          "disponibilite": "En Stock",
+          "taille": "130",
+          "couleur": "NOIR",
+          "prix_ht": 20,
+          "poid": "0.700",
+          "transport": 5
+        },
+        {
+          "ID": 158,
+          "disponibilite": "En Stock",
+          "taille": "140",
+          "couleur": "NOIR",
+          "prix_ht": 20.83,
+          "poid": "0.800",
+          "transport": 5
+        },
+        {
+          "ID": 159,
+          "disponibilite": "En Stock",
+          "taille": "150",
+          "couleur": "NOIR",
+          "prix_ht": 22.5,
+          "poid": "0.900",
+          "transport": 5
+        },
+        {
+          "ID": 160,
+          "disponibilite": "En Stock",
+          "taille": "160",
+          "couleur": "NOIR",
+          "prix_ht": 23.33,
+          "poid": "1.000",
+          "transport": 6
+        },
+        {
+          "ID": 161,
+          "disponibilite": "En Stock",
+          "taille": "170",
+          "couleur": "NOIR",
+          "prix_ht": 25,
+          "poid": "1.100",
+          "transport": 6
+        },
+        {
+          "ID": 162,
+          "disponibilite": "En Stock",
+          "taille": "180",
+          "couleur": "NOIR",
+          "prix_ht": 26.66,
+          "poid": "1.200",
+          "transport": 6
+        },
+        {
+          "ID": 163,
+          "disponibilite": "En Stock",
+          "taille": "190",
+          "couleur": "NOIR",
+          "prix_ht": 27.5,
+          "poid": "1.300",
+          "transport": 6
+        },
+        {
+          "ID": 164,
+          "disponibilite": "En Stock",
+          "taille": "200",
+          "couleur": "NOIR ",
+          "prix_ht": 29.16,
+          "poid": "1.400",
+          "transport": 6
+        }
+      ]
+    },
+    {
+      "ref": "CE_240035",
+      "nom": "CEINTURE VIET VO DAO",
+      "description": "CEINTURE VIET VO DAO COTON NOIR LISERE ROUGE 100%COTON",
+      "type": "CEINTURES",
+      "images": [
+        "240035.jpg"
+      ],
+      "tailles": [
+        "260"
+      ],
+      "couleurs": [
+        "NOIRE-ROUGE"
+      ],
+      "disponibilites": [
+        {
+          "ID": 205,
+          "disponibilite": "En Stock",
+          "taille": "260",
+          "couleur": "NOIRE-ROUGE",
+          "prix_ht": 10,
+          "poid": "0.350",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "NU_420210",
+      "nom": "NUNCHAKU BOIS ",
+      "description": "NUNCHAKUS BOIS",
+      "type": "NUNCHAKUS",
+      "images": [
+        "420210"
+      ],
+      "tailles": [
+        "32CM"
+      ],
+      "couleurs": [
+        "BOIS"
+      ],
+      "disponibilites": [
+        {
+          "ID": 216,
+          "disponibilite": "En Stock",
+          "taille": "32CM",
+          "couleur": "BOIS",
+          "prix_ht": 10,
+          "poid": "0.450",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "AR_420134",
+      "nom": "SABRE COURT",
+      "description": "SABRE TRADITIONNEL PAPILLON ALUMINIUM(LA PAIRE)",
+      "type": "ARMES",
+      "images": [
+        "420134.jpg"
+      ],
+      "tailles": [
+        "30CM"
+      ],
+      "couleurs": [
+        "METAL"
+      ],
+      "disponibilites": [
+        {
+          "ID": 61,
+          "disponibilite": "En Stock",
+          "taille": "30CM",
+          "couleur": "METAL",
+          "prix_ht": 30.83,
+          "poid": "0.900",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "AK_PA01",
+      "nom": "PAO THAI",
+      "description": "NOUVEAU PAO THAI PRO NORIS WBE RENFORCE (vendu l'unité)MOYEN MODELE",
+      "type": "PAOS",
+      "images": [
+        "PA01.jpg"
+      ],
+      "tailles": [
+        "41x22x12cm"
+      ],
+      "couleurs": [
+        "ROUGE-NOIR"
+      ],
+      "disponibilites": [
+        {
+          "ID": 213,
+          "disponibilite": "En Stock",
+          "taille": "41x22x12cm",
+          "couleur": "ROUGE-NOIR",
+          "prix_ht": 29.16,
+          "poid": "0.900",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "NU_420159",
+      "nom": "NUNCHAKU BOIS 3 BRANCHES",
+      "description": "NUNCHAKU TRADITIONNEL BOIS ET CORDE",
+      "type": "NUNCHAKUS",
+      "images": [
+        "420159.jpg"
+      ],
+      "tailles": [
+        "30CMx3"
+      ],
+      "couleurs": [
+        "BOIS BLANC"
+      ],
+      "disponibilites": [
+        {
+          "ID": 84,
+          "disponibilite": "En Stock",
+          "taille": "30CMx3",
+          "couleur": "BOIS BLANC",
+          "prix_ht": 8.33,
+          "poid": "0.800",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "AF_128200",
+      "nom": "KIMONO KUNG-FU VESTE BLANCHE",
+      "description": "TENUE DE KUNG FU TRADITIONNELLE VESTE BLANCHE PANTALON NOIR FERMETURE PAR BRANDEBOURGS 100%COTON",
+      "type": "WHITE TIGER ",
+      "images": [
+        "128200.jpg"
+      ],
+      "tailles": [
+        "130",
+        "140",
+        "150",
+        "160",
+        "170",
+        "180",
+        "190",
+        "200"
+      ],
+      "couleurs": [
+        "BLANC"
+      ],
+      "disponibilites": [
+        {
+          "ID": 96,
+          "disponibilite": "En Stock",
+          "taille": "130",
+          "couleur": "BLANC",
+          "prix_ht": 20,
+          "poid": "0.700",
+          "transport": 5
+        },
+        {
+          "ID": 95,
+          "disponibilite": "En Stock",
+          "taille": "140",
+          "couleur": "BLANC",
+          "prix_ht": 20.83,
+          "poid": "0.800",
+          "transport": 5
+        },
+        {
+          "ID": 94,
+          "disponibilite": "En Stock",
+          "taille": "150",
+          "couleur": "BLANC",
+          "prix_ht": 22.5,
+          "poid": "0.900",
+          "transport": 5
+        },
+        {
+          "ID": 93,
+          "disponibilite": "En Stock",
+          "taille": "160",
+          "couleur": "BLANC",
+          "prix_ht": 24.16,
+          "poid": "1.000",
+          "transport": 6
+        },
+        {
+          "ID": 92,
+          "disponibilite": "En Stock",
+          "taille": "170",
+          "couleur": "BLANC",
+          "prix_ht": 26.66,
+          "poid": "1.100",
+          "transport": 6
+        },
+        {
+          "ID": 91,
+          "disponibilite": "En Stock",
+          "taille": "180",
+          "couleur": "BLANC",
+          "prix_ht": 27.5,
+          "poid": "1.200",
+          "transport": 6
+        },
+        {
+          "ID": 98,
+          "disponibilite": "En Stock",
+          "taille": "190",
+          "couleur": "BLANC",
+          "prix_ht": 27.59,
+          "poid": "1.300",
+          "transport": 6
+        },
+        {
+          "ID": 99,
+          "disponibilite": "En Stock",
+          "taille": "200",
+          "couleur": "BLANC",
+          "prix_ht": 29.16,
+          "poid": "1.400",
+          "transport": 6
+        }
+      ]
+    },
+    {
+      "ref": "CH_130200",
+      "nom": "CHAUSSONS KUNG-FU",
+      "description": "CHAUSSONS DE KUNG FU TRADITIONNEL TOILE NOIRE",
+      "type": "CHAUSSONS",
+      "images": [
+        "130200.jpg"
+      ],
+      "tailles": [
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
+      "couleurs": [
+        "NOIRE"
+      ],
+      "disponibilites": [
+        {
+          "ID": 120,
+          "disponibilite": "En Stock",
+          "taille": "36",
+          "couleur": "NOIRE",
+          "prix_ht": 10.83,
+          "poid": "0.300",
+          "transport": 4
+        },
+        {
+          "ID": 121,
+          "disponibilite": "En Stock",
+          "taille": "37",
+          "couleur": "NOIRE",
+          "prix_ht": 10.83,
+          "poid": "0.300",
+          "transport": 4
+        },
+        {
+          "ID": 122,
+          "disponibilite": "En Stock",
+          "taille": "38",
+          "couleur": "NOIRE",
+          "prix_ht": 10.83,
+          "poid": "0.300",
+          "transport": 4
+        },
+        {
+          "ID": 123,
+          "disponibilite": "En Stock",
+          "taille": "39",
+          "couleur": "NOIRE",
+          "prix_ht": 10.83,
+          "poid": "0.300",
+          "transport": 4
+        },
+        {
+          "ID": 124,
+          "disponibilite": "En Stock",
+          "taille": "40",
+          "couleur": "NOIRE",
+          "prix_ht": 10.83,
+          "poid": "0.300",
+          "transport": 4
+        },
+        {
+          "ID": 125,
+          "disponibilite": "En Stock",
+          "taille": "41",
+          "couleur": "NOIRE",
+          "prix_ht": 10.83,
+          "poid": "0.300",
+          "transport": 4
+        },
+        {
+          "ID": 126,
+          "disponibilite": "En Stock",
+          "taille": "42",
+          "couleur": "NOIRE",
+          "prix_ht": 10.83,
+          "poid": "0.300",
+          "transport": 4
+        },
+        {
+          "ID": 127,
+          "disponibilite": "En Stock",
+          "taille": "43",
+          "couleur": "NOIRE",
+          "prix_ht": 10.83,
+          "poid": "0.300",
+          "transport": 4
+        },
+        {
+          "ID": 128,
+          "disponibilite": "En Stock",
+          "taille": "44",
+          "couleur": "NOIRE",
+          "prix_ht": 10.83,
+          "poid": "0.350",
+          "transport": 4
+        },
+        {
+          "ID": 129,
+          "disponibilite": "En Stock",
+          "taille": "45",
+          "couleur": "NOIRE",
+          "prix_ht": 10.83,
+          "poid": "0.350",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "NU_420213",
+      "nom": "NUNCHAKUS MOUSSE",
+      "description": "NUNCHAKUS MOUSSE ENTRAINEMENT ET COMBAT ",
+      "type": "NUNCHAKUS",
+      "images": [
+        "420213.jpg"
+      ],
+      "tailles": [
+        "30CM"
+      ],
+      "couleurs": [
+        "JAUNE-ROUGE"
+      ],
+      "disponibilites": [
+        {
+          "ID": 221,
+          "disponibilite": "En Stock",
+          "taille": "30CM",
+          "couleur": "JAUNE-ROUGE",
+          "prix_ht": 6.66,
+          "poid": "0.300",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "AF_127000",
+      "nom": "VESTE KUNG FU ROUGE ",
+      "description": "VESTE DE KUNG FU TRADITIONNELLE ROUGE FERMETURE PAR BRANDEBOURGS 100%COTON(veste seule)",
+      "type": "WHITE TIGER",
+      "images": [
+        "127300.jpg"
+      ],
+      "tailles": [
+        "120",
+        "130",
+        "140",
+        "150",
+        "160",
+        "170",
+        "180",
+        "190",
+        "200"
+      ],
+      "couleurs": [
+        "ROUGE"
+      ],
+      "disponibilites": [
+        {
+          "ID": 111,
+          "disponibilite": "En Stock",
+          "taille": "120",
+          "couleur": "ROUGE",
+          "prix_ht": 14.16,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 112,
+          "disponibilite": "En Stock",
+          "taille": "130",
+          "couleur": "ROUGE",
+          "prix_ht": 15.83,
+          "poid": "0.550",
+          "transport": 5
+        },
+        {
+          "ID": 113,
+          "disponibilite": "En Stock",
+          "taille": "140",
+          "couleur": "ROUGE",
+          "prix_ht": 16.66,
+          "poid": "0.600",
+          "transport": 5
+        },
+        {
+          "ID": 114,
+          "disponibilite": "En Stock",
+          "taille": "150",
+          "couleur": "ROUGE",
+          "prix_ht": 18.33,
+          "poid": "0.650",
+          "transport": 5
+        },
+        {
+          "ID": 115,
+          "disponibilite": "En Stock",
+          "taille": "160",
+          "couleur": "ROUGE",
+          "prix_ht": 20,
+          "poid": "0.700",
+          "transport": 5
+        },
+        {
+          "ID": 116,
+          "disponibilite": "En Stock",
+          "taille": "170",
+          "couleur": "ROUGE",
+          "prix_ht": 21.66,
+          "poid": "0.750",
+          "transport": 5
+        },
+        {
+          "ID": 117,
+          "disponibilite": "En Stock",
+          "taille": "180",
+          "couleur": "ROUGE",
+          "prix_ht": 24.16,
+          "poid": "0.800",
+          "transport": 5
+        },
+        {
+          "ID": 118,
+          "disponibilite": "En Stock",
+          "taille": "190",
+          "couleur": "ROUGE",
+          "prix_ht": 26.66,
+          "poid": "0.850",
+          "transport": 5
+        },
+        {
+          "ID": 119,
+          "disponibilite": "En Stock",
+          "taille": "200",
+          "couleur": "ROUGE",
+          "prix_ht": 29.16,
+          "poid": "0.900",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "AR_420139",
+      "nom": "EPEE TAICHI ",
+      "description": "EPEE TRADITIONNELLE CHINOISE  ALUMINIUM",
+      "type": "ARMES",
+      "images": [
+        "420139.jpg"
+      ],
+      "tailles": [
+        "1mètre"
+      ],
+      "couleurs": [
+        ""
+      ],
+      "disponibilites": [
+        {
+          "ID": 60,
+          "disponibilite": "En Stock",
+          "taille": "1mètre",
+          "couleur": "",
+          "prix_ht": 45,
+          "poid": "0.800",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "AR_420110",
+      "nom": "BATON SELF DEFENSE",
+      "description": "BATON COURT BOIS ROUGE",
+      "type": "BATONS COURT",
+      "images": [
+        "420110.jpg"
+      ],
+      "tailles": [
+        "63CM"
+      ],
+      "couleurs": [
+        "BOIS ROUGE"
+      ],
+      "disponibilites": [
+        {
+          "ID": 194,
+          "disponibilite": "En Stock",
+          "taille": "63CM",
+          "couleur": "BOIS ROUGE",
+          "prix_ht": 7.5,
+          "poid": "0.600",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "NU_420202",
+      "nom": "NUNCHAKU MOUSSE",
+      "description": "NUNCHAKU MOUSSE AVEC LOGO DRAGON",
+      "type": "NUNCHAKUS",
+      "images": [
+        "420202"
+      ],
+      "tailles": [
+        "30CM"
+      ],
+      "couleurs": [
+        "BLEU"
+      ],
+      "disponibilites": [
+        {
+          "ID": 220,
+          "disponibilite": "En Stock",
+          "taille": "30CM",
+          "couleur": "BLEU",
+          "prix_ht": 5,
+          "poid": "0.200",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "AF_130100",
+      "nom": "PANTALON KUNG-FU",
+      "description": "PANTALON KUNG FU NOIR TRADITIONNEL 100%COTON",
+      "type": "VO PHUC",
+      "images": [
+        "130100.jpg"
+      ],
+      "tailles": [
+        "120",
+        "130",
+        "140",
+        "150",
+        "160",
+        "170",
+        "180",
+        "190"
+      ],
+      "couleurs": [
+        "NOIR",
+        "NOIR "
+      ],
+      "disponibilites": [
+        {
+          "ID": 140,
+          "disponibilite": "En Stock",
+          "taille": "120",
+          "couleur": "NOIR",
+          "prix_ht": 9.16,
+          "poid": "0.300",
+          "transport": 4
+        },
+        {
+          "ID": 141,
+          "disponibilite": "En Stock",
+          "taille": "130",
+          "couleur": "NOIR",
+          "prix_ht": 9.16,
+          "poid": "0.300",
+          "transport": 4
+        },
+        {
+          "ID": 142,
+          "disponibilite": "En Stock",
+          "taille": "140",
+          "couleur": "NOIR",
+          "prix_ht": 10.83,
+          "poid": "0.300",
+          "transport": 4
+        },
+        {
+          "ID": 143,
+          "disponibilite": "En Stock",
+          "taille": "150",
+          "couleur": "NOIR",
+          "prix_ht": 10.83,
+          "poid": "0.300",
+          "transport": 4
+        },
+        {
+          "ID": 144,
+          "disponibilite": "En Stock",
+          "taille": "160",
+          "couleur": "NOIR",
+          "prix_ht": 13.33,
+          "poid": "0.350",
+          "transport": 4
+        },
+        {
+          "ID": 145,
+          "disponibilite": "En Stock",
+          "taille": "170",
+          "couleur": "NOIR",
+          "prix_ht": 13.33,
+          "poid": "0.400",
+          "transport": 4
+        },
+        {
+          "ID": 146,
+          "disponibilite": "En Stock",
+          "taille": "180",
+          "couleur": "NOIR ",
+          "prix_ht": 15,
+          "poid": "0.400",
+          "transport": 4
+        },
+        {
+          "ID": 147,
+          "disponibilite": "En Stock",
+          "taille": "190",
+          "couleur": "NOIR",
+          "prix_ht": 15,
+          "poid": "0.400",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "NU_420127",
+      "nom": "NUNCHAKU BRUCE LEE",
+      "description": "NUNCHAKU BOIS LOGO BRUCE LEE",
+      "type": "NUNCHAKUS",
+      "images": [
+        "420127.jpg"
+      ],
+      "tailles": [
+        "32CM"
+      ],
+      "couleurs": [
+        "OR"
+      ],
+      "disponibilites": [
+        {
+          "ID": 215,
+          "disponibilite": "En Stock",
+          "taille": "32CM",
+          "couleur": "OR",
+          "prix_ht": 10,
+          "poid": "0.400",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "NU_420225",
+      "nom": "NUNCHAKU MOUSSE OCTOGONAL",
+      "description": "NUNCHAKU MOUSSE COMBAT",
+      "type": "NUNCHAKUS",
+      "images": [
+        "420225.jpg"
+      ],
+      "tailles": [
+        "30CM"
+      ],
+      "couleurs": [
+        "NOIR/ROUGE"
+      ],
+      "disponibilites": [
+        {
+          "ID": 80,
+          "disponibilite": "En Stock",
+          "taille": "30CM",
+          "couleur": "NOIR/ROUGE",
+          "prix_ht": 8.33,
+          "poid": "0.300",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "AF_127100",
+      "nom": "KIMONO KUNG-FU NOIR",
+      "description": "TENUE DE KUNG FU TRADITIONNELLE NOIRE FERMETURE PAR BRANDEBOURGS ET PANTALON 100%COTON",
+      "type": "WHITE TIGER",
+      "images": [
+        "127100.jpg"
+      ],
+      "tailles": [
+        "110",
+        "120",
+        "130",
+        "140",
+        "150",
+        "160",
+        "170",
+        "180",
+        "190",
+        "200"
+      ],
+      "couleurs": [
+        "NOIR",
+        "NOIR "
+      ],
+      "disponibilites": [
+        {
+          "ID": 100,
+          "disponibilite": "En Stock",
+          "taille": "110",
+          "couleur": "NOIR",
+          "prix_ht": 18.33,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 101,
+          "disponibilite": "En Stock",
+          "taille": "120",
+          "couleur": "NOIR",
+          "prix_ht": 19.16,
+          "poid": "0.600",
+          "transport": 5
+        },
+        {
+          "ID": 102,
+          "disponibilite": "En Stock",
+          "taille": "130",
+          "couleur": "NOIR",
+          "prix_ht": 20,
+          "poid": "0.700",
+          "transport": 5
+        },
+        {
+          "ID": 103,
+          "disponibilite": "En Stock",
+          "taille": "140",
+          "couleur": "NOIR",
+          "prix_ht": 20.83,
+          "poid": "0.800",
+          "transport": 5
+        },
+        {
+          "ID": 104,
+          "disponibilite": "En Stock",
+          "taille": "150",
+          "couleur": "NOIR",
+          "prix_ht": 22.5,
+          "poid": "0.900",
+          "transport": 5
+        },
+        {
+          "ID": 105,
+          "disponibilite": "En Stock",
+          "taille": "160",
+          "couleur": "NOIR",
+          "prix_ht": 24.16,
+          "poid": "1.000",
+          "transport": 6
+        },
+        {
+          "ID": 106,
+          "disponibilite": "En Stock",
+          "taille": "170",
+          "couleur": "NOIR ",
+          "prix_ht": 26.66,
+          "poid": "1.100",
+          "transport": 6
+        },
+        {
+          "ID": 107,
+          "disponibilite": "En Stock",
+          "taille": "180",
+          "couleur": "NOIR",
+          "prix_ht": 27.5,
+          "poid": "1.200",
+          "transport": 6
+        },
+        {
+          "ID": 108,
+          "disponibilite": "En Stock",
+          "taille": "190",
+          "couleur": "NOIR",
+          "prix_ht": 29.16,
+          "poid": "1.300",
+          "transport": 6
+        },
+        {
+          "ID": 109,
+          "disponibilite": "En Stock",
+          "taille": "200",
+          "couleur": "NOIR",
+          "prix_ht": 31.66,
+          "poid": "1.400",
+          "transport": 6
+        }
+      ]
+    },
+    {
+      "ref": "AR_420140",
+      "nom": "SABRE KUNG-FU BOIS ROUGE",
+      "description": "SABRE TRADITIONEL BOIS ROUGE",
+      "type": "ARMES",
+      "images": [
+        "420140.jpg"
+      ],
+      "tailles": [
+        "80CM"
+      ],
+      "couleurs": [
+        ""
+      ],
+      "disponibilites": [
+        {
+          "ID": 62,
+          "disponibilite": "RUPTURE DE STOCK",
+          "taille": "80CM",
+          "couleur": "",
+          "prix_ht": 22.5,
+          "poid": "0.800",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "NU_420203",
+      "nom": "NUNCHAKU MOUSSE ",
+      "description": "NUNCHAKU MOUSSE ENFANTS AVEC CORDE",
+      "type": "NUNCHAKUS",
+      "images": [
+        "420203.jpg"
+      ],
+      "tailles": [
+        "30CM"
+      ],
+      "couleurs": [
+        "NOIR"
+      ],
+      "disponibilites": [
+        {
+          "ID": 196,
+          "disponibilite": "En Stock",
+          "taille": "30CM",
+          "couleur": "NOIR",
+          "prix_ht": 5,
+          "poid": "0.200",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "AR_420112",
+      "nom": "BATON SELF DEFENSE ",
+      "description": "BATON SELF DEFENSE MOUSSE",
+      "type": "BATONS COURT",
+      "images": [
+        "420112.jpg"
+      ],
+      "tailles": [
+        "63CM"
+      ],
+      "couleurs": [
+        "ROUGE/NOIR"
+      ],
+      "disponibilites": [
+        {
+          "ID": 195,
+          "disponibilite": "En Stock",
+          "taille": "63CM",
+          "couleur": "ROUGE/NOIR",
+          "prix_ht": 8.33,
+          "poid": "0.400",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "AG_130050",
+      "nom": "PANTALON KUNG FU",
+      "description": "PANTALON KUNG FU NOIR COUPE DROITE COTON",
+      "type": "WHITE TIGER",
+      "images": [
+        "130050.jpg"
+      ],
+      "tailles": [
+        "130",
+        "140",
+        "150",
+        "160",
+        "170",
+        "180",
+        "190"
+      ],
+      "couleurs": [
+        "NOIR"
+      ],
+      "disponibilites": [
+        {
+          "ID": 198,
+          "disponibilite": "En Stock",
+          "taille": "130",
+          "couleur": "NOIR",
+          "prix_ht": 11.66,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 199,
+          "disponibilite": "En Stock",
+          "taille": "140",
+          "couleur": "NOIR",
+          "prix_ht": 11.66,
+          "poid": "0.550",
+          "transport": 5
+        },
+        {
+          "ID": 200,
+          "disponibilite": "En Stock",
+          "taille": "150",
+          "couleur": "NOIR",
+          "prix_ht": 11.66,
+          "poid": "0.600",
+          "transport": 5
+        },
+        {
+          "ID": 201,
+          "disponibilite": "En Stock",
+          "taille": "160",
+          "couleur": "NOIR",
+          "prix_ht": 11.66,
+          "poid": "0.650",
+          "transport": 5
+        },
+        {
+          "ID": 202,
+          "disponibilite": "En Stock",
+          "taille": "170",
+          "couleur": "NOIR",
+          "prix_ht": 11.66,
+          "poid": "0.700",
+          "transport": 5
+        },
+        {
+          "ID": 203,
+          "disponibilite": "En Stock",
+          "taille": "180",
+          "couleur": "NOIR",
+          "prix_ht": 12.5,
+          "poid": "0.750",
+          "transport": 5
+        },
+        {
+          "ID": 197,
+          "disponibilite": "En Stock",
+          "taille": "190",
+          "couleur": "NOIR",
+          "prix_ht": 12.5,
+          "poid": "0.800",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "NU_420129",
+      "nom": "NUNCHAKU MOUSSE ",
+      "description": "NUNCHAKUS MOUSSE ENTRAINEMENT ET COMBAT",
+      "type": "NUNCHAKUS",
+      "images": [
+        "420129.jpg"
+      ],
+      "tailles": [
+        "30cm"
+      ],
+      "couleurs": [
+        "JAUNE/NOIR"
+      ],
+      "disponibilites": [
+        {
+          "ID": 223,
+          "disponibilite": "EN STOCK",
+          "taille": "30cm",
+          "couleur": "JAUNE/NOIR",
+          "prix_ht": 8.33,
+          "poid": "0.250",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "NU_420226",
+      "nom": "NUNCHAKU ENTRAINEMENT",
+      "description": "NUNCHAKU A ROTULE ET CHAINE ENTRAINEMENT ",
+      "type": "NUNCHAKUS",
+      "images": [
+        "420226.jpg"
+      ],
+      "tailles": [
+        "30CM"
+      ],
+      "couleurs": [
+        "NOIR"
+      ],
+      "disponibilites": [
+        {
+          "ID": 81,
+          "disponibilite": "En Stock",
+          "taille": "30CM",
+          "couleur": "NOIR",
+          "prix_ht": 10,
+          "poid": "0.250",
+          "transport": 4
+        }
+      ]
+    },
+    {
+      "ref": "AF_127100",
+      "nom": "KIMONO KUNG-FU NOIR",
+      "description": "TENUE DE KUNG FU TRADITIONNELLE NOIRE FERMETURE PAR BRANDEBOURGS ET PANTALON 100%COTON",
+      "type": "WHITE TIGER",
+      "images": [
+        "127100.jpg"
+      ],
+      "tailles": [
+        "110",
+        "120",
+        "130",
+        "140",
+        "150",
+        "160",
+        "170",
+        "180",
+        "190",
+        "200"
+      ],
+      "couleurs": [
+        "NOIR",
+        "NOIR "
+      ],
+      "disponibilites": [
+        {
+          "ID": 100,
+          "disponibilite": "En Stock",
+          "taille": "110",
+          "couleur": "NOIR",
+          "prix_ht": 18.33,
+          "poid": "0.500",
+          "transport": 5
+        },
+        {
+          "ID": 101,
+          "disponibilite": "En Stock",
+          "taille": "120",
+          "couleur": "NOIR",
+          "prix_ht": 19.16,
+          "poid": "0.600",
+          "transport": 5
+        },
+        {
+          "ID": 102,
+          "disponibilite": "En Stock",
+          "taille": "130",
+          "couleur": "NOIR",
+          "prix_ht": 20,
+          "poid": "0.700",
+          "transport": 5
+        },
+        {
+          "ID": 103,
+          "disponibilite": "En Stock",
+          "taille": "140",
+          "couleur": "NOIR",
+          "prix_ht": 20.83,
+          "poid": "0.800",
+          "transport": 5
+        },
+        {
+          "ID": 104,
+          "disponibilite": "En Stock",
+          "taille": "150",
+          "couleur": "NOIR",
+          "prix_ht": 22.5,
+          "poid": "0.900",
+          "transport": 5
+        },
+        {
+          "ID": 105,
+          "disponibilite": "En Stock",
+          "taille": "160",
+          "couleur": "NOIR",
+          "prix_ht": 24.16,
+          "poid": "1.000",
+          "transport": 6
+        },
+        {
+          "ID": 106,
+          "disponibilite": "En Stock",
+          "taille": "170",
+          "couleur": "NOIR ",
+          "prix_ht": 26.66,
+          "poid": "1.100",
+          "transport": 6
+        },
+        {
+          "ID": 107,
+          "disponibilite": "En Stock",
+          "taille": "180",
+          "couleur": "NOIR",
+          "prix_ht": 27.5,
+          "poid": "1.200",
+          "transport": 6
+        },
+        {
+          "ID": 108,
+          "disponibilite": "En Stock",
+          "taille": "190",
+          "couleur": "NOIR",
+          "prix_ht": 29.16,
+          "poid": "1.300",
+          "transport": 6
+        },
+        {
+          "ID": 109,
+          "disponibilite": "En Stock",
+          "taille": "200",
+          "couleur": "NOIR",
+          "prix_ht": 31.66,
+          "poid": "1.400",
+          "transport": 6
+        }
+      ]
+    },
+    {
+      "ref": "AR_420143",
+      "nom": "EPEE TAICHI ",
+      "description": "EPEE TRADITIONNELLE  BOIS ROUGE ",
+      "type": "ARMES",
+      "images": [
+        "420143.jpg"
+      ],
+      "tailles": [
+        "1mètre"
+      ],
+      "couleurs": [
+        ""
+      ],
+      "disponibilites": [
+        {
+          "ID": 59,
+          "disponibilite": "En Stock",
+          "taille": "1mètre",
+          "couleur": "",
+          "prix_ht": 15,
+          "poid": "1.000",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "NU_420205",
+      "nom": "NUNCHAKU LESTE ",
+      "description": "NUNCHAKU CAOUTCHOUC LESTE LOGO DRAGON",
+      "type": "NUNCHAKUS",
+      "images": [
+        "420205.jpg"
+      ],
+      "tailles": [
+        "30CM"
+      ],
+      "couleurs": [
+        "NOIR "
+      ],
+      "disponibilites": [
+        {
+          "ID": 83,
+          "disponibilite": "En Stock",
+          "taille": "30CM",
+          "couleur": "NOIR ",
+          "prix_ht": 10,
+          "poid": "0.900",
+          "transport": 5
+        }
+      ]
+    },
+    {
+      "ref": "AR_420119",
+      "nom": "PISTOLET CAOUTCHOUC",
+      "description": "PISTOLET CAOUTCHOUC SELF DEFENSE",
+      "type": "ARMES",
+      "images": [
+        "420119.jpg"
+      ],
+      "tailles": [
+        "Long21CM"
+      ],
+      "couleurs": [
+        "NOIR"
+      ],
+      "disponibilites": [
+        {
+          "ID": 208,
+          "disponibilite": "En Stock",
+          "taille": "Long21CM",
+          "couleur": "NOIR",
+          "prix_ht": 8.33,
+          "poid": "0.450",
+          "transport": 5
+        }
+      ]
+    }
+  ]
+}

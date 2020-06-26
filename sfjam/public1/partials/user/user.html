@@ -1,0 +1,227 @@
+<!--TODO mettre la directive verification adresses + boutons pour changement log et pass-->
+<!-- PAGE HEADER -->
+
+
+<div class="row voffset3">
+    <div class="col-md-8 col-md-offset-2">
+        <h1>Votre Profil</h1>
+
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-3 "></div>
+    <div class="col-md-8 ">
+        <h3><span class="glyphicon glyphicon-user"></span> Bienvenue {{user.Nom2}} {{user.Prenom2}}</h3>
+        <p>Voici votre espace personnel. Consulter vos commandes en cours. Modifier vos informations.</p>
+        <hr class="divider">
+    </div>
+
+</div>
+
+
+
+<!-- IS CONNECTED -->
+<div ng-show="isUserConnected">
+
+        <!-- VOS COMMANDES -->
+    <div class="row">
+        <div class="col-md-3 ">
+            <div class="panel panel-primary ">
+                <div class="panel-heading">
+                    <span class="glyphicon glyphicon-shopping-cart"></span> Vos commandes en cours
+                </div>
+                <div class="panel-body">
+                    <div ng-show="!isUserHasCommands">
+                        <h6>Vous n'avez pas de commande en cours</h6>
+                    </div>
+
+                    <div ng-show="isUserHasCommands">
+                        <h6>Cliquez sur les elements ci-dessous pour voir les details de votre commande.</h6>
+                        <!--<div class="col-xs-12"><h6>Commandes en cours</h6></div>
+                    <div class="col-xs-12"><button type="button" class="btn btn-default" disabled="disabled">Consulter</button></div>-->
+                        <!--<div class="col-md-3">-->
+                            <div class="table-responsive">
+                                <table class="table table-hover">
+                                    <tr>
+
+                                        <th>Date</th>
+                                        <th>Etat</th>
+
+                                    </tr>
+
+                                    <tr ng-repeat="obj in commands | filter:myFilter" ng-click="onTableClick(obj)">
+                                        <td class="vert-align"><h5></h5>{{formatDateForBilling(obj.order_date)}}</td>
+                                        <td class="vert-align"><h5>{{translateState(obj)}}</h5></td>
+
+                                    </tr>
+                                </table>
+                            </div>
+                        <!--</div>-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- HEADER  -->
+        <div class="col-md-9">
+
+            <!--MODIFS USER-->
+            <!--LOG - EMAIL-->
+            <div class="panel panel-default" ng-switch on="Log">
+                <div class="panel-heading">
+                    <span class="glyphicon glyphicon-envelope"></span> Votre compte - email et login
+                </div>
+
+                <!--MODIFS EMAIL-->
+                <div class="panel-body">
+
+                    <!--ID-->
+                    <div class="row" ng-switch-when="step1">
+                        <div class="col-md-8">
+                            <h6>Modifier votre email. Votre Email est aussi votre login. Vous avez besoin de votre Email pour  avoir acces a votre espace personnel ainsi que pour passer commande sur notre site.</h6>
+                        </div>
+                        <div class="col-md-4">
+                            <button type="button" class="btn btn-default pull-right" ng-click="ModifyLog()">Modifier</button>
+                        </div>
+                    </div>
+                    <!--MODIFY EMAIL -->
+                    <div ng-switch-when="step2">
+                        <h6>Remplissez les champs ci-dessous avec votre nouveau email.</h6>
+                        <form method="post" class="form" name="create" id="create" novalidate>
+                            <!--EMAIL-->
+                            <div class="form-group" ng-class="{ 'has-error' : create.email.$invalid && !create.email.$pristine }">
+                                <label for="email">Votre email</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Entrez votre email" ng-model="myEmail" required>
+                                <p ng-show="create.email.$invalid && !create.email.$pristine" class="help-block">Email invalide !</p>
+                                <p ng-show="create.email.$submitted && create.email.$error.required" class="help-block">votre Email !</p>
+                            </div>
+
+                        </form>
+                            <!--BUTTON VALIDATION-->
+                            <div class="pull-right">
+                                <button type="button" class="btn btn-default" ng-click="backStep1()">Retour</button>
+                                <button type="submit" class="btn btn-success" ng-click="ValidModifyLog({mail:myEmail})">Valider</button>
+                            </div>
+</div>
+
+                    <!--VALID MODIFY PASS-->
+                    <div class="row" ng-switch-when="step3">
+                        <div class="col-md-8"><h6>Votre nouveau Email a été pris en compte.</h6></div>
+                        <div class="col-md-4"><button type="button" class="btn btn-default pull-right" ng-click="ModifyLog()">Modifier</button></div>
+                    </div>
+                </div>
+            </div>
+
+            <!--PASS-->
+            <div class="panel panel-default" ng-switch on="Pass">
+                <div class="panel-heading">
+                    <span class="glyphicon glyphicon-ok"></span> Votre compte - mot de passe
+                </div>
+
+
+                <div class="panel-body">
+
+                    <div class="row" ng-switch-when="step1">
+                        <div class="col-md-8"><h6>Modifier votre mot de passe. </h6></div>
+                        <div class="col-md-4"><button type="button" class="btn btn-default pull-right" ng-click="ModifyPass()">Modifier</button></div>
+                    </div>
+
+                    <!--MODIFY PASS -->
+                    <div ng-switch-when="step2">
+                        <h6>Remplissez les champs ci-dessous pour modifier votre mot de passe.</h6>
+
+                        <form method="post" class="form" name="create" id="create" novalidate>
+                            <!--OLD PASS-->
+                            <div class="form-group" ng-class="{ 'has-error' : create.contact_old_pass.$invalid && !create.contact_old_pass.$pristine }">
+
+                                <label for="email">Votre ancien mot de passe</label>
+                                <input type="text" class="form-control" id="email" name="contact_old_pass" placeholder="Entrez votre ancien mot de passe" ng-model="myOldPass" required>
+                            </div>
+
+                            <!--PASS-->
+                            <div class="form-group" ng-class="{ 'has-error' : create.contact_pass.$invalid && !create.contact_pass.$pristine }">
+
+                                <label for="contact_pass">Votre mot de passe</label>
+                                <input type="text" class="form-control" id="contact_pass" name="contact_pass" placeholder="Entrez votre mot de passe" required ng-minlength="3" ng-maxlength="8" ng-model="myPass">
+                                <p ng-show="create.contact_pass.$error.minlength" class="help-inline">votre Mot de passe est trop court</p>
+                                <p ng-show="create.contact_pass.$error.maxlength" class="help-inline">votre Mot de passe est trop long</p>
+
+                            </div>
+
+                            <!--PASS 2-->
+                            <div class="form-group" ng-class="{ 'has-error' : create.contact_pass2.$invalid && !create.contact_pass2.$pristine }">
+
+                                <label for="contact_pass2">Repeter votre mot de passe</label>
+                                <input type="text" class="form-control" id="contact_pass2" name="contact_pass2" placeholder="Entrez votre mot de passe" required ng-model="myPass2">
+                                <p ng-show="myPass2 != myPass && !create.contact_pass2.$pristine" class="help-block">votre Mot de passe n'est pas le meme</p>
+
+                            </div>
+                            </form>
+                                <!--BUTTON VALIDATION-->
+                                <div class="pull-right">
+                                    <button type="button" class="btn btn-default" ng-click="backStep1()">Retour</button>
+                                    <button type="submit" class="btn btn-success" ng-click="ValidModifyPass({user:myOldPass, passw:myPass})">Valider</button>
+                                </div>
+                    </div>
+
+                    <!--VALID MODIFY PASS-->
+                    <div class="row" ng-switch-when="step3">
+                        <div class="col-md-8"><h6>Votre mot de passe on bien été pris en compte.</h6></div>
+                        <div class="col-md-4"><button type="button" class="btn btn-default pull-right" ng-click="ModifyPass()">Modifier</button></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--MODIF ADRESSE -->
+            <div verification-user-adresses></div>
+
+        </div>
+    </div>
+
+    </div>
+
+<!-- LOG -->
+<div class="row" ng-hide="isUserConnected">
+    <div class="col-md-3 "></div>
+    <div class="col-md-9 ">
+        <div class="panel panel-danger">
+            <div class="panel-heading">
+                Attention !
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-xs-12"><h6>{{message}}</h6></div>
+                </div>
+            </div>
+        </div>
+        <form method="post" class="form" name="contact" id="contact_form" action="php/form_submission.php" novalidate>
+            <div class="form-group" ng-class="{ 'has-error' : contact.contact_name.$invalid && !contact.contact_name.$pristine }">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <font color="red">{{errorMsg}}</font><br />
+                        <label for="contact_name">Identifiant</label>
+                        <input type="text" class="form-control" ng-model="username" id="contact_name" name="contact_name" placeholder="Entrez votre identifiant" ng-model="myEmail" required>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group" ng-class="{ 'has-error' : contact.contact_pass.$invalid && !contact.contact_pass.$pristine }">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <label for="contact_pass">Votre mot de passe</label>
+                        <input type="password" class="form-control" ng-model="password" id="contact_pass" name="contact_pass" placeholder="Entrez votre mot de passe" ng-model="myPass" required>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="form-actions">
+            <button type="submit" class="btn btn-success" ng-disabled="contact.$invalid">Valider</button>
+            <button class="btn btn-default">Annuler</button>
+        </div>
+    </div>
+</div>
+

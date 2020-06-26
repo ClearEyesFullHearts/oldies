@@ -1,0 +1,22 @@
+{
+
+"images": [
+{ "img":"img/carousel-1.jpg" },
+{ "img":"img/carousel-2.jpg" },
+{ "img":"img/carousel-3.jpg" },
+{ "img":"img/carousel-4.jpg" },
+{ "img":"img/carousel-judo.jpg" },
+{ "img":"img/carousel-karate.jpg" },
+{ "img":"img/carousel-Kung-Fu.jpg" },
+{ "img":"img/carousel-Aikido.jpg" },
+{ "img":"img/carousel-Yoseikan.jpg" },
+{ "img":"img/carousel-Boxe.jpg" },
+{ "img":"img/carousel-Taekwondo.jpg" },
+{ "img":"img/carousel-Kendo.jpg" },
+{ "img":"img/carousel-Divers.jpg" },
+{ "img":"img/carousel-Textiles.jpg" },
+{ "img":"img/carousel-France.jpg" },
+{ "img":"img/carousel-International.jpg" }
+]
+
+}
