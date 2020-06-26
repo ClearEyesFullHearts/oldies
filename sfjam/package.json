@@ -15,7 +15,7 @@
     "passport": "0.2.0",
     "passport-http": "0.2.2",
     "ejs": "1.0.0",
-    "mysql": "2.4.1",
+    "mysql": "2.18.1",
     "nodemailer": "0.7.0",
     "node-cache": "1.0.0",
     "node-uuid": "1.4.1",
